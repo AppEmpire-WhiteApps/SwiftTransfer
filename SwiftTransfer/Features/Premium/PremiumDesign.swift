@@ -4,6 +4,7 @@ import SwiftUI
 enum PremiumDesign {
     static let cornerRadius: CGFloat = 8
     static let resources = AdaptiveResources(iphone: Image("paywall_transfer"))
+    static let assistantResources = AdaptiveResources(iphone: Image("paywall_assistant"))
 
     static var links: LinksConfiguration {
         LinksConfiguration(
@@ -26,7 +27,7 @@ enum PremiumDesign {
             messageFont: .system(size: 14 * scale),
             messageColor: AppColor.textPrimary,
             messageBackgroundColor: AppColor.skyMist,
-            messageHeight: 44 * scale,
+            messageHeight: 48 * scale,
             messageCornerRadius: cornerRadius,
             messageBorderColor: AppColor.skyLight,
             messageShowBorder: true,
@@ -42,7 +43,7 @@ enum PremiumDesign {
             contentSpacing: 12 * scale,
             horizontalPadding: 20,
             bottomPadding: 8,
-            maxWidth: 560,
+            maxWidth: 520,
             indicatorActiveColor: AppColor.primary,
             indicatorInactiveColor: AppColor.skyLight,
             indicatorFutureColor: AppColor.skyLight,
@@ -69,6 +70,7 @@ enum PremiumDesign {
             subtitleColor: AppColor.textSecondary,
             titleSubtitleSpacing: 4,
             buttonFont: .system(size: 18 * scale, weight: .semibold),
+            buttonTextColor: Color.white,
             buttonBackgroundColor: AppColor.primary,
             buttonCornerRadius: cornerRadius,
             buttonHeight: 52 * scale,
@@ -78,7 +80,7 @@ enum PremiumDesign {
             contentSpacing: 12 * scale,
             horizontalPadding: 20,
             bottomPadding: 8,
-            maxWidth: 560,
+            maxWidth: 520,
             offerHeight: 52 * scale,
             offerCornerRadius: cornerRadius,
             offerSpacing: 6 * scale,
@@ -121,7 +123,7 @@ enum PremiumDesign {
         style.messageToggle.backgroundColor = AnyShapeStyle(AppColor.skyMist)
         style.messageToggle.color = AnyShapeStyle(AppColor.textPrimary)
         style.messageToggle.font = .system(size: 14 * scale)
-        style.messageToggle.height = 44 * scale
+        style.messageToggle.height = 48 * scale
         style.messageToggle.cornerRadius = cornerRadius
         style.messageToggle.showBorder = true
         style.messageToggle.borderColor = AnyShapeStyle(AppColor.skyLight)
@@ -139,7 +141,7 @@ enum PremiumDesign {
         style.layout.contentSpacing = 12 * scale
         style.layout.horizontalPadding = 20
         style.layout.bottomPadding = 8
-        style.layout.maxWidth = 560
+        style.layout.maxWidth = 520
         style.offer.cornerRadius = cornerRadius
         style.offer.height = 52 * scale
         style.offer.selectedBorderColor = AnyShapeStyle(AppColor.primary)

@@ -46,17 +46,18 @@ struct PremiumArtwork: View {
     }
 
     private func benefit(_ title: LocalizedStringKey, symbol: String, compact: Bool) -> some View {
-        Label {
-            Text(title, tableName: "Premium")
-        } icon: {
+        VStack(spacing: compact ? 4 : 6) {
             Image(systemName: symbol)
+                .font(.system(size: compact ? 15 : 18, weight: .semibold))
+            Text(title, tableName: "Premium")
+                .lineLimit(2, reservesSpace: true)
         }
-        .font(.system(size: compact ? 12 : 14, weight: .medium))
+        .font(.system(size: compact ? 11 : 13, weight: .medium))
         .foregroundStyle(AppColor.primaryDeep)
         .multilineTextAlignment(.center)
         .padding(.horizontal, 10)
-        .padding(.vertical, compact ? 8 : 12)
         .frame(maxWidth: .infinity)
+        .frame(height: compact ? 64 : 80)
         .background(
             .white.opacity(0.92), in: RoundedRectangle(cornerRadius: PremiumDesign.cornerRadius)
         )

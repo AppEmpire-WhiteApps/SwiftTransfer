@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// A single tappable card for the main or assistant paywall placement.
+/// An artwork-backed banner for the main or assistant paywall placement.
 struct SettingsPremiumBanner: View {
     @Environment(AppRouter.self) private var router
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
@@ -14,7 +14,7 @@ struct SettingsPremiumBanner: View {
     }
 
     private var heading: LocalizedStringKey {
-        isAssistant ? "Your AI transfer assistant" : "Premium access"
+        isAssistant ? "AI assistant" : "Premium access"
     }
 
     private var benefit: LocalizedStringKey {
@@ -23,12 +23,13 @@ struct SettingsPremiumBanner: View {
             : "Transfer photos and follow step-by-step guides."
     }
 
-    private var callToAction: LocalizedStringKey {
-        isAssistant ? "Explore AI assistant" : "Explore Premium"
-    }
-
     private var illustrationName: String {
         isAssistant ? "paywall_assistant" : "paywall_transfer"
+    }
+
+    private var artworkInset: CGFloat {
+        // Give larger text the full width instead of shrinking or truncating it.
+        dynamicTypeSize >= .xxxLarge ? 0 : 100
     }
 
     var body: some View {
@@ -37,46 +38,20 @@ struct SettingsPremiumBanner: View {
             // This is navigation only; it does not change feature entitlements.
             router.premiumAccess.paywallRoute = route
         } label: {
-            HStack(alignment: .center, spacing: Spacing.l) {
-                copy
-                    .frame(maxWidth: .infinity, alignment: .leading)
-
-                if !dynamicTypeSize.isAccessibilitySize {
-                    Image(illustrationName)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 72, height: 72)
-                        .padding(Spacing.s)
-                        .background(
-                            .white.opacity(0.12),
-                            in: RoundedRectangle(
-                                cornerRadius: Radius.card,
-                                style: .continuous
-                            )
-                        )
-                        .accessibilityHidden(true)
+            copy
+                .padding(Spacing.xl)
+                .padding(.trailing, artworkInset)
+                .frame(maxWidth: .infinity, minHeight: 152, alignment: .leading)
+                .background { artworkBackground }
+                .clipShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+                .overlay {
+                    RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
+                        .strokeBorder(AppColor.primary.opacity(0.10), lineWidth: 1)
                 }
-            }
-            .padding(Spacing.xl)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .foregroundStyle(.white)
-            .background {
-                RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
-                    .fill(
-                        LinearGradient(
-                            colors: [AppColor.primaryDeep, AppColor.primaryPressed],
-                            startPoint: .topLeading,
-                            endPoint: .bottomTrailing
-                        ))
-            }
-            .overlay {
-                RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
-                    .strokeBorder(.white.opacity(0.18), lineWidth: 1)
-            }
-            .contentShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+                .contentShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
         }
         .buttonStyle(.plain)
-        .shadow(color: AppColor.primary.opacity(0.18), radius: 12, x: 0, y: 6)
+        .shadow(color: AppColor.primary.opacity(0.07), radius: 12, x: 0, y: 5)
         .accessibilityElement(children: .combine)
         .accessibilityIdentifier(
             isAssistant ? "settings.assistantBanner" : "settings.premiumBanner")
@@ -85,31 +60,71 @@ struct SettingsPremiumBanner: View {
     private var copy: some View {
         VStack(alignment: .leading, spacing: Spacing.s) {
             HStack(alignment: .firstTextBaseline, spacing: Spacing.s) {
-                Image(systemName: isAssistant ? "sparkles" : "crown.fill")
-                    .font(.caption.weight(.semibold))
-                    .accessibilityHidden(true)
-
                 Text(heading, tableName: "Premium")
-                    .font(AppFont.headline)
-                    .fixedSize(horizontal: false, vertical: true)
+                    .font(.system(.title3, design: .rounded).weight(.bold))
+                    .foregroundStyle(AppColor.textPrimary)
+
+                Image(systemName: "arrow.forward")
+                    .font(.footnote.weight(.semibold))
+                    .foregroundStyle(AppColor.primary)
+                    .accessibilityHidden(true)
             }
 
             Text(benefit, tableName: "Premium")
-                .font(AppFont.callout)
-                .foregroundStyle(.white.opacity(0.95))
-                .fixedSize(horizontal: false, vertical: true)
-
-            HStack(alignment: .firstTextBaseline, spacing: Spacing.s) {
-                Text(callToAction, tableName: "Premium")
-                    .fixedSize(horizontal: false, vertical: true)
-
-                Image(systemName: "arrow.forward")
-                    .accessibilityHidden(true)
-            }
-            .font(AppFont.footnote.weight(.semibold))
-            .padding(.top, Spacing.xs)
+                .font(.subheadline)
+                .foregroundStyle(AppColor.textSecondary)
         }
+        .fixedSize(horizontal: false, vertical: true)
         .multilineTextAlignment(.leading)
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    private var artworkBackground: some View {
+        GeometryReader { geometry in
+            ZStack(alignment: .trailing) {
+                LinearGradient(
+                    colors: [AppColor.surface, AppColor.skyMist, AppColor.skyLight],
+                    startPoint: .leading,
+                    endPoint: .trailing
+                )
+
+                if !dynamicTypeSize.isAccessibilitySize {
+                    Image(illustrationName)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(
+                            width: min(geometry.size.width * 0.62, 340),
+                            height: geometry.size.height
+                        )
+                        .clipped()
+                        .mask {
+                            LinearGradient(
+                                stops: [
+                                    .init(color: .clear, location: 0),
+                                    .init(color: .white, location: 0.35),
+                                ],
+                                startPoint: .leading,
+                                endPoint: .trailing
+                            )
+                        }
+                        .opacity(artworkInset == 0 ? 0.16 : 1)
+                }
+
+                // The artwork belongs to the whole banner; this scrim keeps copy clear.
+                LinearGradient(
+                    stops: [
+                        .init(color: AppColor.surface, location: 0),
+                        .init(color: AppColor.surface.opacity(0.97), location: 0.46),
+                        .init(color: AppColor.surface.opacity(0.75), location: 0.62),
+                        .init(color: AppColor.surface.opacity(0), location: 0.82),
+                    ],
+                    startPoint: .leading,
+                    endPoint: .trailing
+                )
+            }
+        }
+        .accessibilityHidden(true)
+        .allowsHitTesting(false)
     }
 }
 

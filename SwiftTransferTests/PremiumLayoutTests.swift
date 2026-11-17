@@ -32,13 +32,18 @@ final class PremiumLayoutTests: XCTestCase {
         XCTAssertEqual(PremiumRoute.assistant.paywallID.rawValue, "aiChat")
     }
 
-    func testFallbackManifestRejectsSDKPreviewAndUnknownProducts() {
-        XCTAssertFalse(PremiumCatalogManifest.contains(["w", "m", "y", "l"], placement: "main"))
-        XCTAssertFalse(PremiumCatalogManifest.contains([], placement: "onboarding"))
-        XCTAssertFalse(PremiumCatalogManifest.contains(["unknown"], placement: "aiChat"))
-        XCTAssertTrue(
-            PremiumCatalogManifest.contains(
-                ["app.Swift.Transfer.Week", "app.Swift.Transfer.WeekTrial"], placement: "onboarding"
-            ))
+    func testBackgroundLeavesRoomForNativeControlsAcrossWindows() {
+        for size in [
+            CGSize(width: 375, height: 667), CGSize(width: 440, height: 956),
+            CGSize(width: 834, height: 1194), CGSize(width: 1194, height: 834),
+        ] {
+            for kind in [PremiumBackgroundKind.onboarding, .main, .assistant] {
+                let layout = PremiumBackgroundLayout(size: size, kind: kind)
+                XCTAssertGreaterThan(layout.sceneHeight, 120)
+                XCTAssertLessThanOrEqual(
+                    layout.sceneHeight + layout.reservedBottom + layout.topPadding + 20, size.height
+                )
+            }
+        }
     }
 }

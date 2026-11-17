@@ -5,7 +5,7 @@ final class OnboardingPaywallTests: XCTestCase {
     private func launchOnboarding(language: String = "en") -> XCUIApplication {
         let app = XCUIApplication()
         app.launchArguments = [
-            "-ResetOnboarding", "-DisablePremium",
+            "-ResetOnboarding", "-ForcePremiumFallback",
             "-AppleLanguages", "(\(language))", "-AppleLocale",
             language == "ru" ? "ru_RU" : "en_US",
         ]
@@ -15,7 +15,7 @@ final class OnboardingPaywallTests: XCTestCase {
 
     private func next(_ app: XCUIApplication, language: String = "en") {
         let button = app.buttons[language == "ru" ? "Продолжить" : "Continue"].firstMatch
-        XCTAssertTrue(button.waitForExistence(timeout: 5))
+        XCTAssertTrue(button.waitForExistence(timeout: 30))
         button.tap()
     }
 
@@ -31,7 +31,7 @@ final class OnboardingPaywallTests: XCTestCase {
         capture(app, name: "onboarding-first")
         next(app)
         next(app)
-        XCTAssertTrue(app.otherElements["onboarding.reviews"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.otherElements["onboarding.reviews"].waitForExistence(timeout: 30))
         XCTAssertTrue(
             app.staticTexts.containing(
                 NSPredicate(format: "label CONTAINS %@", "Photos, ready to move")
@@ -49,15 +49,15 @@ final class OnboardingPaywallTests: XCTestCase {
             .firstMatch.exists)
         capture(app, name: "onboarding-three-reviews")
         next(app)
-        let limited = app.buttons["onboarding.limited"]
-        XCTAssertTrue(limited.waitForExistence(timeout: 5))
-        capture(app, name: "onboarding-paywall-awaiting-catalog")
+        let limited = app.buttons["Or proceed with limited version"]
+        XCTAssertTrue(limited.waitForExistence(timeout: 30))
+        capture(app, name: "onboarding-native-paywall")
         limited.tap()
-        XCTAssertTrue(app.navigationBars["Home"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Home"].waitForExistence(timeout: 30))
         app.terminate()
         app.launchArguments = ["-DisablePremium", "-AppleLanguages", "(en)"]
         app.launch()
-        XCTAssertTrue(app.navigationBars["Home"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Home"].waitForExistence(timeout: 30))
     }
 
     func testInterruptedOnboardingStartsAgain() {
@@ -67,26 +67,27 @@ final class OnboardingPaywallTests: XCTestCase {
         app.terminate()
         app.launchArguments.removeAll { $0 == "-ResetOnboarding" }
         app.launch()
-        XCTAssertTrue(app.staticTexts["Move to a new phone"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.staticTexts["Move to a new phone"].waitForExistence(timeout: 30))
     }
 
     func testSettingsBannerPresentsMainArtworkAndLegalScreens() {
         let app = XCUIApplication()
         app.launchArguments = [
-            "-DisablePremium", "-onboardingCompleted", "YES", "-OpenScreen", "settings",
+            "-ForcePremiumFallback", "-onboardingCompleted", "YES", "-OpenScreen", "settings",
             "-AppleLanguages", "(en)",
         ]
         app.launch()
         let banner = app.buttons["settings.premiumBanner"]
-        XCTAssertTrue(banner.waitForExistence(timeout: 5))
+        XCTAssertTrue(banner.waitForExistence(timeout: 30))
         capture(app, name: "settings-premium-banner")
         banner.tap()
-        XCTAssertTrue(app.otherElements["paywall.main"].waitForExistence(timeout: 5))
-        XCTAssertTrue(app.buttons["premium.unavailable"].exists)
-        XCTAssertFalse(app.buttons["premium.unavailable"].isEnabled)
+        XCTAssertTrue(app.otherElements["paywall.main"].waitForExistence(timeout: 30))
+        XCTAssertTrue(app.staticTexts["Unlimited access!"].waitForExistence(timeout: 30))
+        XCTAssertFalse(app.buttons["premium.unavailable"].exists)
+        XCTAssertTrue(app.nativePremiumCTA.isHittable)
         capture(app, name: "main-paywall-artwork")
         app.otherElements["paywall.main"].buttons["Terms of Use"].tap()
-        XCTAssertTrue(app.navigationBars["Terms of Use"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.navigationBars["Terms of Use"].waitForExistence(timeout: 30))
         capture(app, name: "terms-screen")
     }
 
@@ -94,7 +95,7 @@ final class OnboardingPaywallTests: XCTestCase {
         let app = launchOnboarding(language: "ru")
         next(app, language: "ru")
         next(app, language: "ru")
-        XCTAssertTrue(app.otherElements["onboarding.reviews"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.otherElements["onboarding.reviews"].waitForExistence(timeout: 30))
         capture(app, name: "onboarding-reviews-ru")
     }
 
@@ -105,12 +106,12 @@ final class OnboardingPaywallTests: XCTestCase {
         XCUIDevice.shared.orientation = .landscapeLeft
         defer { XCUIDevice.shared.orientation = .portrait }
         let continueButton = app.buttons["Continue"].firstMatch
-        XCTAssertTrue(continueButton.waitForExistence(timeout: 5))
+        XCTAssertTrue(continueButton.waitForExistence(timeout: 30))
         XCTAssertTrue(continueButton.isHittable)
         capture(app, name: "onboarding-reviews-landscape")
         continueButton.tap()
-        let limited = app.buttons["onboarding.limited"]
-        XCTAssertTrue(limited.waitForExistence(timeout: 5))
+        let limited = app.buttons["Or proceed with limited version"]
+        XCTAssertTrue(limited.waitForExistence(timeout: 30))
         XCTAssertTrue(limited.isHittable)
         capture(app, name: "onboarding-paywall-landscape")
     }

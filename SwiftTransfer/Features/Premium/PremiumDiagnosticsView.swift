@@ -20,7 +20,7 @@
                 }
                 .padding(20)
             }
-            .task {
+            .taskOnce {
                 for id in [PremiumPaywallID.onboarding, .main, PremiumRoute.assistant.paywallID] {
                     await Premium.shared.loadPaywall(id)
                     await Task.yield()

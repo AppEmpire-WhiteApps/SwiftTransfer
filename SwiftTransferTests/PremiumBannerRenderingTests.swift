@@ -16,18 +16,77 @@ final class PremiumBannerRenderingTests: XCTestCase {
         entitlement.send(true)
         let after = try render(router, name: "settings-banner-subscribed")
         XCTAssertEqual(SettingsPremiumBannerState(isPremium: access.isPremium).route, .assistant)
-        XCTAssertNotEqual(before, after)
+        XCTAssertNotEqual(before.data, after.data)
 
         entitlement.send(false)
         XCTAssertEqual(SettingsPremiumBannerState(isPremium: access.isPremium).route, .main)
     }
 
-    private func render(_ router: AppRouter, name: String) throws -> Data {
+    func testBannerRendersEnglishAndRussianAtPhoneAndSettingsColumnWidths() throws {
+        for isPremium in [false, true] {
+            let entitlement = CurrentValueSubject<Bool, Never>(isPremium)
+            let access = PremiumAccess(entitlement: entitlement.eraseToAnyPublisher())
+            let router = AppRouter(access: access)
+            let state = isPremium ? "assistant" : "premium"
+
+            for language in ["en", "ru"] {
+                for width: CGFloat in [320, 375, 760] {
+                    let image = try render(
+                        router,
+                        name: "settings-\(state)-\(language)-\(Int(width))",
+                        width: width,
+                        locale: Locale(identifier: language)
+                    )
+                    XCTAssertEqual(image.size.width, width, accuracy: 1)
+                    XCTAssertGreaterThanOrEqual(image.size.height, 192)
+                    XCTAssertLessThanOrEqual(image.size.height, 240, "Keep default text compact")
+                }
+            }
+        }
+    }
+
+    func testBannerGrowsForAccessibilityTextInBothLanguages() throws {
+        for isPremium in [false, true] {
+            let entitlement = CurrentValueSubject<Bool, Never>(isPremium)
+            let access = PremiumAccess(entitlement: entitlement.eraseToAnyPublisher())
+            let router = AppRouter(access: access)
+            let state = isPremium ? "assistant" : "premium"
+
+            for language in ["en", "ru"] {
+                let standard = try render(
+                    router,
+                    name: "settings-\(state)-\(language)-standard",
+                    width: 320,
+                    locale: Locale(identifier: language)
+                )
+                let accessible = try render(
+                    router,
+                    name: "settings-\(state)-\(language)-accessibility5",
+                    width: 320,
+                    locale: Locale(identifier: language),
+                    dynamicTypeSize: .accessibility5
+                )
+                XCTAssertEqual(accessible.size.width, standard.size.width, accuracy: 1)
+                XCTAssertGreaterThan(accessible.size.height, standard.size.height)
+            }
+        }
+    }
+
+    private func render(
+        _ router: AppRouter,
+        name: String,
+        width: CGFloat = 375,
+        locale: Locale = Locale(identifier: "en"),
+        dynamicTypeSize: DynamicTypeSize = .large
+    ) throws -> (data: Data, size: CGSize) {
         let renderer = ImageRenderer(
             content: SettingsPremiumBanner()
                 .environment(router)
+                .environment(\.locale, locale)
+                .environment(\.dynamicTypeSize, dynamicTypeSize)
+                .frame(maxWidth: 720)
                 .padding(20)
-                .frame(width: 375)
+                .frame(width: width)
                 .background(AppColor.background)
         )
         renderer.scale = 2
@@ -36,6 +95,6 @@ final class PremiumBannerRenderingTests: XCTestCase {
         attachment.name = name
         attachment.lifetime = .keepAlways
         add(attachment)
-        return try XCTUnwrap(image.pngData())
+        return (try XCTUnwrap(image.pngData()), image.size)
     }
 }

@@ -3,133 +3,38 @@ import SwiftUI
 
 struct TransferOnboardingExperience: View {
     let onFinish: () -> Void
-    @StateObject private var controller = OnboardingController()
     @State private var page = 0
-    @State private var loaded = false
-    @State private var catalogReady = false
-    @State private var legalDocument: PremiumLegalDocument?
-    @State private var restoreUnavailable = false
-
     var body: some View {
         GeometryReader { proxy in
-            let layout = PremiumLayout(size: proxy.size)
-            Group {
-                if !PremiumSetup.isConfigured || loaded {
-                    builder(layout: layout)
-                } else {
-                    ProgressView()
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
-                }
-            }
-        }
-        .background(AppGradient.hero.ignoresSafeArea())
-        .task {
-            guard PremiumSetup.isConfigured else { return }
-            catalogReady = await PremiumCatalog.load(.onboarding)
-            loaded = true
-        }
-        .overlay(alignment: .bottom) {
-            if !PremiumSetup.isConfigured {
-                unconfiguredFooter
-            }
-        }
-        .sheet(item: $legalDocument) { document in
-            PremiumLegalScreen(document: document)
-        }
-        .alert(Text("Restore", tableName: "Premium"), isPresented: $restoreUnavailable) {
-            Button("OK", role: .cancel) {}
-        } message: {
-            Text(
-                "Subscriptions are currently unavailable. Please try again later.",
-                tableName: "Premium")
+            OnboardingBuilder(
+                screens: screens,
+                paywallImages: PremiumDesign.resources,
+                style: PremiumDesign.onboarding(scale: PremiumLayout(size: proxy.size).scale),
+                linksConfig: PremiumDesign.links,
+                isTrialEnabled: false,
+                showReviewRequestOnComplete: false,
+                termsView: { PremiumLegalScreen(document: .terms) },
+                privacyView: { PremiumLegalScreen(document: .privacy) },
+                paywallBackgroundView: AnyView(
+                    PremiumScreenBackground(kind: .onboarding) {
+                        PremiumArtwork(route: .main)
+                    }
+                ),
+                secondaryPaywallID: PremiumRoute.assistant.paywallID,
+                secondaryPaywallImages: PremiumDesign.assistantResources,
+                secondaryPaywallBackgroundView: AnyView(
+                    PremiumScreenBackground(kind: .onboarding) {
+                        PremiumArtwork(route: .assistant)
+                    }
+                ),
+                onScreenShown: { index, _ in page = index },
+                onPaywallShown: { page = 3 },
+                onSecondaryPaywallShown: { page = 4 },
+                onComplete: onFinish
+            )
         }
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("onboarding.page.\(page)")
-    }
-
-    private func builder(layout: PremiumLayout) -> some View {
-        OnboardingBuilder(
-            screens: screens,
-            paywallImages: PremiumDesign.resources,
-            style: PremiumDesign.onboarding(scale: layout.scale),
-            paywallHideContent: catalogReady
-                ? [] : [.indicators, .title, .subtitle, .message, .button],
-            linksConfig: onboardingLinks,
-            isTrialEnabled: false,
-            showReviewRequestOnComplete: false,
-            termsView: { PremiumLegalScreen(document: .terms) },
-            privacyView: { PremiumLegalScreen(document: .privacy) },
-            paywallBackgroundView: AnyView(AppGradient.hero),
-            paywallMiddleView: AnyView(paywallContent),
-            controller: controller,
-            onScreenShown: { index, _ in page = index },
-            onPaywallShown: { page = 3 },
-            onComplete: onFinish
-        )
-    }
-
-    private var paywallContent: some View {
-        VStack(spacing: 16) {
-            PremiumArtwork(route: .main)
-            if !catalogReady {
-                VStack(spacing: 12) {
-                    HStack(spacing: 8) {
-                        ForEach(0..<4) { index in
-                            Capsule()
-                                .fill(index == 3 ? AppColor.primary : AppColor.skyLight)
-                                .frame(width: index == 3 ? 24 : 8, height: 8)
-                        }
-                    }
-                    .accessibilityHidden(true)
-                    Text("Unlock your next move", tableName: "Premium")
-                        .font(AppFont.title2)
-                        .foregroundStyle(AppColor.textPrimary)
-                    Text(
-                        "Subscriptions are currently unavailable. Please try again later.",
-                        tableName: "Premium"
-                    )
-                    .font(AppFont.callout)
-                    .foregroundStyle(AppColor.textSecondary)
-                    .multilineTextAlignment(.center)
-                    Button {
-                        controller.skip()
-                    } label: {
-                        Text("Continue with limited access", tableName: "Premium")
-                            .font(.headline)
-                            .foregroundStyle(.white)
-                            .frame(maxWidth: .infinity)
-                            .frame(height: 52)
-                            .background(
-                                AppColor.primary,
-                                in: RoundedRectangle(cornerRadius: PremiumDesign.cornerRadius))
-                    }
-                    .accessibilityIdentifier("onboarding.limited")
-                }
-                .frame(maxWidth: 520)
-                .padding(.horizontal, 20)
-            }
-        }
-    }
-
-    private var onboardingLinks: LinksConfiguration {
-        guard !PremiumSetup.isConfigured else { return PremiumDesign.links }
-        return LinksConfiguration(termsTitle: "", privacyTitle: "", restoreTitle: "", order: [])
-    }
-
-    private var unconfiguredFooter: some View {
-        HStack(spacing: 16) {
-            Button(PremiumDesign.links.termsTitle) { legalDocument = .terms }
-            Button(PremiumDesign.links.restoreTitle) { restoreUnavailable = true }
-            Button(PremiumDesign.links.privacyTitle) { legalDocument = .privacy }
-        }
-        .font(.system(size: 12))
-        .foregroundStyle(AppColor.textSecondary)
-        .lineLimit(1)
-        .minimumScaleFactor(0.8)
-        .frame(maxWidth: 520)
-        .frame(height: 20)
-        .padding(.horizontal, 20)
-        .padding(.bottom, 8)
     }
 
     private var screens: [OnboardingScreen] {
@@ -143,9 +48,12 @@ struct TransferOnboardingExperience: View {
                     table: "Premium"),
                 message: String(localized: "Your old phone keeps its data", table: "Premium"),
                 buttonTitle: String(localized: "Continue"),
-                images: PremiumDesign.resources,
-                backgroundView: AnyView(AppGradient.hero),
-                middleView: AnyView(OnboardingFeatureScene(illustration: .onbTransfer))
+                images: AdaptiveResources(iphone: Image("onb_transfer")),
+                backgroundView: AnyView(
+                    PremiumScreenBackground(kind: .onboarding) {
+                        OnboardingFeatureScene(illustration: .onbTransfer)
+                    }
+                )
             ),
             OnboardingScreen(
                 id: 1,
@@ -156,9 +64,12 @@ struct TransferOnboardingExperience: View {
                     table: "Premium"),
                 message: String(localized: "Select only what matters to you", table: "Premium"),
                 buttonTitle: String(localized: "Continue"),
-                images: PremiumDesign.resources,
-                backgroundView: AnyView(AppGradient.hero),
-                middleView: AnyView(OnboardingFeatureScene(illustration: .onbDataTypes))
+                images: AdaptiveResources(iphone: Image("onb_data_types")),
+                backgroundView: AnyView(
+                    PremiumScreenBackground(kind: .onboarding) {
+                        OnboardingFeatureScene(illustration: .onbDataTypes)
+                    }
+                )
             ),
             OnboardingScreen(
                 id: 2,
@@ -171,8 +82,11 @@ struct TransferOnboardingExperience: View {
                 message: String(localized: "Photos, guidance and a helping hand", table: "Premium"),
                 buttonTitle: String(localized: "Continue"),
                 images: PremiumDesign.resources,
-                backgroundView: AnyView(AppGradient.hero),
-                middleView: AnyView(OnboardingReviews())
+                backgroundView: AnyView(
+                    PremiumScreenBackground(kind: .onboarding) {
+                        OnboardingReviews()
+                    }
+                )
             ),
         ]
     }
