@@ -9,17 +9,8 @@ enum PremiumRuntimeConfiguration {
     }
 
     static var isEnabled: Bool {
-        #if DEBUG
-            if ProcessInfo.processInfo.arguments.contains("-DisablePremium") { return false }
-        #endif
-        return !apiKey.isEmpty
+        !apiKey.isEmpty
     }
 
-    static var forceFallback: Bool {
-        #if DEBUG
-            return ProcessInfo.processInfo.arguments.contains("-ForcePremiumFallback")
-        #else
-            return false
-        #endif
-    }
+    static let forceFallback = false
 }

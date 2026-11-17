@@ -1,25 +1,19 @@
 import Foundation
-import Observation
 import PremiumKit
 
 /// Owns startup loading, not presentation. The SDK's main/onboarding selection is global,
-/// so those loads must finish in order before either builder is constructed.
+/// so those loads must finish in order.
 @MainActor
-@Observable
 final class PremiumStartup {
     private enum Flow {
         case main
         case onboarding
     }
 
-    private(set) var isOnboardingReady = false
-    private(set) var isMainReady = false
-
-    @ObservationIgnored private let load: @MainActor (PremiumPaywallID) async -> Void
-    @ObservationIgnored private var alwaysTask: Task<Void, Never>?
-    @ObservationIgnored private var activeFlow: Flow?
-    @ObservationIgnored private var flowTask: Task<Void, Never>?
-    @ObservationIgnored private var flowGeneration = 0
+    private let load: @MainActor (PremiumPaywallID) async -> Void
+    private var alwaysTask: Task<Void, Never>?
+    private var activeFlow: Flow?
+    private var flowTask: Task<Void, Never>?
 
     init(load: @escaping @MainActor (PremiumPaywallID) async -> Void = PremiumStartup.loadPaywall) {
         self.load = load
@@ -57,14 +51,9 @@ final class PremiumStartup {
         let previousTask = flowTask
         let needsMainActivation = activeFlow != nil
         activeFlow = flow
-        flowGeneration += 1
-        let generation = flowGeneration
-        isOnboardingReady = false
-        isMainReady = false
 
         let task = Task { @MainActor in
             // Serialize even rapid/repeated Settings → onboarding → main transitions.
-            // An old flow may finish loading, but must not mark the new flow ready.
             await previousTask?.value
             await prepareAlways()
             switch flow {
@@ -77,9 +66,6 @@ final class PremiumStartup {
                     await load(.main)
                 }
             }
-            guard generation == flowGeneration else { return }
-            isOnboardingReady = flow == .onboarding
-            isMainReady = flow == .main
         }
         flowTask = task
         await task.value
@@ -89,8 +75,7 @@ final class PremiumStartup {
         guard PremiumSetup.isConfigured else { return }
         await Premium.shared.loadPaywall(id)
         // PremiumKit delivers its final paywalls dictionary with receive(on: main).
-        // Drain those already-enqueued publications before constructing a builder whose
-        // view model captures availablePaywall only at initialization.
+        // Drain those already-enqueued publications before the next placement load.
         await withCheckedContinuation { continuation in
             DispatchQueue.main.async {
                 continuation.resume()
