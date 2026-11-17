@@ -3,7 +3,7 @@ import StoreKit
 
 @MainActor
 enum PremiumCatalog {
-    /// PremiumKit includes nonempty preview catalogs; only StoreKit-resolved products are purchasable.
+    /// Reject SDK previews while preserving its verified local fallback when StoreKit is unavailable.
     static func load(_ placement: PremiumPaywallID) async -> Bool {
         guard PremiumSetup.isConfigured else { return false }
         await Premium.shared.loadPaywall(placement)
@@ -14,9 +14,11 @@ enum PremiumCatalog {
         do {
             let ids = Set(paywall.products.map(\.id))
             let products = try await Product.products(for: Array(ids))
-            return ids == Set(products.map(\.id))
+            if ids == Set(products.map(\.id)) { return true }
         } catch {
-            return false
+            // The SDK's fallback owns offline prices; this layer only verifies catalog identity.
         }
+        return PremiumCatalogManifest.contains(
+            paywall.products.map(\.id), placement: placement.rawValue)
     }
 }

@@ -1,0 +1,12 @@
+.DS_Store
+.build/
+.swiftpm/
+Package.resolved
+xcuserdata/
+*.xcscmblueprint
+DerivedData/
+.aigenerator/
+memory/
+*.md
+
+skills/

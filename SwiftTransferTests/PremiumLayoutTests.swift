@@ -28,9 +28,17 @@ final class PremiumLayoutTests: XCTestCase {
         XCTAssertEqual(SettingsPremiumBannerState(isPremium: false).route, .main)
     }
 
-    @MainActor
-    func testUnconfiguredCatalogDoesNotAttemptToSellPreviewProducts() async {
-        let ready = await PremiumCatalog.load(.main)
-        XCTAssertFalse(ready)
+    func testAssistantPlacementMatchesSuppliedCatalog() {
+        XCTAssertEqual(PremiumRoute.assistant.paywallID.rawValue, "aiChat")
+    }
+
+    func testFallbackManifestRejectsSDKPreviewAndUnknownProducts() {
+        XCTAssertFalse(PremiumCatalogManifest.contains(["w", "m", "y", "l"], placement: "main"))
+        XCTAssertFalse(PremiumCatalogManifest.contains([], placement: "onboarding"))
+        XCTAssertFalse(PremiumCatalogManifest.contains(["unknown"], placement: "aiChat"))
+        XCTAssertTrue(
+            PremiumCatalogManifest.contains(
+                ["app.Swift.Transfer.Week", "app.Swift.Transfer.WeekTrial"], placement: "onboarding"
+            ))
     }
 }

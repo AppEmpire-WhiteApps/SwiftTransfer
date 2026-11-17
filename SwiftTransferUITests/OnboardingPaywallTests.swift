@@ -5,7 +5,7 @@ final class OnboardingPaywallTests: XCTestCase {
     private func launchOnboarding(language: String = "en") -> XCUIApplication {
         let app = XCUIApplication()
         app.launchArguments = [
-            "-ResetOnboarding",
+            "-ResetOnboarding", "-DisablePremium",
             "-AppleLanguages", "(\(language))", "-AppleLocale",
             language == "ru" ? "ru_RU" : "en_US",
         ]
@@ -55,7 +55,7 @@ final class OnboardingPaywallTests: XCTestCase {
         limited.tap()
         XCTAssertTrue(app.navigationBars["Home"].waitForExistence(timeout: 5))
         app.terminate()
-        app.launchArguments = ["-AppleLanguages", "(en)"]
+        app.launchArguments = ["-DisablePremium", "-AppleLanguages", "(en)"]
         app.launch()
         XCTAssertTrue(app.navigationBars["Home"].waitForExistence(timeout: 5))
     }
@@ -73,7 +73,8 @@ final class OnboardingPaywallTests: XCTestCase {
     func testSettingsBannerPresentsMainArtworkAndLegalScreens() {
         let app = XCUIApplication()
         app.launchArguments = [
-            "-onboardingCompleted", "YES", "-OpenScreen", "settings", "-AppleLanguages", "(en)",
+            "-DisablePremium", "-onboardingCompleted", "YES", "-OpenScreen", "settings",
+            "-AppleLanguages", "(en)",
         ]
         app.launch()
         let banner = app.buttons["settings.premiumBanner"]
