@@ -1,0 +1,2239 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "legal_close" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schließen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamknij"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрити"
+          }
+        }
+      }
+    },
+    "legal_draft_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toto je návrh, nikoli konečné znění právního oznámení. Před zveřejněním musí provozovatel aplikace ověřit svou totožnost a kontaktní údaje pro otázky ochrany soukromí, postupy poskytovatelů, doby uchovávání údajů a příslušné právní požadavky. Tyto údaje dosud nebyly potvrzeny."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dies ist ein Entwurf und kein endgültiger Rechtshinweis. Vor der Veröffentlichung muss der App-Betreiber seine Identität und seinen Datenschutzkontakt, die Verfahrensweisen der Dienstanbieter, die Aufbewahrungsfristen und die geltenden rechtlichen Anforderungen überprüfen. Diese Angaben sind noch nicht bestätigt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is a draft, not a finalized legal notice. Before publication, the app operator must verify its identity and privacy contact, provider practices, retention periods and applicable legal requirements. These details are not yet confirmed."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este es un borrador, no un aviso legal definitivo. Antes de su publicación, el operador de la aplicación debe verificar su identidad y su contacto en materia de privacidad, las prácticas de los proveedores, los plazos de conservación y los requisitos legales aplicables. Estos detalles aún no se han confirmado."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce document est un projet, et non une notice juridique définitive. Avant sa publication, l’exploitant de l’application doit vérifier son identité et les coordonnées du contact chargé de la confidentialité, les pratiques des prestataires, les durées de conservation et les exigences légales applicables. Ces informations ne sont pas encore confirmées."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Questa è una bozza, non un avviso legale definitivo. Prima della pubblicazione, il gestore dell'app deve verificare la propria identità e il contatto per la privacy, le prassi dei fornitori, i periodi di conservazione e i requisiti di legge applicabili. Questi dettagli non sono ancora stati confermati."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 문서는 초안이며, 확정된 법적 고지문이 아닙니다. 앱 운영자는 게시 전에 운영자 신원과 개인정보 보호 관련 연락처, 서비스 제공업체의 처리 관행, 보관 기간 및 관련 법적 요건을 확인해야 합니다. 이러한 사항은 아직 확인되지 않았습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To jest projekt, a nie ostateczna wersja informacji prawnej. Przed publikacją operator aplikacji musi zweryfikować swoją tożsamość i dane kontaktowe w sprawach prywatności, praktyki dostawców, okresy przechowywania danych oraz obowiązujące wymogi prawne. Informacje te nie zostały jeszcze potwierdzone."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este é um rascunho, não um aviso legal definitivo. Antes da publicação, o operador do app deve verificar sua identidade e seu contato para questões de privacidade, as práticas dos prestadores de serviços, os períodos de retenção e os requisitos legais aplicáveis. Esses detalhes ainda não foram confirmados."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Это проект, а не окончательная редакция юридического уведомления. Перед публикацией оператор приложения должен проверить сведения о себе и контактные данные по вопросам конфиденциальности, практики поставщиков услуг, сроки хранения и применимые требования законодательства. Эти сведения пока не подтверждены."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu bir taslaktır; nihai hâli verilmiş bir hukuki bildirim değildir. Uygulama işletmecisi, yayımlamadan önce kendi kimliğini ve gizlilik konularındaki iletişim bilgilerini, hizmet sağlayıcıların uygulamalarını, saklama sürelerini ve geçerli yasal gereklilikleri doğrulamalıdır. Bu ayrıntılar henüz teyit edilmemiştir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Це проєкт, а не остаточна редакція юридичного повідомлення. Перед публікацією оператор застосунку має перевірити відомості про себе та контактні дані з питань конфіденційності, практики постачальників послуг, строки зберігання й застосовні вимоги законодавства. Ці відомості ще не підтверджено."
+          }
+        }
+      }
+    },
+    "legal_draft_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Návrh — vyžaduje právní posouzení"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entwurf — rechtliche Prüfung erforderlich"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Draft — legal review required"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrador — requiere revisión jurídica"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projet — examen juridique requis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bozza — revisione legale necessaria"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "초안 — 법률 검토 필요"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Projekt — wymagana weryfikacja prawna"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rascunho — revisão jurídica necessária"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проект — требуется юридическая проверка"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taslak — hukuki inceleme gerekli"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проєкт — потрібна юридична перевірка"
+          }
+        }
+      }
+    },
+    "legal_privacy_ai_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při používání asistenta se zprávy z konverzace odesílají službě LLMApps na adrese llmapps.space za účelem získání odpovědi. Volba Odesílat technický kontext je ve výchozím nastavení zapnutá a lze ji vypnout v Nastavení aplikace. Zahrnuje verze aplikace a iOS, model zařízení, jazyk rozhraní, aktuální obrazovku, způsob přenosu, počty a velikost, poslední chybu, kontroly připojení a stavy oprávnění. Tento automaticky odesílaný kontext nezahrnuje jména, telefonní čísla, e-mailové adresy, názvy událostí, názvy souborů, polohy ani IP adresy. Cokoli napíšete do chatu, však může obsahovat osobní údaje. Síťové služby mohou přijímat metadata připojení, například vaši IP adresu."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wenn Sie den Assistenten verwenden, werden die Nachrichten der Unterhaltung an den Dienst LLMApps unter llmapps.space gesendet, um eine Antwort zu erhalten. „Technischen Kontext senden“ ist standardmäßig aktiviert und kann in den Einstellungen der App deaktiviert werden. Der technische Kontext umfasst die App- und iOS-Versionen, das Gerätemodell, die Sprache der Benutzeroberfläche, den aktuellen Bildschirm, die Übertragungsmethode, Anzahl- und Größenangaben, den letzten Fehler, Verbindungsprüfungen und den Berechtigungsstatus. Dieser automatische Kontext enthält keine Namen, Telefonnummern, E-Mail-Adressen, Ereignistitel, Dateinamen, Standorte oder IP-Adressen. Alles, was Sie in den Chat eingeben, kann dennoch personenbezogene Daten enthalten. Netzwerkdienste können Verbindungsmetadaten wie Ihre IP-Adresse erhalten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When you use the assistant, conversation messages are sent to the LLMApps service at llmapps.space for a response. Send technical context is on by default and can be disabled in the app's Settings. It includes app and iOS versions, device model, interface language, current screen, transfer method, counts and size, last error, connection checks and permission states. This automatic context excludes names, phone numbers, emails, event titles, file names, locations and IP addresses. Anything you type into chat may still contain personal data. Network services can receive connection metadata such as your IP address."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando utilizas el asistente, los mensajes de la conversación se envían al servicio LLMApps en llmapps.space para obtener una respuesta. La opción Enviar contexto técnico está activada de forma predeterminada y puede desactivarse en los Ajustes de la aplicación. Incluye las versiones de la aplicación y de iOS, el modelo del dispositivo, el idioma de la interfaz, la pantalla actual, el método de transferencia, los recuentos y el tamaño, el último error, las comprobaciones de conexión y los estados de los permisos. Este contexto automático excluye nombres, números de teléfono, correos electrónicos, títulos de eventos, nombres de archivos, ubicaciones y direcciones IP. Aun así, cualquier cosa que escribas en el chat puede contener datos personales. Los servicios de red pueden recibir metadatos de conexión, como tu dirección IP."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lorsque vous utilisez l’assistant, les messages de la conversation sont envoyés au service LLMApps sur llmapps.space afin d’obtenir une réponse. L’option « Envoyer le contexte technique » est activée par défaut et peut être désactivée dans les réglages de l’application. Ce contexte comprend les versions de l’application et d’iOS, le modèle de l’appareil, la langue de l’interface, l’écran actuel, la méthode de transfert, les nombres et la taille, la dernière erreur, les vérifications de connexion et l’état des autorisations. Ce contexte automatique exclut les noms, numéros de téléphone, adresses e-mail, titres d’événements, noms de fichiers, localisations et adresses IP. Tout ce que vous saisissez dans le chat peut néanmoins contenir des données personnelles. Les services réseau peuvent recevoir des métadonnées de connexion, telles que votre adresse IP."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando utilizzi l'assistente, i messaggi della conversazione vengono inviati al servizio LLMApps all'indirizzo llmapps.space per ottenere una risposta. L'opzione Invia contesto tecnico è attiva per impostazione predefinita e può essere disattivata nelle Impostazioni dell'app. Include le versioni dell'app e di iOS, il modello del dispositivo, la lingua dell'interfaccia, la schermata corrente, il metodo di trasferimento, i conteggi e le dimensioni, l'ultimo errore, le verifiche della connessione e gli stati delle autorizzazioni. Questo contesto automatico esclude nomi, numeri di telefono, email, titoli degli eventi, nomi dei file, posizioni e indirizzi IP. Qualsiasi cosa tu scriva nella chat può comunque contenere dati personali. I servizi di rete possono ricevere metadati di connessione, come il tuo indirizzo IP."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어시스턴트를 사용하면 응답을 받기 위해 대화 메시지가 llmapps.space의 LLMApps 서비스로 전송됩니다. 기술 컨텍스트 전송은 기본적으로 켜져 있으며 앱의 설정에서 끌 수 있습니다. 여기에는 앱 및 iOS 버전, 기기 모델, 인터페이스 언어, 현재 화면, 전송 방식, 개수 및 크기, 마지막 오류, 연결 점검 결과 및 권한 상태가 포함됩니다. 이 자동 컨텍스트에는 이름, 전화번호, 이메일 주소, 이벤트 제목, 파일 이름, 위치 및 IP 주소가 포함되지 않습니다. 다만 사용자가 채팅에 입력하는 내용에는 개인정보가 포함될 수 있습니다. 네트워크 서비스는 사용자의 IP 주소와 같은 연결 메타데이터를 수신할 수 있습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy korzystasz z asystenta, wiadomości z rozmowy są wysyłane do usługi LLMApps pod adresem llmapps.space w celu uzyskania odpowiedzi. Opcja Wysyłaj kontekst techniczny jest domyślnie włączona i można ją wyłączyć w Ustawieniach aplikacji. Obejmuje ona wersje aplikacji i iOS, model urządzenia, język interfejsu, bieżący ekran, metodę przesyłania, liczby i rozmiar, ostatni błąd, wyniki sprawdzania połączenia oraz stany uprawnień. Ten automatycznie przesyłany kontekst nie obejmuje imion i nazwisk, numerów telefonów, adresów e-mail, tytułów wydarzeń, nazw plików, lokalizacji ani adresów IP. Treści wpisywane na czacie mogą jednak zawierać dane osobowe. Usługi sieciowe mogą otrzymywać metadane połączenia, takie jak Twój adres IP."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando você usa o assistente, as mensagens da conversa são enviadas ao serviço LLMApps em llmapps.space para obter uma resposta. A opção Enviar contexto técnico fica ativada por padrão e pode ser desativada nos Ajustes do app. Ela inclui as versões do app e do iOS, o modelo do dispositivo, o idioma da interface, a tela atual, o método de transferência, as contagens e o tamanho, o último erro, as verificações de conexão e os estados das permissões. Esse contexto automático exclui nomes, números de telefone, e-mails, títulos de eventos, nomes de arquivos, localizações e endereços IP. Qualquer coisa que você digitar no chat ainda pode conter dados pessoais. Os serviços de rede podem receber metadados de conexão, como seu endereço IP."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда вы используете ассистента, сообщения переписки отправляются в сервис LLMApps по адресу llmapps.space для получения ответа. Параметр «Отправлять технический контекст» включён по умолчанию; его можно отключить в настройках приложения. Технический контекст включает версии приложения и iOS, модель устройства, язык интерфейса, текущий экран, способ передачи, количество и объём, последнюю ошибку, проверки соединения и состояния разрешений. Этот автоматически отправляемый контекст не включает имена, номера телефонов, адреса электронной почты, названия событий, имена файлов, местоположения и IP-адреса. При этом всё, что вы вводите в чат, может содержать персональные данные. Сетевые сервисы могут получать метаданные соединения, например ваш IP-адрес."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistanı kullandığınızda, yanıt alınması için konuşma mesajları llmapps.space adresindeki LLMApps hizmetine gönderilir. Teknik bağlam gönder seçeneği varsayılan olarak açıktır ve uygulamanın Ayarlar bölümünden kapatılabilir. Bu bağlam; uygulama ve iOS sürümlerini, cihaz modelini, arayüz dilini, geçerli ekranı, aktarım yöntemini, adet ve boyut bilgilerini, son hatayı, bağlantı kontrollerini ve izin durumlarını içerir. Bu otomatik bağlam; adları, telefon numaralarını, e-postaları, etkinlik başlıklarını, dosya adlarını, konumları ve IP adreslerini içermez. Sohbete yazdığınız her şey yine de kişisel veri içerebilir. Ağ hizmetleri, IP adresiniz gibi bağlantı meta verilerini alabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коли ви використовуєте асистента, повідомлення розмови надсилаються до сервісу LLMApps за адресою llmapps.space для отримання відповіді. Параметр «Надсилати технічний контекст» увімкнено за замовчуванням; його можна вимкнути в параметрах застосунку. Технічний контекст містить версії застосунку та iOS, модель пристрою, мову інтерфейсу, поточний екран, спосіб передавання, кількість і обсяг, останню помилку, перевірки з’єднання та стани дозволів. Цей автоматично надісланий контекст не містить імен, номерів телефонів, адрес електронної пошти, назв подій, імен файлів, місцеположень та IP-адрес. Утім, усе, що ви вводите в чат, може містити персональні дані. Мережеві сервіси можуть отримувати метадані з’єднання, як-от вашу IP-адресу."
+          }
+        }
+      }
+    },
+    "legal_privacy_ai_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Požadavky asistenta"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anfragen an den Assistenten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistant requests"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solicitudes al asistente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requêtes à l’assistant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Richieste all'assistente"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어시스턴트 요청"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Żądania asystenta"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solicitações ao assistente"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запросы к ассистенту"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistan İstekleri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Запити до асистента"
+          }
+        }
+      }
+    },
+    "legal_privacy_history_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historie přenosů a historie chatů s asistentem se ukládají v zařízení pomocí SwiftData. Volba Vymazat historii chatu v Nastavení aplikace odstraní místní chaty s asistentem; neodešle žádost o smazání údajů, které již byly odeslány poskytovateli. Vypnutí technického kontextu nezastaví odesílání zpráv při používání asistenta. Nezadávejte citlivé údaje a před přenosem obsahu zkontrolujte příjemce."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Übertragungsverlauf und der Chatverlauf des Assistenten werden mithilfe von SwiftData auf dem Gerät gespeichert. „Chatverlauf löschen“ in den Einstellungen der App entfernt lokale Assistentenchats; dadurch wird keine Löschung von Daten angefordert, die bereits an einen Dienstanbieter gesendet wurden. Das Deaktivieren des technischen Kontexts verhindert nicht, dass bei der Nutzung des Assistenten Nachrichten gesendet werden. Vermeiden Sie die Eingabe sensibler Daten und überprüfen Sie den Empfänger, bevor Sie Inhalte übertragen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfer history and assistant chat history are stored on the device using SwiftData. Clear chat history in the app's Settings removes local assistant chats; it does not request deletion of data already sent to a provider. Disabling technical context does not stop messages being sent when you use the assistant. Avoid entering sensitive data and review the recipient before transferring content."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El historial de transferencias y el historial de chat del asistente se almacenan en el dispositivo mediante SwiftData. La opción Borrar historial de chat en los Ajustes de la aplicación elimina los chats locales del asistente; no solicita la eliminación de los datos ya enviados a un proveedor. Desactivar el contexto técnico no impide que se envíen mensajes cuando utilizas el asistente. Evita introducir datos sensibles y comprueba el destinatario antes de transferir contenido."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’historique des transferts et l’historique des conversations avec l’assistant sont stockés sur l’appareil à l’aide de SwiftData. L’option « Effacer l’historique du chat » dans les réglages de l’application supprime les conversations locales avec l’assistant ; elle ne demande pas la suppression des données déjà envoyées à un prestataire. La désactivation du contexte technique n’empêche pas l’envoi des messages lorsque vous utilisez l’assistant. Évitez de saisir des données sensibles et vérifiez le destinataire avant de transférer du contenu."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La cronologia dei trasferimenti e la cronologia delle chat dell'assistente vengono memorizzate sul dispositivo tramite SwiftData. L'opzione Cancella cronologia chat nelle Impostazioni dell'app rimuove le chat locali dell'assistente; non richiede l'eliminazione dei dati già inviati a un fornitore. Disattivare il contesto tecnico non impedisce l'invio dei messaggi quando utilizzi l'assistente. Evita di inserire dati sensibili e controlla il destinatario prima di trasferire contenuti."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전송 기록과 어시스턴트 채팅 기록은 SwiftData를 사용하여 기기에 저장됩니다. 앱의 설정에서 채팅 기록 지우기를 실행하면 로컬 어시스턴트 채팅이 삭제되지만, 이미 서비스 제공업체에 전송된 데이터의 삭제를 요청하지는 않습니다. 기술 컨텍스트를 꺼도 어시스턴트를 사용할 때 메시지가 전송되는 것은 중단되지 않습니다. 민감한 데이터는 입력하지 말고, 콘텐츠를 전송하기 전에 수신자를 확인하세요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia przesyłania i historia czatu z asystentem są przechowywane na urządzeniu przy użyciu SwiftData. Opcja Wyczyść historię czatu w Ustawieniach aplikacji usuwa lokalne czaty z asystentem; nie wysyła żądania usunięcia danych już przesłanych do dostawcy. Wyłączenie kontekstu technicznego nie zatrzymuje wysyłania wiadomości podczas korzystania z asystenta. Unikaj wprowadzania danych wrażliwych i sprawdzaj odbiorcę przed przesłaniem treści."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O histórico de transferências e o histórico de chat do assistente são armazenados no dispositivo usando SwiftData. A opção Limpar histórico de chat nos Ajustes do app remove os chats locais do assistente; ela não solicita a exclusão dos dados já enviados a um prestador de serviços. Desativar o contexto técnico não impede o envio de mensagens quando você usa o assistente. Evite inserir dados sensíveis e confira o destinatário antes de transferir conteúdo."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "История передач и история чатов с ассистентом хранятся на устройстве с использованием SwiftData. Функция «Очистить историю чата» в настройках приложения удаляет локальные чаты с ассистентом; она не отправляет запрос на удаление данных, уже переданных поставщику услуг. Отключение технического контекста не прекращает отправку сообщений при использовании ассистента. Не вводите чувствительные данные и проверяйте получателя перед передачей контента."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım geçmişi ve asistan sohbet geçmişi, SwiftData kullanılarak cihazda saklanır. Uygulamanın Ayarlar bölümündeki Sohbet geçmişini temizle seçeneği, yerel asistan sohbetlerini kaldırır; daha önce bir hizmet sağlayıcıya gönderilmiş verilerin silinmesini talep etmez. Teknik bağlamı kapatmak, asistanı kullandığınızda mesajların gönderilmesini durdurmaz. Hassas veriler girmekten kaçının ve içerik aktarmadan önce alıcıyı kontrol edin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Історія передавань та історія чатів з асистентом зберігаються на пристрої за допомогою SwiftData. Функція «Очистити історію чату» в параметрах застосунку видаляє локальні чати з асистентом; вона не надсилає запиту на видалення даних, уже переданих постачальнику послуг. Вимкнення технічного контексту не припиняє надсилання повідомлень під час використання асистента. Не вводьте чутливих даних і перевіряйте одержувача перед передаванням вмісту."
+          }
+        }
+      }
+    },
+    "legal_privacy_history_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historie a možnosti správy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verlauf und Ihre Steuerungsmöglichkeiten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History and your controls"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historial y tus controles"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historique et moyens de contrôle"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cronologia e opzioni di controllo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기록 및 사용자 제어 기능"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historia i możliwości zarządzania"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórico e seus controles"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "История и доступные вам настройки"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geçmiş ve Kontrol Seçenekleriniz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Історія та доступні вам засоби керування"
+          }
+        }
+      }
+    },
+    "legal_privacy_permissions_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oprávnění k Fotkám, Kontaktům, Kalendáři a Připomínkám umožňují číst nebo ukládat data, která se rozhodnete přenést. Přístup k fotoaparátu umožňuje skenovat QR kódy pro připojení. Přístup k místní síti umožňuje propojovat zařízení. Oprávnění můžete změnit v Nastavení iOS; odmítnutí přístupu může omezit příslušnou funkci."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berechtigungen für Fotos, Kontakte, Kalender und Erinnerungen ermöglichen das Lesen oder Speichern der Daten, die Sie zur Übertragung auswählen. Der Kamerazugriff ermöglicht das Scannen von QR-Codes zur Verbindungsherstellung. Der Zugriff auf das lokale Netzwerk ermöglicht das Verbinden von Geräten. Sie können Berechtigungen in den iOS-Einstellungen ändern; die Verweigerung des Zugriffs kann die zugehörige Funktion einschränken."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, Contacts, Calendar and Reminders permissions support reading or saving the data you choose to transfer. Camera access supports scanning connection QR codes. Local network access supports connecting devices. You can change permissions in iOS Settings; refusing access may limit the related feature."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Los permisos de Fotos, Contactos, Calendario y Recordatorios permiten leer o guardar los datos que eliges transferir. El acceso a la cámara permite escanear códigos QR de conexión. El acceso a la red local permite conectar dispositivos. Puedes cambiar los permisos en los Ajustes de iOS; denegar el acceso puede limitar la función correspondiente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les autorisations d’accès à Photos, Contacts, Calendrier et Rappels permettent de lire ou d’enregistrer les données que vous choisissez de transférer. L’accès à l’appareil photo permet de scanner les codes QR de connexion. L’accès au réseau local permet de connecter les appareils. Vous pouvez modifier les autorisations dans les réglages d’iOS ; le refus d’un accès peut limiter la fonctionnalité correspondante."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le autorizzazioni per Foto, Contatti, Calendario e Promemoria consentono di leggere o salvare i dati che scegli di trasferire. L'accesso alla fotocamera consente di scansionare i codici QR per la connessione. L'accesso alla rete locale consente di connettere i dispositivi. Puoi modificare le autorizzazioni nelle Impostazioni di iOS; negare l'accesso può limitare la relativa funzionalità."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진, 연락처, 캘린더 및 미리 알림 권한은 사용자가 전송하기로 선택한 데이터를 읽거나 저장하는 데 사용됩니다. 카메라 접근 권한은 연결용 QR 코드를 스캔하는 데 사용됩니다. 로컬 네트워크 접근 권한은 기기를 연결하는 데 사용됩니다. iOS 설정에서 권한을 변경할 수 있으며, 접근을 거부하면 관련 기능이 제한될 수 있습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uprawnienia dostępu do Zdjęć, Kontaktów, Kalendarza i Przypomnień umożliwiają odczytywanie lub zapisywanie danych wybranych do przesłania. Dostęp do aparatu umożliwia skanowanie kodów QR służących do nawiązywania połączenia. Dostęp do sieci lokalnej umożliwia łączenie urządzeń. Uprawnienia możesz zmienić w Ustawieniach iOS; odmowa dostępu może ograniczyć powiązaną funkcję."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As permissões de Fotos, Contatos, Calendário e Lembretes permitem ler ou salvar os dados que você escolhe transferir. O acesso à câmera permite escanear códigos QR de conexão. O acesso à rede local permite conectar dispositivos. Você pode alterar as permissões nos Ajustes do iOS; negar o acesso pode limitar o recurso relacionado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешения на доступ к фото, контактам, календарю и напоминаниям позволяют читать или сохранять данные, которые вы выбираете для переноса. Доступ к камере позволяет сканировать QR-коды для подключения. Доступ к локальной сети позволяет подключать устройства. Вы можете изменить разрешения в настройках iOS; отказ в доступе может ограничить соответствующую функцию."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar, Kişiler, Takvim ve Anımsatıcılar izinleri, aktarmayı seçtiğiniz verilerin okunmasını veya kaydedilmesini sağlar. Kamera erişimi, bağlantı QR kodlarının taranmasını sağlar. Yerel ağ erişimi, cihazların bağlanmasını sağlar. İzinleri iOS Ayarlar bölümünden değiştirebilirsiniz; erişimi reddetmek ilgili özelliği sınırlayabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дозволи на доступ до фотографій, контактів, календаря та нагадувань дають змогу читати або зберігати дані, які ви вибираєте для перенесення. Доступ до камери дає змогу сканувати QR-коди для підключення. Доступ до локальної мережі дає змогу підключати пристрої. Ви можете змінити дозволи в параметрах iOS; відмова в доступі може обмежити відповідну функцію."
+          }
+        }
+      }
+    },
+    "legal_privacy_permissions_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oprávnění"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Berechtigungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permissions"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permisos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorisations"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autorizzazioni"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "권한"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uprawnienia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permissões"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Разрешения"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İzinler"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дозволи"
+          }
+        }
+      }
+    },
+    "legal_privacy_providers_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro účely tohoto návrhu nebyly ověřeny doby uchovávání údajů u poskytovatelů, místa zpracování, další sdílení, právní základy ani postupy pro vyřizování žádostí týkajících se ochrany soukromí. Místní ukládání historie není příslibem, že vzdálení poskytovatelé nic neuchovávají. Provozovatel aplikace musí před zveřejněním tyto postupy potvrdit a uvést ověřené kontaktní údaje pro otázky ochrany soukromí a veškeré požadované informace o právech."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Aufbewahrungsfristen der Dienstanbieter, Verarbeitungsorte, Weitergaben an Dritte, Rechtsgrundlagen und Verfahren für Datenschutzanfragen wurden für diesen Entwurf nicht überprüft. Die lokale Speicherung des Verlaufs ist keine Zusage, dass entfernte Dienstanbieter nichts speichern. Der App-Betreiber muss diese Verfahrensweisen bestätigen und vor der Veröffentlichung einen verifizierten Datenschutzkontakt sowie alle erforderlichen Informationen über Rechte bereitstellen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Provider retention periods, processing locations, onward sharing, legal bases and privacy-request procedures have not been verified for this draft. Local history storage is not a promise that remote providers retain nothing. The app operator must confirm these practices and provide a verified privacy contact and any required rights disclosures before publication."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para este borrador no se han verificado los plazos de conservación de los proveedores, los lugares de tratamiento, la comunicación ulterior de datos, las bases jurídicas ni los procedimientos para las solicitudes en materia de privacidad. El almacenamiento local del historial no constituye una promesa de que los proveedores remotos no conserven nada. El operador de la aplicación debe confirmar estas prácticas y proporcionar un contacto verificado en materia de privacidad y toda la información exigida sobre derechos antes de la publicación."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les durées de conservation des prestataires, les lieux de traitement, les partages ultérieurs, les bases légales et les procédures relatives aux demandes en matière de confidentialité n’ont pas été vérifiés pour ce projet. Le stockage local de l’historique ne constitue pas une promesse que les prestataires distants ne conservent rien. L’exploitant de l’application doit confirmer ces pratiques et fournir les coordonnées vérifiées d’un contact chargé de la confidentialité ainsi que toutes les informations requises sur les droits avant la publication."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Per questa bozza non sono stati verificati i periodi di conservazione dei fornitori, i luoghi di trattamento, la condivisione successiva dei dati, le basi giuridiche e le procedure per le richieste relative alla privacy. La memorizzazione locale della cronologia non costituisce una promessa che i fornitori remoti non conservino nulla. Prima della pubblicazione, il gestore dell'app deve confermare queste prassi e fornire un contatto verificato per la privacy e tutte le informazioni sui diritti richieste dalla normativa."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 초안에서는 서비스 제공업체의 보관 기간, 처리 장소, 추가 공유, 법적 근거 및 개인정보 보호 관련 요청 절차가 검증되지 않았습니다. 기록을 로컬에 저장한다는 것이 원격 서비스 제공업체가 아무것도 보관하지 않는다는 약속은 아닙니다. 앱 운영자는 게시 전에 이러한 처리 관행을 확인하고, 검증된 개인정보 보호 관련 연락처와 필수적인 권리 고지 사항을 제공해야 합니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na potrzeby tego projektu nie zweryfikowano okresów przechowywania danych przez dostawców, miejsc przetwarzania, dalszego udostępniania, podstaw prawnych ani procedur obsługi żądań dotyczących prywatności. Lokalne przechowywanie historii nie jest obietnicą, że zdalni dostawcy niczego nie przechowują. Przed publikacją operator aplikacji musi potwierdzić te praktyki oraz podać zweryfikowane dane kontaktowe w sprawach prywatności i wszelkie wymagane informacje o prawach."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Os períodos de retenção dos prestadores de serviços, os locais de tratamento, o compartilhamento subsequente, as bases legais e os procedimentos para solicitações de privacidade não foram verificados para este rascunho. O armazenamento local do histórico não é uma promessa de que os prestadores de serviços remotos não retenham nada. O operador do app deve confirmar essas práticas e fornecer um contato de privacidade verificado e todas as informações obrigatórias sobre direitos antes da publicação."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В рамках этого проекта не проверены сроки хранения данных поставщиками услуг, места обработки, дальнейшая передача данных, правовые основания и процедуры рассмотрения запросов по вопросам конфиденциальности. Локальное хранение истории не является обещанием того, что удалённые поставщики услуг ничего не сохраняют. Перед публикацией оператор приложения должен подтвердить эти практики, предоставить проверенные контактные данные по вопросам конфиденциальности и раскрыть всю требуемую информацию о правах."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hizmet sağlayıcıların saklama süreleri, işleme konumları, sonraki paylaşımları, hukuki dayanakları ve gizlilik taleplerine ilişkin prosedürleri bu taslak için doğrulanmamıştır. Geçmişin yerel olarak saklanması, uzaktaki hizmet sağlayıcıların hiçbir şey saklamadığına dair bir vaat değildir. Uygulama işletmecisi, yayımlamadan önce bu uygulamaları teyit etmeli, doğrulanmış gizlilik iletişim bilgilerini ve haklara ilişkin gerekli tüm açıklamaları sağlamalıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У межах цього проєкту не перевірено строки зберігання даних постачальниками послуг, місця обробки, подальше передавання даних, правові підстави та процедури розгляду запитів із питань конфіденційності. Локальне зберігання історії не є обіцянкою того, що віддалені постачальники послуг нічого не зберігають. Перед публікацією оператор застосунку має підтвердити ці практики, надати перевірені контактні дані з питань конфіденційності та розкрити всю обов’язкову інформацію про права."
+          }
+        }
+      }
+    },
+    "legal_privacy_providers_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podrobnosti, které ještě vyžadují posouzení"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noch zu prüfende Angaben"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details still requiring review"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detalles que aún requieren revisión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informations restant à vérifier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dettagli ancora da verificare"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가 검토가 필요한 사항"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Szczegóły nadal wymagające weryfikacji"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detalhes que ainda precisam de revisão"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сведения, ещё требующие проверки"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hâlâ İncelenmesi Gereken Ayrıntılar"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відомості, які ще потребують перевірки"
+          }
+        }
+      }
+    },
+    "legal_privacy_purchase_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Platby v App Storu zpracovává Apple. SwiftTransfer využívá službu Apphud ke zjišťování stavu předplatného a správě nákupů. Tyto služby mohou podle svých vlastních zásad zpracovávat informace o nákupech, identifikátory aplikace nebo zařízení a technické údaje. Způsob fungování místních přenosů neznamená, že služby předplatného nebo asistenta nezpracovávají žádné údaje."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple wickelt Zahlungen im App Store ab. SwiftTransfer integriert Apphud für den Abonnementstatus und die Kaufverwaltung. Diese Dienste können Kaufinformationen, App- oder Gerätekennungen und technische Daten nach ihren eigenen Richtlinien verarbeiten. Die Funktionsweise lokaler Übertragungen bedeutet nicht, dass Abonnement- oder Assistentendienste keinerlei Daten verarbeiten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple handles App Store payments. SwiftTransfer integrates Apphud for subscription status and purchase management. These services may process purchase information, app or device identifiers and technical data under their own policies. Local transfer behavior does not mean that subscription or assistant services process no data."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple gestiona los pagos del App Store. SwiftTransfer integra Apphud para gestionar el estado de las suscripciones y las compras. Estos servicios pueden tratar información sobre compras, identificadores de la aplicación o del dispositivo y datos técnicos conforme a sus propias políticas. El funcionamiento de las transferencias locales no significa que los servicios de suscripción o del asistente no traten ningún dato."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple gère les paiements de l’App Store. SwiftTransfer intègre Apphud pour le statut des abonnements et la gestion des achats. Ces services peuvent traiter des informations d’achat, des identifiants d’application ou d’appareil et des données techniques conformément à leurs propres politiques. Le fonctionnement des transferts locaux ne signifie pas que les services d’abonnement ou d’assistant ne traitent aucune donnée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple gestisce i pagamenti dell'App Store. SwiftTransfer integra Apphud per lo stato degli abbonamenti e la gestione degli acquisti. Questi servizi possono trattare informazioni sugli acquisti, identificativi dell'app o del dispositivo e dati tecnici in base alle proprie politiche. Il funzionamento dei trasferimenti locali non significa che i servizi di abbonamento o dell'assistente non trattino alcun dato."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store 결제는 Apple이 처리합니다. SwiftTransfer는 구독 상태 확인 및 구매 관리를 위해 Apphud를 연동합니다. 이러한 서비스는 자체 정책에 따라 구매 정보, 앱 또는 기기 식별자 및 기술 데이터를 처리할 수 있습니다. 로컬 전송의 작동 방식이 구독 또는 어시스턴트 서비스에서 어떠한 데이터도 처리하지 않는다는 의미는 아닙니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple obsługuje płatności w App Store. SwiftTransfer integruje usługę Apphud do sprawdzania statusu subskrypcji i zarządzania zakupami. Usługi te mogą przetwarzać informacje o zakupach, identyfikatory aplikacji lub urządzenia oraz dane techniczne zgodnie z własnymi politykami. Sposób działania przesyłania lokalnego nie oznacza, że usługi subskrypcji lub asystenta nie przetwarzają żadnych danych."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A Apple cuida dos pagamentos da App Store. O SwiftTransfer integra o Apphud para o status das assinaturas e o gerenciamento de compras. Esses serviços podem tratar informações de compra, identificadores do app ou do dispositivo e dados técnicos de acordo com suas próprias políticas. O funcionamento das transferências locais não significa que os serviços de assinatura ou do assistente não tratem nenhum dado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple обрабатывает платежи в App Store. В SwiftTransfer интегрирован Apphud для отслеживания статуса подписок и управления покупками. Эти сервисы могут обрабатывать сведения о покупках, идентификаторы приложения или устройства и технические данные в соответствии с собственными политиками. Характер работы передачи по локальной сети не означает, что сервисы подписок или ассистента не обрабатывают никаких данных."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store ödemelerini Apple yürütür. SwiftTransfer, abonelik durumu ve satın alma yönetimi için Apphud entegrasyonunu kullanır. Bu hizmetler; satın alma bilgilerini, uygulama veya cihaz tanımlayıcılarını ve teknik verileri kendi politikaları kapsamında işleyebilir. Yerel aktarımların işleyişi, abonelik veya asistan hizmetlerinin hiçbir veri işlemediği anlamına gelmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple обробляє платежі в App Store. У SwiftTransfer інтегровано Apphud для відстеження стану передплат і керування покупками. Ці сервіси можуть обробляти відомості про покупки, ідентифікатори застосунку або пристрою та технічні дані відповідно до власних політик. Особливості передавання через локальну мережу не означають, що сервіси передплат або асистента не обробляють жодних даних."
+          }
+        }
+      }
+    },
+    "legal_privacy_purchase_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Předplatná a poskytovatelé služeb"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonnements und Dienstanbieter"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscriptions and service providers"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suscripciones y proveedores de servicios"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonnements et prestataires de services"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbonamenti e fornitori di servizi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구독 및 서비스 제공업체"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subskrypcje i dostawcy usług"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assinaturas e prestadores de serviços"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подписки и поставщики услуг"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonelikler ve Hizmet Sağlayıcılar"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Передплати й постачальники послуг"
+          }
+        }
+      }
+    },
+    "legal_privacy_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zásady ochrany soukromí"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datenschutzerklärung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Política de privacidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Politique de confidentialité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informativa sulla privacy"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개인정보 처리방침"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Polityka prywatności"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Política de Privacidade"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Политика конфиденциальности"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizlilik Politikası"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Політика конфіденційності"
+          }
+        }
+      }
+    },
+    "legal_privacy_transfer_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkce přenosu používají místní síť k odesílání vybraného obsahu připojenému příjemci. Tento příjemce obdrží obsah, který se rozhodnete sdílet. Místní přenosy jsou oddělené od služeb asistenta a předplatného popsaných níže; nelze z toho vyvozovat, že aplikace neshromažďuje žádné údaje."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Übertragungsfunktionen nutzen ein lokales Netzwerk, um ausgewählte Inhalte an den verbundenen Empfänger zu senden. Dieser Empfänger erhält die Inhalte, die Sie zur Weitergabe auswählen. Lokale Übertragungen sind von den nachfolgend beschriebenen Assistenten- und Abonnementdiensten getrennt; die App ist nicht so zu verstehen, dass sie keinerlei Daten erhebt."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The transfer features use a local network to send selected content to the connected recipient. That recipient receives the content you choose to share. Local transfers are separate from the assistant and subscription services described below; the app should not be understood as collecting no data."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las funciones de transferencia utilizan una red local para enviar el contenido seleccionado al destinatario conectado. Ese destinatario recibe el contenido que eliges compartir. Las transferencias locales son independientes de los servicios del asistente y de suscripción descritos a continuación; no debe interpretarse que la aplicación no recopila ningún dato."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les fonctionnalités de transfert utilisent un réseau local pour envoyer le contenu sélectionné au destinataire connecté. Ce destinataire reçoit le contenu que vous choisissez de partager. Les transferts locaux sont distincts des services d’assistant et d’abonnement décrits ci-dessous ; il ne faut pas en déduire que l’application ne collecte aucune donnée."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le funzionalità di trasferimento utilizzano una rete locale per inviare i contenuti selezionati al destinatario connesso. Tale destinatario riceve i contenuti che scegli di condividere. I trasferimenti locali sono separati dai servizi dell'assistente e di abbonamento descritti di seguito; non si deve intendere che l'app non raccolga alcun dato."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전송 기능은 로컬 네트워크를 사용하여 선택한 콘텐츠를 연결된 수신자에게 보냅니다. 해당 수신자는 사용자가 공유하기로 선택한 콘텐츠를 받습니다. 로컬 전송은 아래에 설명된 어시스턴트 및 구독 서비스와 별개이며, 앱이 어떠한 데이터도 수집하지 않는다는 의미로 이해해서는 안 됩니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkcje przesyłania korzystają z sieci lokalnej, aby wysyłać wybrane treści do połączonego odbiorcy. Odbiorca ten otrzymuje treści, które zdecydujesz się udostępnić. Przesyłanie lokalne jest odrębne od opisanych poniżej usług asystenta i subskrypcji; nie należy z tego wyciągać wniosku, że aplikacja nie zbiera żadnych danych."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Os recursos de transferência usam uma rede local para enviar o conteúdo selecionado ao destinatário conectado. Esse destinatário recebe o conteúdo que você escolhe compartilhar. As transferências locais são separadas dos serviços do assistente e de assinatura descritos abaixo; não se deve entender que o app não coleta nenhum dado."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Функции передачи используют локальную сеть для отправки выбранного контента подключённому получателю. Этот получатель получает контент, которым вы решили поделиться. Передача по локальной сети осуществляется отдельно от описанных ниже сервисов ассистента и подписок; не следует считать, что приложение вообще не собирает данные."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım özellikleri, seçilen içerikleri bağlı alıcıya göndermek için yerel ağı kullanır. Bu alıcı, paylaşmayı seçtiğiniz içerikleri alır. Yerel aktarımlar, aşağıda açıklanan asistan ve abonelik hizmetlerinden ayrıdır; uygulamanın hiçbir veri toplamadığı şeklinde anlaşılmamalıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Функції передавання використовують локальну мережу для надсилання вибраного вмісту підключеному одержувачу. Цей одержувач отримує вміст, яким ви вирішили поділитися. Передавання через локальну мережу здійснюється окремо від описаних нижче сервісів асистента та передплат; не слід вважати, що застосунок узагалі не збирає даних."
+          }
+        }
+      }
+    },
+    "legal_privacy_transfer_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Místní přenosy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lokale Übertragungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local transfers"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferencias locales"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferts locaux"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trasferimenti locali"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "로컬 전송"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przesyłanie lokalne"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferências locais"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Передача по локальной сети"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yerel Aktarımlar"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Передавання через локальну мережу"
+          }
+        }
+      }
+    },
+    "legal_terms_ai_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokud je asistent k dispozici, odesílá vaši konverzaci vzdálené službě umělé inteligence. Odpovědi mohou být nepřesné nebo neúplné. Než se budete řídit pokyny, ověřte je, zejména před změnou nebo smazáním dat. Nezadávejte důvěrné informace ani obsah, který nejste oprávněni sdílet. Odpovědi asistenta nepředstavují odborné poradenství."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sofern verfügbar, sendet der Assistent Ihre Unterhaltung an einen entfernten KI-Dienst. Antworten können unzutreffend oder unvollständig sein. Überprüfen Sie Anweisungen, bevor Sie danach handeln, insbesondere bevor Sie Daten ändern oder löschen. Übermitteln Sie keine vertraulichen Informationen oder Inhalte, zu deren Weitergabe Sie nicht berechtigt sind. Der Assistent bietet keine fachliche Beratung."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When available, the assistant sends your conversation to a remote AI service. Responses may be inaccurate or incomplete. Verify instructions before acting, especially before changing or deleting data. Do not submit confidential information or content you are not authorized to share. The assistant is not professional advice."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuando está disponible, el asistente envía tu conversación a un servicio remoto de IA. Las respuestas pueden ser inexactas o incompletas. Verifica las instrucciones antes de actuar, especialmente antes de modificar o eliminar datos. No envíes información confidencial ni contenido que no estés autorizado a compartir. El asistente no constituye asesoramiento profesional."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lorsqu’il est disponible, l’assistant envoie votre conversation à un service d’IA distant. Les réponses peuvent être inexactes ou incomplètes. Vérifiez les instructions avant de les suivre, en particulier avant de modifier ou de supprimer des données. Ne transmettez pas d’informations confidentielles ni de contenu que vous n’êtes pas autorisé à partager. L’assistant ne fournit pas de conseils professionnels."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando disponibile, l'assistente invia la tua conversazione a un servizio di IA remoto. Le risposte possono essere inesatte o incomplete. Verifica le istruzioni prima di agire, soprattutto prima di modificare o eliminare dati. Non inviare informazioni riservate o contenuti che non sei autorizzato a condividere. L'assistente non costituisce una consulenza professionale."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어시스턴트 기능이 제공되는 경우, 어시스턴트는 사용자의 대화를 원격 AI 서비스로 전송합니다. 응답은 부정확하거나 불완전할 수 있습니다. 안내에 따라 행동하기 전에, 특히 데이터를 변경하거나 삭제하기 전에 안내 내용을 확인하세요. 기밀 정보나 공유할 권한이 없는 콘텐츠를 제출하지 마세요. 어시스턴트의 응답은 전문적인 조언이 아닙니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdy asystent jest dostępny, wysyła Twoją rozmowę do zdalnej usługi AI. Odpowiedzi mogą być niedokładne lub niepełne. Zweryfikuj instrukcje przed podjęciem działań, zwłaszcza przed zmianą lub usunięciem danych. Nie przesyłaj informacji poufnych ani treści, których nie masz prawa udostępniać. Odpowiedzi asystenta nie stanowią profesjonalnej porady."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quando disponível, o assistente envia sua conversa a um serviço remoto de IA. As respostas podem ser imprecisas ou incompletas. Verifique as instruções antes de agir, especialmente antes de alterar ou excluir dados. Não envie informações confidenciais nem conteúdo que você não tenha autorização para compartilhar. O assistente não constitui aconselhamento profissional."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда ассистент доступен, он отправляет вашу переписку в удалённый ИИ-сервис. Ответы могут быть неточными или неполными. Проверяйте инструкции, прежде чем следовать им, особенно перед изменением или удалением данных. Не отправляйте конфиденциальную информацию или контент, которым вы не вправе делиться. Ассистент не предоставляет профессиональных консультаций."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistan, kullanılabilir olduğunda konuşmanızı uzaktaki bir yapay zekâ hizmetine gönderir. Yanıtlar hatalı veya eksik olabilir. Harekete geçmeden önce, özellikle verileri değiştirmeden veya silmeden önce talimatları doğrulayın. Gizli bilgileri veya paylaşma yetkiniz olmayan içerikleri göndermeyin. Asistan, profesyonel danışmanlık niteliği taşımaz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коли асистент доступний, він надсилає вашу розмову до віддаленого ШІ-сервісу. Відповіді можуть бути неточними або неповними. Перевіряйте інструкції, перш ніж діяти за ними, особливо перед зміненням або видаленням даних. Не надсилайте конфіденційну інформацію або вміст, який ви не маєте права поширювати. Асистент не надає професійних консультацій."
+          }
+        }
+      }
+    },
+    "legal_terms_ai_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI asistent"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Assistent"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI assistant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistente de IA"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistant IA"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistente IA"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI 어시스턴트"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asystent AI"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistente de IA"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ИИ-ассистент"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapay Zekâ Asistanı"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ШІ-асистент"
+          }
+        }
+      }
+    },
+    "legal_terms_purchase_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prémiové funkce vyžadují nákup uvedený na obrazovce s nabídkou placeného přístupu. Nákupní panel App Storu před potvrzením zobrazuje skutečný produkt, cenu, měnu, období předplatného a případné podmínky zkušebního období. Platbu zpracovává Apple prostřednictvím vašeho účtu Apple. Tento návrh nestanovuje ceny ani neslibuje zkušební období."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premiumfunktionen erfordern den auf der Bezahlschranke angezeigten Kauf. Der Kaufdialog des App Store zeigt vor der Bestätigung das tatsächliche Produkt, den Preis, die Währung, den Abonnementzeitraum und etwaige Bedingungen für einen Testzeitraum an. Apple wickelt die Zahlung über Ihren Apple Account ab. Dieser Entwurf legt keine Preise fest und verspricht keinen Testzeitraum."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium features require the purchase shown on the paywall. The App Store purchase sheet displays the actual product, price, currency, subscription period and any trial terms before confirmation. Apple processes payment through your Apple Account. This draft does not set prices or promise a trial."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las funciones prémium requieren la compra que se muestra en la pantalla de pago. La hoja de compra del App Store muestra el producto, el precio, la moneda, el periodo de suscripción y las condiciones de cualquier prueba que se aplicarán antes de la confirmación. Apple procesa el pago a través de tu cuenta de Apple. Este borrador no establece precios ni promete un periodo de prueba."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les fonctionnalités premium nécessitent l’achat indiqué sur l’écran d’accès payant. La fenêtre d’achat de l’App Store affiche le produit réel, le prix, la devise, la période d’abonnement et les éventuelles conditions d’essai avant la confirmation. Apple traite le paiement via votre compte Apple. Ce projet ne fixe aucun prix et ne promet aucune période d’essai."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le funzionalità premium richiedono l'acquisto mostrato nella schermata di pagamento. Prima della conferma, la schermata di acquisto dell'App Store mostra il prodotto, il prezzo, la valuta, il periodo di abbonamento e le eventuali condizioni di prova effettivamente applicabili. Apple elabora il pagamento tramite il tuo Apple Account. Questa bozza non stabilisce prezzi né promette un periodo di prova."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "프리미엄 기능을 이용하려면 유료 이용 안내 화면에 표시된 구매가 필요합니다. App Store 구매 시트에는 구매 확인 전에 실제 상품, 가격, 통화, 구독 기간 및 적용되는 체험 조건이 표시됩니다. Apple은 사용자의 Apple 계정을 통해 결제를 처리합니다. 이 초안은 가격을 정하거나 체험 제공을 약속하지 않습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funkcje premium wymagają zakupu wskazanego na ekranie oferty płatnego dostępu. Przed potwierdzeniem arkusz zakupu w App Store wyświetla faktyczny produkt, cenę, walutę, okres subskrypcji i ewentualne warunki okresu próbnego. Apple przetwarza płatność za pośrednictwem Twojego konta Apple. Ten projekt nie określa cen ani nie obiecuje okresu próbnego."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Os recursos premium exigem a compra exibida na tela de pagamento. A tela de compra da App Store exibe o produto, o preço, a moeda, o período de assinatura e quaisquer condições de teste efetivamente aplicáveis antes da confirmação. A Apple processa o pagamento por meio da sua Conta Apple. Este rascunho não define preços nem promete um período de teste."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для доступа к премиум-функциям необходимо совершить покупку, указанную на экране платного доступа. Перед подтверждением в окне покупки App Store отображаются фактический продукт, цена, валюта, период подписки и условия пробного периода, если он предусмотрен. Apple обрабатывает платёж через ваш Аккаунт Apple. Этот проект не устанавливает цены и не обещает пробного периода."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium özellikler, ödeme ekranında gösterilen satın alma işlemini gerektirir. App Store satın alma ekranı, onaydan önce geçerli ürünü, fiyatı, para birimini, abonelik süresini ve varsa deneme koşullarını gösterir. Apple, ödemeyi Apple Hesabınız üzerinden işler. Bu taslak fiyat belirlemez veya deneme süresi vaat etmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Для доступу до преміумфункцій потрібно здійснити покупку, зазначену на екрані платного доступу. Перед підтвердженням у вікні покупки App Store відображаються фактичний продукт, ціна, валюта, період передплати й умови пробного періоду, якщо його передбачено. Apple обробляє платіж через ваш обліковий запис Apple. Цей проєкт не встановлює цін і не обіцяє пробного періоду."
+          }
+        }
+      }
+    },
+    "legal_terms_purchase_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nákupy a platby"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käufe und Zahlung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchases and payment"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras y pago"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Achats et paiement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acquisti e pagamento"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구매 및 결제"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zakupy i płatności"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compras e pagamento"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покупки и оплата"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satın Alma ve Ödeme"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Покупки й оплата"
+          }
+        }
+      }
+    },
+    "legal_terms_renewal_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automaticky obnovovaná předplatná se obnovují, pokud nejsou zrušena alespoň 24 hodin před koncem aktuálního období. Apple může platbu za obnovení účtovat během posledních 24 hodin před koncem tohoto období. Předplatné můžete spravovat nebo zrušit v Nastavení > vaše jméno > Předplatná. Smazáním aplikace se předplatné nezruší. Pokud je nabízeno bezplatné zkušební období, zkontrolujte v nákupním panelu podmínky jeho přechodu na placené předplatné a zrušte ho před uvedenou lhůtou, abyste se vyhnuli účtování platby."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatisch verlängerbare Abonnements verlängern sich, sofern sie nicht spätestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden. Apple kann die Gebühr für die Verlängerung innerhalb der letzten 24 Stunden vor Ablauf dieses Zeitraums abbuchen. Verwalten oder kündigen Sie Ihr Abonnement unter Einstellungen > Ihr Name > Abonnements. Durch das Löschen der App wird ein Abonnement nicht gekündigt. Falls ein kostenloser Testzeitraum angeboten wird, prüfen Sie im Kaufdialog die Bedingungen für dessen Übergang in ein kostenpflichtiges Abonnement und kündigen Sie vor der angegebenen Frist, um eine Abbuchung zu vermeiden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto-renewable subscriptions renew unless canceled at least 24 hours before the current period ends. Apple may charge for renewal within 24 hours before that period ends. Manage or cancel in Settings > your name > Subscriptions. Deleting the app does not cancel a subscription. If a free trial is offered, check the purchase sheet for its conversion terms and cancel before the stated deadline to avoid a charge."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las suscripciones con renovación automática se renuevan a menos que se cancelen al menos 24 horas antes de que finalice el periodo en curso. Apple puede cobrar la renovación durante las 24 horas anteriores al final de ese periodo. Gestiona o cancela la suscripción en Ajustes > tu nombre > Suscripciones. Eliminar la aplicación no cancela una suscripción. Si se ofrece una prueba gratuita, consulta sus condiciones de conversión en la hoja de compra y cancela antes del plazo indicado para evitar un cargo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les abonnements à renouvellement automatique sont renouvelés sauf s’ils sont résiliés au moins 24 heures avant la fin de la période en cours. Apple peut facturer le renouvellement dans les 24 heures précédant la fin de cette période. Gérez ou résiliez votre abonnement dans Réglages > votre nom > Abonnements. La suppression de l’application ne résilie pas un abonnement. Si un essai gratuit est proposé, consultez la fenêtre d’achat pour connaître les conditions de son passage à un abonnement payant et résiliez avant l’échéance indiquée pour éviter toute facturation."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli abbonamenti con rinnovo automatico si rinnovano a meno che non vengano annullati almeno 24 ore prima della fine del periodo in corso. Apple può addebitare il rinnovo nelle 24 ore precedenti la fine di tale periodo. Puoi gestire o annullare l'abbonamento in Impostazioni > il tuo nome > Abbonamenti. Eliminare l'app non annulla un abbonamento. Se viene offerto un periodo di prova gratuito, consulta le relative condizioni di conversione nella schermata di acquisto e annulla prima della scadenza indicata per evitare un addebito."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 갱신 구독은 현재 구독 기간이 끝나기 최소 24시간 전에 취소하지 않으면 갱신됩니다. Apple은 해당 기간이 끝나기 전 24시간 이내에 갱신 요금을 청구할 수 있습니다. 설정 > 사용자 이름 > 구독에서 구독을 관리하거나 취소하세요. 앱을 삭제해도 구독은 취소되지 않습니다. 무료 체험이 제공되는 경우, 구매 시트에서 유료 구독 전환 조건을 확인하고 요금이 청구되지 않도록 명시된 기한 전에 취소하세요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subskrypcje odnawiane automatycznie odnawiają się, chyba że zostaną anulowane co najmniej 24 godziny przed końcem bieżącego okresu. Apple może pobrać opłatę za odnowienie w ciągu 24 godzin poprzedzających koniec tego okresu. Subskrypcją możesz zarządzać lub ją anulować w Ustawienia > Twoje imię i nazwisko > Subskrypcje. Usunięcie aplikacji nie anuluje subskrypcji. Jeśli oferowany jest bezpłatny okres próbny, sprawdź w arkuszu zakupu warunki jego przejścia na płatną subskrypcję i anuluj ją przed wskazanym terminem, aby uniknąć opłaty."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As assinaturas com renovação automática são renovadas, a menos que sejam canceladas pelo menos 24 horas antes do término do período atual. A Apple pode cobrar pela renovação nas 24 horas anteriores ao término desse período. Gerencie ou cancele em Ajustes > seu nome > Assinaturas. Excluir o app não cancela uma assinatura. Se um teste gratuito for oferecido, confira as condições de conversão na tela de compra e cancele antes do prazo indicado para evitar uma cobrança."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматически продлеваемые подписки продлеваются, если их не отменить как минимум за 24 часа до окончания текущего периода. Apple может списать плату за продление в течение 24 часов до окончания этого периода. Управлять подпиской или отменить её можно в разделе «Настройки» > ваше имя > «Подписки». Удаление приложения не отменяет подписку. Если предлагается бесплатный пробный период, проверьте в окне покупки условия его перехода в платную подписку и отмените подписку до указанного срока, чтобы избежать списания."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik yenilenen abonelikler, geçerli dönem sona ermeden en az 24 saat önce iptal edilmedikçe yenilenir. Apple, söz konusu dönemin sona ermesinden önceki 24 saat içinde yenileme ücretini tahsil edebilir. Aboneliğinizi Ayarlar > adınız > Abonelikler bölümünden yönetin veya iptal edin. Uygulamayı silmek aboneliği iptal etmez. Ücretsiz deneme sunuluyorsa satın alma ekranındaki dönüşüm koşullarını kontrol edin ve ücret alınmasını önlemek için belirtilen son tarihten önce iptal edin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Передплати з автоматичним поновленням поновлюються, якщо їх не скасувати щонайменше за 24 години до завершення поточного періоду. Apple може стягнути плату за поновлення протягом 24 годин до завершення цього періоду. Керувати передплатою або скасувати її можна в розділі «Параметри» > ваше ім’я > «Передплати». Видалення застосунку не скасовує передплату. Якщо пропонується безкоштовний пробний період, перевірте у вікні покупки умови його переходу в платну передплату й скасуйте передплату до зазначеного строку, щоб уникнути стягнення плати."
+          }
+        }
+      }
+    },
+    "legal_terms_renewal_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatické obnovení a zrušení"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatische Verlängerung und Kündigung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic renewal and cancellation"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renovación automática y cancelación"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renouvellement automatique et résiliation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rinnovo automatico e annullamento"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동 갱신 및 취소"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatyczne odnawianie i anulowanie"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renovação automática e cancelamento"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматическое продление и отмена"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik Yenileme ve İptal"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автоматичне поновлення та скасування"
+          }
+        }
+      }
+    },
+    "legal_terms_restore_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "K obnovení přístupu, na který máte nárok, použijte na obrazovce s nabídkou placeného přístupu volbu Obnovit nákupy s účtem Apple použitým při nákupu. Žádosti o vrácení peněz vyřizuje Apple podle svých zásad a platných právních předpisů; vrácení peněz není zaručeno."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwenden Sie „Käufe wiederherstellen“ auf der Bezahlschranke mit dem für den Kauf verwendeten Apple Account, um wiederherstellbare Zugriffsrechte zurückzuerlangen. Rückerstattungsanträge werden von Apple gemäß den eigenen Richtlinien und dem geltenden Recht bearbeitet; eine Rückerstattung ist nicht garantiert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Restore Purchases on the paywall with the Apple Account used for the purchase to recover eligible access. Refund requests are handled by Apple under its policies and applicable law; a refund is not guaranteed."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa Restaurar compras en la pantalla de pago con la cuenta de Apple utilizada para la compra para recuperar el acceso que cumpla los requisitos. Apple gestiona las solicitudes de reembolso de acuerdo con sus políticas y la legislación aplicable; no se garantiza ningún reembolso."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez « Restaurer les achats » sur l’écran d’accès payant avec le compte Apple utilisé pour l’achat afin de rétablir les accès éligibles à la restauration. Les demandes de remboursement sont traitées par Apple conformément à ses politiques et au droit applicable ; le remboursement n’est pas garanti."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa Ripristina acquisti nella schermata di pagamento con l'Apple Account utilizzato per l'acquisto per recuperare l'accesso per cui sussistono i requisiti. Le richieste di rimborso sono gestite da Apple in base alle proprie politiche e alla legge applicabile; il rimborso non è garantito."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복원 대상 이용 권한을 되찾으려면 구매 시 사용한 Apple 계정으로 유료 이용 안내 화면의 구매 복원을 이용하세요. 환불 요청은 Apple의 정책 및 관련 법률에 따라 Apple이 처리하며, 환불은 보장되지 않습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aby odzyskać dostęp, do którego masz uprawnienia, użyj opcji Przywróć zakupy na ekranie oferty płatnego dostępu, korzystając z konta Apple użytego do zakupu. Wnioski o zwrot środków rozpatruje Apple zgodnie ze swoimi zasadami i obowiązującym prawem; zwrot środków nie jest gwarantowany."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use Restaurar Compras na tela de pagamento com a Conta Apple usada na compra para recuperar o acesso elegível. As solicitações de reembolso são tratadas pela Apple de acordo com suas políticas e a legislação aplicável; o reembolso não é garantido."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Чтобы восстановить доступ, подлежащий восстановлению, воспользуйтесь функцией «Восстановить покупки» на экране платного доступа, используя Аккаунт Apple, с которого была совершена покупка. Запросы на возврат средств рассматриваются Apple в соответствии с её правилами и применимым законодательством; возврат средств не гарантируется."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geri yüklenmeye uygun erişimi yeniden elde etmek için satın alma işleminde kullanılan Apple Hesabıyla ödeme ekranındaki Satın Alımları Geri Yükle seçeneğini kullanın. Para iadesi talepleri, Apple tarafından kendi politikaları ve geçerli yasalar kapsamında ele alınır; para iadesi garanti edilmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Щоб відновити доступ, який підлягає відновленню, скористайтеся функцією «Відновити покупки» на екрані платного доступу з обліковим записом Apple, який використовувався для покупки. Запити на повернення коштів розглядає Apple відповідно до своїх правил і застосовного законодавства; повернення коштів не гарантується."
+          }
+        }
+      }
+    },
+    "legal_terms_restore_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obnovení nákupů a vrácení peněz"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käufe wiederherstellen und Rückerstattungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore purchases and refunds"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar compras y reembolsos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restauration des achats et remboursements"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristino degli acquisti e rimborsi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구매 복원 및 환불"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przywracanie zakupów i zwroty środków"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restauração de compras e reembolsos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восстановление покупок и возврат средств"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satın Alımları Geri Yükleme ve Para İadeleri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відновлення покупок і повернення коштів"
+          }
+        }
+      }
+    },
+    "legal_terms_rights_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na transakce v App Storu se vztahují také nákupní podmínky společnosti Apple. Žádné ustanovení tohoto návrhu nemá za cíl vyloučit práva spotřebitelů, kterých se podle platných právních předpisů nelze vzdát. Provozovatel aplikace musí před zveřejněním konečného znění podmínek dokončit právní posouzení."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Für Transaktionen im App Store gelten auch die Kaufbedingungen von Apple. Keine Bestimmung dieses Entwurfs soll Verbraucherrechte ausschließen, auf die nach geltendem Recht nicht verzichtet werden kann. Der App-Betreiber muss die rechtliche Prüfung abschließen, bevor er die endgültigen Bedingungen veröffentlicht."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple's purchase terms also apply to App Store transactions. Nothing in this draft is intended to exclude consumer rights that cannot be waived under applicable law. The app operator must complete legal review before publishing final terms."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las condiciones de compra de Apple también se aplican a las transacciones del App Store. Nada de lo dispuesto en este borrador pretende excluir los derechos de los consumidores que sean irrenunciables conforme a la legislación aplicable. El operador de la aplicación debe completar la revisión jurídica antes de publicar las condiciones definitivas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les conditions d’achat d’Apple s’appliquent également aux transactions effectuées sur l’App Store. Aucune disposition de ce projet ne vise à exclure les droits des consommateurs auxquels il ne peut être renoncé en vertu du droit applicable. L’exploitant de l’application doit achever l’examen juridique avant de publier les conditions définitives."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alle transazioni sull'App Store si applicano anche le condizioni di acquisto di Apple. Nulla in questa bozza intende escludere i diritti dei consumatori ai quali non è possibile rinunciare ai sensi della legge applicabile. Il gestore dell'app deve completare la revisione legale prima di pubblicare le condizioni definitive."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store 거래에는 Apple의 구매 약관도 적용됩니다. 이 초안의 어떠한 내용도 관련 법률에 따라 포기할 수 없는 소비자 권리를 배제하려는 의도가 아닙니다. 앱 운영자는 최종 약관을 게시하기 전에 법률 검토를 완료해야 합니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do transakcji w App Store mają zastosowanie również warunki zakupów Apple. Żadne postanowienie tego projektu nie ma na celu wyłączenia praw konsumenta, których nie można się zrzec na mocy obowiązującego prawa. Operator aplikacji musi zakończyć weryfikację prawną przed opublikowaniem ostatecznych warunków."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Os termos de compra da Apple também se aplicam às transações da App Store. Nada neste rascunho pretende excluir direitos do consumidor que sejam irrenunciáveis nos termos da legislação aplicável. O operador do app deve concluir a revisão jurídica antes de publicar os termos definitivos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "К операциям в App Store также применяются условия покупок Apple. Ничто в этом проекте не направлено на исключение прав потребителей, от которых нельзя отказаться в соответствии с применимым законодательством. Оператор приложения должен завершить юридическую проверку перед публикацией окончательной редакции условий."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Store işlemlerinde Apple'ın satın alma koşulları da geçerlidir. Bu taslaktaki hiçbir hüküm, geçerli yasalar kapsamında feragat edilemeyen tüketici haklarını hariç tutmayı amaçlamaz. Uygulama işletmecisi, nihai koşulları yayımlamadan önce hukuki incelemeyi tamamlamalıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "До операцій в App Store також застосовуються умови покупок Apple. Жодне положення цього проєкту не має на меті виключити права споживачів, від яких не можна відмовитися за застосовним законодавством. Оператор застосунку має завершити юридичну перевірку перед публікацією остаточної редакції умов."
+          }
+        }
+      }
+    },
+    "legal_terms_rights_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaše práva"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ihre Rechte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your rights"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus derechos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos droits"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I tuoi diritti"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사용자의 권리"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoje prawa"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seus direitos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваши права"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haklarınız"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваші права"
+          }
+        }
+      }
+    },
+    "legal_terms_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podmínky používání"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nutzungsbedingungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms of Use"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condiciones de uso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conditions d’utilisation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condizioni d'uso"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이용약관"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warunki użytkowania"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termos de Uso"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Условия использования"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanım Koşulları"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Умови використання"
+          }
+        }
+      }
+    },
+    "legal_terms_use_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer vám pomáhá přenášet vybrané fotografie, videa, kontakty, události kalendáře, připomínky a soubory mezi zařízeními prostřednictvím místní sítě. Přenášejte pouze obsah, který jste oprávněni používat a sdílet. Zkontrolujte příjemce i výsledky importu a uchovávejte samostatnou zálohu důležitých dat. Dostupnost závisí na oprávněních, kompatibilních zařízeních a připojení."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer hilft Ihnen, ausgewählte Fotos, Videos, Kontakte, Kalenderereignisse, Erinnerungen und Dateien über ein lokales Netzwerk zwischen Geräten zu übertragen. Übertragen Sie nur Inhalte, zu deren Nutzung und Weitergabe Sie berechtigt sind. Überprüfen Sie den Empfänger und die Importergebnisse und bewahren Sie eine separate Sicherungskopie wichtiger Daten auf. Die Verfügbarkeit hängt von den Berechtigungen, kompatiblen Geräten und der Verbindung ab."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer helps you transfer selected photos, videos, contacts, calendar events, reminders and files between devices over a local network. Transfer only content you are authorized to use and share. Check the recipient and imported results, and keep a separate backup of important data. Availability depends on permissions, compatible devices and the connection."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer te ayuda a transferir fotos, vídeos, contactos, eventos del calendario, recordatorios y archivos seleccionados entre dispositivos a través de una red local. Transfiere únicamente contenido que estés autorizado a usar y compartir. Comprueba el destinatario y los resultados de la importación, y conserva una copia de seguridad independiente de los datos importantes. La disponibilidad depende de los permisos, de la compatibilidad de los dispositivos y de la conexión."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer vous aide à transférer une sélection de photos, vidéos, contacts, événements de calendrier, rappels et fichiers entre des appareils via un réseau local. Transférez uniquement du contenu que vous êtes autorisé à utiliser et à partager. Vérifiez le destinataire et les résultats de l’importation, et conservez une sauvegarde distincte des données importantes. La disponibilité dépend des autorisations, de la compatibilité des appareils et de la connexion."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer ti aiuta a trasferire foto, video, contatti, eventi del calendario, promemoria e file selezionati tra dispositivi tramite una rete locale. Trasferisci solo contenuti che sei autorizzato a utilizzare e condividere. Controlla il destinatario e i risultati dell'importazione e conserva un backup separato dei dati importanti. La disponibilità dipende dalle autorizzazioni, dalla compatibilità dei dispositivi e dalla connessione."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer는 선택한 사진, 동영상, 연락처, 캘린더 이벤트, 미리 알림 및 파일을 로컬 네트워크를 통해 기기 간에 전송할 수 있도록 도와줍니다. 사용하고 공유할 권한이 있는 콘텐츠만 전송하세요. 수신자와 가져오기 결과를 확인하고, 중요한 데이터는 별도로 백업해 두세요. 기능 이용 가능 여부는 권한, 호환 기기 및 연결 상태에 따라 달라집니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer pomaga przesyłać wybrane zdjęcia, filmy, kontakty, wydarzenia z kalendarza, przypomnienia i pliki między urządzeniami przez sieć lokalną. Przesyłaj wyłącznie treści, z których masz prawo korzystać i które masz prawo udostępniać. Sprawdź odbiorcę i wyniki importu oraz zachowaj oddzielną kopię zapasową ważnych danych. Dostępność zależy od uprawnień, zgodnych urządzeń i połączenia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O SwiftTransfer ajuda você a transferir fotos, vídeos, contatos, eventos de calendário, lembretes e arquivos selecionados entre dispositivos por uma rede local. Transfira apenas conteúdo que você tenha autorização para usar e compartilhar. Confira o destinatário e os resultados da importação e mantenha um backup separado dos dados importantes. A disponibilidade depende das permissões, da compatibilidade dos dispositivos e da conexão."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer помогает переносить выбранные фотографии, видео, контакты, события календаря, напоминания и файлы между устройствами по локальной сети. Передавайте только тот контент, который вы вправе использовать и которым вправе делиться. Проверяйте получателя и результаты импорта, а также храните отдельную резервную копию важных данных. Доступность функций зависит от разрешений, совместимости устройств и соединения."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer, seçilen fotoğrafları, videoları, kişileri, takvim etkinliklerini, anımsatıcıları ve dosyaları yerel ağ üzerinden cihazlar arasında aktarmanıza yardımcı olur. Yalnızca kullanma ve paylaşma yetkiniz olan içerikleri aktarın. Alıcıyı ve içe aktarma sonuçlarını kontrol edin ve önemli verilerin ayrı bir yedeğini saklayın. Kullanılabilirlik; izinlere, uyumlu cihazlara ve bağlantıya bağlıdır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer допомагає переносити вибрані фотографії, відео, контакти, події календаря, нагадування та файли між пристроями через локальну мережу. Передавайте лише той вміст, який ви маєте право використовувати й поширювати. Перевіряйте одержувача та результати імпорту й зберігайте окрему резервну копію важливих даних. Доступність функцій залежить від дозволів, сумісності пристроїв і з’єднання."
+          }
+        }
+      }
+    },
+    "legal_terms_use_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Používání aplikace SwiftTransfer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer verwenden"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using SwiftTransfer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uso de SwiftTransfer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisation de SwiftTransfer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilizzo di SwiftTransfer"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer 사용"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korzystanie ze SwiftTransfer"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uso do SwiftTransfer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Использование SwiftTransfer"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer Kullanımı"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Використання SwiftTransfer"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
