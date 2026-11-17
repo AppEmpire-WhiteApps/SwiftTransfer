@@ -7,7 +7,7 @@ struct TransferOnboardingExperience: View {
     var body: some View {
         GeometryReader { proxy in
             OnboardingBuilder(
-                screens: screens,
+                screens: screens(safeAreaTop: proxy.safeAreaInsets.top),
                 paywallImages: PremiumDesign.resources,
                 style: PremiumDesign.onboarding(scale: PremiumLayout(size: proxy.size).scale),
                 linksConfig: PremiumDesign.links,
@@ -28,8 +28,8 @@ struct TransferOnboardingExperience: View {
                     }
                 ),
                 onScreenShown: { index, _ in page = index },
-                onPaywallShown: { page = 3 },
-                onSecondaryPaywallShown: { page = 4 },
+                onPaywallShown: { page = 4 },
+                onSecondaryPaywallShown: { page = 5 },
                 onComplete: onFinish
             )
         }
@@ -37,7 +37,7 @@ struct TransferOnboardingExperience: View {
         .accessibilityIdentifier("onboarding.page.\(page)")
     }
 
-    private var screens: [OnboardingScreen] {
+    private func screens(safeAreaTop: CGFloat) -> [OnboardingScreen] {
         [
             OnboardingScreen(
                 id: 0,
@@ -50,8 +50,8 @@ struct TransferOnboardingExperience: View {
                 buttonTitle: String(localized: "Continue"),
                 images: AdaptiveResources(iphone: Image("onb_transfer")),
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding) {
-                        OnboardingFeatureScene(illustration: .onbTransfer)
+                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                        OnboardingFeatureScene(story: .transfer)
                     }
                 )
             ),
@@ -66,54 +66,47 @@ struct TransferOnboardingExperience: View {
                 buttonTitle: String(localized: "Continue"),
                 images: AdaptiveResources(iphone: Image("onb_data_types")),
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding) {
-                        OnboardingFeatureScene(illustration: .onbDataTypes)
+                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                        OnboardingFeatureScene(story: .selection)
                     }
                 )
             ),
             OnboardingScreen(
                 id: 2,
-                title1: String(localized: "A smoother move", table: "Premium"),
-                title2: String(localized: "In their words", table: "Premium"),
+                title1: String(localized: "We value", table: "Premium"),
+                title2: String(localized: "Your feedback", table: "Premium"),
                 subtitle: String(
                     localized:
-                        "A look at everyday transfer stories\nIllustrative reviews for this preview",
+                        "Tell us about your transfer\nYour feedback helps us improve",
                     table: "Premium"),
-                message: String(localized: "Photos, guidance and a helping hand", table: "Premium"),
+                message: String(localized: "Every transfer story matters", table: "Premium"),
                 buttonTitle: String(localized: "Continue"),
                 images: PremiumDesign.resources,
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding) {
+                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
                         OnboardingReviews()
+                    }
+                )
+            ),
+            OnboardingScreen(
+                id: 3,
+                title1: String(localized: "A guide for every step", table: "Premium"),
+                title2: String(localized: "Help when you need it", table: "Premium"),
+                subtitle: String(
+                    localized: "Follow a clear transfer guide\nAsk the AI assistant for help",
+                    table: "Premium"),
+                message: String(localized: "Guides and AI are part of Premium", table: "Premium"),
+                buttonTitle: String(localized: "Continue"),
+                images: AdaptiveResources(iphone: Illustration.guideWifiGalaxy.image),
+                backgroundView: AnyView(
+                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                        OnboardingFeatureScene(story: .guidance)
                     }
                 )
             ),
         ]
     }
 
-}
-
-private struct OnboardingFeatureScene: View {
-    let illustration: Illustration
-    @Environment(\.accessibilityReduceMotion) private var reduceMotion
-    @State private var visible = false
-
-    var body: some View {
-        GeometryReader { proxy in
-            let height = max(60, min(420, proxy.size.height - 24, proxy.size.width * 0.9))
-            IllustrationView(illustration: illustration, height: height, floating: true)
-                .scaleEffect(visible || reduceMotion ? 1 : 0.97)
-                .opacity(visible || reduceMotion ? 1 : 0)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .padding(.bottom, 20)
-                .onAppear {
-                    withAnimation(reduceMotion ? nil : .easeOut(duration: 0.36)) {
-                        visible = true
-                    }
-                }
-        }
-        .id(illustration.rawValue)
-    }
 }
 
 #Preview("SE") {

@@ -1,92 +1,112 @@
 import SwiftUI
 
-/// Illustrative copy is deliberately labeled; replace it with approved feedback before release.
+/// The names and quotes are design examples, not verified customer testimonials.
 struct OnboardingReviews: View {
-    @ScaledMetric(relativeTo: .footnote) private var compactBodySize = 12
-    @ScaledMetric(relativeTo: .subheadline) private var compactTitleSize = 13
+    @ScaledMetric(relativeTo: .footnote) private var bodySize = 12
 
     var body: some View {
         GeometryReader { proxy in
-            let compact = proxy.size.height < 360
+            let compact = proxy.size.height < 380
             ViewThatFits(in: .vertical) {
-                cards(compact: compact).fixedSize(horizontal: false, vertical: true)
-                ScrollView { cards(compact: compact) }
+                composition(compact: compact).fixedSize(horizontal: false, vertical: true)
+                ScrollView { composition(compact: compact) }
             }
-            .frame(maxWidth: 520)
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(width: min(520, max(0, proxy.size.width - 40)))
+            .frame(width: proxy.size.width, height: proxy.size.height)
         }
-        .padding(.horizontal, 20)
-        .padding(.bottom, 20)
         .accessibilityElement(children: .contain)
         .accessibilityIdentifier("onboarding.reviews")
     }
 
-    private func cards(compact: Bool) -> some View {
-        EqualReviewCards(spacing: 8) {
-            review(
-                title: "Photos, ready to move",
-                body: "I picked the photos I wanted and moved them to my new phone over Wi-Fi.",
-                symbol: "photo", compact: compact
-            )
-            review(
-                title: "A guide for each step",
-                body: "The guide helped me connect my devices and choose what to transfer.",
-                symbol: "book.closed", compact: compact
-            )
-            review(
-                title: "Help along the way",
-                body: "I asked the assistant about my connection and got clear steps to try.",
-                symbol: "bubble.left", compact: compact
-            )
+    private func composition(compact: Bool) -> some View {
+        VStack(spacing: compact ? 8 : 14) {
+            endorsement(compact: compact)
+            EqualReviewCards(spacing: compact ? 6 : 8) {
+                review(
+                    name: "Alex", initial: "A", title: "Photos, ready to move",
+                    body: "My photos arrived on my new phone over Wi-Fi.", compact: compact)
+                review(
+                    name: "Sam", initial: "S", title: "A guide for each step",
+                    body: "The guide made connecting my phones much clearer.", compact: compact)
+                review(
+                    name: "Jordan", initial: "J", title: "Help along the way",
+                    body: "The assistant helped me work out what to try next.", compact: compact)
+            }
+        }
+    }
+
+    private func endorsement(compact: Bool) -> some View {
+        VStack(spacing: compact ? 4 : 7) {
+            HStack(spacing: compact ? 18 : 24) {
+                Image(systemName: "laurel.leading")
+                VStack(spacing: compact ? 3 : 5) {
+                    stars(size: compact ? 9 : 12)
+                    VStack(spacing: 0) {
+                        Text("Built around", tableName: "Premium")
+                        Text("Your next move", tableName: "Premium")
+                    }
+                    .font(.system(size: compact ? 15 : 20, weight: .bold, design: .rounded))
+                    .foregroundStyle(AppColor.textPrimary)
+                    .multilineTextAlignment(.center)
+                }
+                Image(systemName: "laurel.trailing")
+            }
+            .font(.system(size: compact ? 27 : 38, weight: .medium))
+            .foregroundStyle(AppColor.primary)
+            Text("Illustrative reviews · not customer ratings", tableName: "Premium")
+                .font(.system(size: compact ? 10 : 11))
+                .foregroundStyle(AppColor.textSecondary)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
         }
     }
 
     private func review(
-        title: LocalizedStringKey, body: LocalizedStringKey, symbol: String, compact: Bool
-    )
-        -> some View
-    {
-        VStack(alignment: .leading, spacing: 4) {
+        name: String, initial: String, title: LocalizedStringKey,
+        body: LocalizedStringKey, compact: Bool
+    ) -> some View {
+        VStack(alignment: .leading, spacing: compact ? 4 : 6) {
             HStack(spacing: 8) {
-                Image(systemName: symbol)
-                    .font(.system(size: 12, weight: .semibold))
-                    .foregroundStyle(AppColor.primary)
-                    .frame(width: 24, height: 24)
-                    .background(AppColor.skyMist, in: Circle())
+                Text(verbatim: initial)
+                    .font(.system(size: compact ? 13 : 16, weight: .bold, design: .rounded))
+                    .foregroundStyle(AppColor.primaryDeep)
+                    .frame(width: compact ? 28 : 36, height: compact ? 28 : 36)
+                    .background(AppGradient.hero, in: Circle())
+                    .overlay { Circle().stroke(AppColor.skyLight, lineWidth: 1) }
                     .accessibilityHidden(true)
-                Text("Illustrative review", tableName: "Premium")
-                    .font(.caption2.weight(.medium))
-                    .foregroundStyle(AppColor.textSecondary)
-                Spacer(minLength: 0)
-                HStack(spacing: 2) {
-                    ForEach(0..<5, id: \.self) { _ in
-                        Image(systemName: "star.fill")
+                VStack(alignment: .leading, spacing: 2) {
+                    HStack {
+                        Text(verbatim: name)
+                            .font(.system(size: compact ? 12 : 14, weight: .semibold))
+                            .foregroundStyle(AppColor.textPrimary)
+                        Spacer(minLength: 4)
+                        stars(size: compact ? 8 : 10)
                     }
+                    Text(title, tableName: "Premium")
+                        .font(.system(size: compact ? 11 : 12, weight: .medium))
+                        .foregroundStyle(AppColor.primaryDeep)
                 }
-                .font(.system(size: 9))
-                .foregroundStyle(AppColor.warning)
-                .accessibilityLabel(Text("Example rating: five stars", tableName: "Premium"))
             }
-            Text(title, tableName: "Premium")
-                .font(
-                    compact
-                        ? .system(size: compactTitleSize, weight: .semibold)
-                        : .subheadline.weight(.semibold)
-                )
-                .foregroundStyle(AppColor.textPrimary)
             Text(body, tableName: "Premium")
-                .font(compact ? .system(size: compactBodySize) : .footnote)
+                .font(.system(size: compact ? bodySize : bodySize + 1).italic())
                 .foregroundStyle(AppColor.textSecondary)
                 .fixedSize(horizontal: false, vertical: true)
         }
-        .padding(compact ? 8 : 10)
+        .padding(compact ? 7 : 9)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-        .background(.white, in: RoundedRectangle(cornerRadius: PremiumDesign.cornerRadius))
-        .overlay {
-            RoundedRectangle(cornerRadius: PremiumDesign.cornerRadius)
-                .stroke(AppColor.skyLight, lineWidth: 1)
-        }
+        .background(.white.opacity(0.96), in: RoundedRectangle(cornerRadius: 8))
+        .overlay { RoundedRectangle(cornerRadius: 8).stroke(AppColor.skyLight, lineWidth: 1) }
+        .shadow(color: AppColor.primary.opacity(0.045), radius: 8, y: 3)
         .accessibilityElement(children: .combine)
+    }
+
+    private func stars(size: CGFloat) -> some View {
+        HStack(spacing: 2) {
+            ForEach(0..<5, id: \.self) { _ in Image(systemName: "star.fill") }
+        }
+        .font(.system(size: size))
+        .foregroundStyle(AppColor.warning)
+        .accessibilityLabel(Text("Example rating: five stars", tableName: "Premium"))
     }
 }
 
@@ -113,8 +133,7 @@ private struct EqualReviewCards: Layout {
             subview.place(
                 at: CGPoint(x: bounds.minX, y: bounds.minY + CGFloat(index) * (height + spacing)),
                 anchor: .topLeading,
-                proposal: ProposedViewSize(width: bounds.width, height: height)
-            )
+                proposal: ProposedViewSize(width: bounds.width, height: height))
         }
     }
 
