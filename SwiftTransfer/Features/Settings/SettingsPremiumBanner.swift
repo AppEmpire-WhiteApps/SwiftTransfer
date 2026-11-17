@@ -1,16 +1,22 @@
+import PremiumKit
 import SwiftUI
 
 /// An artwork-backed banner for the main or assistant paywall placement.
 struct SettingsPremiumBanner: View {
     @Environment(AppRouter.self) private var router
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
+    @ObservedObject private var premium = Premium.shared
 
     private var isAssistant: Bool {
-        router.premiumAccess.isPremium
+        route == .assistant
     }
 
-    private var route: PremiumRoute {
-        SettingsPremiumBannerState(isPremium: isAssistant).route
+    private var route: PremiumRoute? {
+        SettingsPremiumBannerState(
+            isPremium: router.premiumAccess.isPremium,
+            hasAssistantSubscription: premium.hasActiveProduct(
+                fromPaywall: PremiumRoute.assistant.paywallID)
+        ).route
     }
 
     private var heading: LocalizedStringKey {
@@ -33,28 +39,30 @@ struct SettingsPremiumBanner: View {
     }
 
     var body: some View {
-        Button {
-            // Open the placement even when the shared subscription is active.
-            // This is navigation only; it does not change feature entitlements.
-            router.premiumAccess.paywallRoute = route
-        } label: {
-            copy
-                .padding(Spacing.xl)
-                .padding(.trailing, artworkInset)
-                .frame(maxWidth: .infinity, minHeight: 152, alignment: .leading)
-                .background { artworkBackground }
-                .clipShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
-                .overlay {
-                    RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
-                        .strokeBorder(AppColor.primary.opacity(0.10), lineWidth: 1)
-                }
-                .contentShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+        if let route {
+            Button {
+                // Open the placement even when the shared subscription is active.
+                // This is navigation only; it does not change feature entitlements.
+                router.premiumAccess.paywallRoute = route
+            } label: {
+                copy
+                    .padding(Spacing.xl)
+                    .padding(.trailing, artworkInset)
+                    .frame(maxWidth: .infinity, minHeight: 152, alignment: .leading)
+                    .background { artworkBackground }
+                    .clipShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+                    .overlay {
+                        RoundedRectangle(cornerRadius: Radius.card, style: .continuous)
+                            .strokeBorder(AppColor.primary.opacity(0.10), lineWidth: 1)
+                    }
+                    .contentShape(RoundedRectangle(cornerRadius: Radius.card, style: .continuous))
+            }
+            .buttonStyle(.plain)
+            .shadow(color: AppColor.primary.opacity(0.07), radius: 12, x: 0, y: 5)
+            .accessibilityElement(children: .combine)
+            .accessibilityIdentifier(
+                isAssistant ? "settings.assistantBanner" : "settings.premiumBanner")
         }
-        .buttonStyle(.plain)
-        .shadow(color: AppColor.primary.opacity(0.07), radius: 12, x: 0, y: 5)
-        .accessibilityElement(children: .combine)
-        .accessibilityIdentifier(
-            isAssistant ? "settings.assistantBanner" : "settings.premiumBanner")
     }
 
     private var copy: some View {
@@ -130,6 +138,10 @@ struct SettingsPremiumBanner: View {
 
 struct SettingsPremiumBannerState {
     let isPremium: Bool
+    let hasAssistantSubscription: Bool
 
-    var route: PremiumRoute { isPremium ? .assistant : .main }
+    var route: PremiumRoute? {
+        guard !hasAssistantSubscription else { return nil }
+        return isPremium ? .assistant : .main
+    }
 }
