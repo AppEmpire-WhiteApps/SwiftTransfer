@@ -13,6 +13,14 @@ enum GuideID: String, CaseIterable, Identifiable, Hashable, Codable, Sendable {
 
     var id: String { rawValue }
 
+    /// The FAQ screen enforces access separately for each question.
+    var requiresPremium: Bool {
+        switch self {
+        case .wifiGalaxy, .faq: false
+        default: true
+        }
+    }
+
     var title: LocalizedStringResource {
         switch self {
         case .wifiGalaxy: "iPhone to Android over Wi-Fi"

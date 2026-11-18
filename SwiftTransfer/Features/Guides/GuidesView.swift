@@ -33,7 +33,7 @@ struct GuidesView: View {
                             } label: {
                                 GuideGridCard(guide: guide)
                                     .overlay(alignment: .topTrailing) {
-                                        if !router.premiumAccess.isPremium {
+                                        if !router.premiumAccess.canAccessGuide(guide.id) {
                                             Image(systemName: "lock.fill")
                                                 .foregroundStyle(AppColor.primary)
                                                 .padding(12)
@@ -139,7 +139,7 @@ struct GuideFAQList: View {
             ForEach(items) { item in
                 VStack(alignment: .leading, spacing: Spacing.s) {
                     Button {
-                        toggle(item.id)
+                        toggle(item)
                     } label: {
                         HStack(alignment: .firstTextBaseline, spacing: Spacing.m) {
                             Text(item.question)
@@ -148,7 +148,7 @@ struct GuideFAQList: View {
                                 .multilineTextAlignment(.leading)
                                 .fixedSize(horizontal: false, vertical: true)
                             Spacer(minLength: 0)
-                            if !router.premiumAccess.isPremium {
+                            if !router.premiumAccess.canAccessFAQItem(item) {
                                 Image(systemName: "lock.fill")
                                     .foregroundStyle(AppColor.primary)
                             }
@@ -164,7 +164,7 @@ struct GuideFAQList: View {
                     .accessibilityValue(Text(expanded.contains(item.id) ? "Expanded" : "Collapsed"))
                     .accessibilityHint(Text("Shows the answer"))
 
-                    if expanded.contains(item.id) && router.premiumAccess.isPremium {
+                    if expanded.contains(item.id) && router.premiumAccess.canAccessFAQItem(item) {
                         Text(item.answer)
                             .font(AppFont.callout)
                             .foregroundStyle(AppColor.textSecondary)
@@ -177,13 +177,13 @@ struct GuideFAQList: View {
         }
     }
 
-    private func toggle(_ id: UUID) {
-        guard router.premiumAccess.authorize(.guides) else { return }
+    private func toggle(_ item: GuideFAQItem) {
+        guard router.premiumAccess.authorizeFAQItem(item) else { return }
         withAnimation(reduceMotion ? nil : .easeInOut(duration: 0.25)) {
-            if expanded.contains(id) {
-                expanded.remove(id)
+            if expanded.contains(item.id) {
+                expanded.remove(item.id)
             } else {
-                expanded.insert(id)
+                expanded.insert(item.id)
             }
         }
     }

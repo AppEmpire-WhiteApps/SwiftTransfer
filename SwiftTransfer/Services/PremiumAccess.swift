@@ -96,6 +96,24 @@ final class PremiumAccess {
     }
 
     @discardableResult
+    func authorizeGuide(_ guide: GuideID) -> Bool {
+        !guide.requiresPremium || authorize(.guides)
+    }
+
+    func canAccessGuide(_ guide: GuideID) -> Bool {
+        !guide.requiresPremium || isPremium
+    }
+
+    @discardableResult
+    func authorizeFAQItem(_ item: GuideFAQItem) -> Bool {
+        !item.requiresPremium || authorize(.guides)
+    }
+
+    func canAccessFAQItem(_ item: GuideFAQItem) -> Bool {
+        !item.requiresPremium || isPremium
+    }
+
+    @discardableResult
     func authorizePhotos(_ selection: TransferSelection, preparedEntries: [TransferEntry]? = nil)
         -> Bool
     {

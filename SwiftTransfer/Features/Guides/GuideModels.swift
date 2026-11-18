@@ -68,4 +68,5 @@ struct GuideFAQItem: Identifiable, Sendable {
     let id = UUID()
     let question: LocalizedStringResource
     let answer: LocalizedStringResource
+    var requiresPremium = true
 }

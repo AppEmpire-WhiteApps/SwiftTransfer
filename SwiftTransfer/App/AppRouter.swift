@@ -106,12 +106,12 @@ final class AppRouter {
     }
 
     func openGuide(_ guide: GuideID) {
-        guard premiumAccess.authorize(.guides) else { return }
+        guard premiumAccess.authorizeGuide(guide) else { return }
         showOnHome(.guide(guide), tab: .guides)
     }
 
     func open(_ route: AppRoute) {
-        if case .guide = route, !premiumAccess.authorize(.guides) { return }
+        if case .guide(let guide) = route, !premiumAccess.authorizeGuide(guide) { return }
         showOnHome(route, tab: .home)
     }
 

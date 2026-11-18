@@ -25,11 +25,11 @@ struct GuideDetailView: View {
         .navigationTitle(Text(content.title))
         .navigationBarTitleDisplayMode(.inline)
         .trackScreen("guide_\(guide.rawValue)")
-        .premiumLocked(!router.premiumAccess.isPremium) {
-            _ = router.premiumAccess.authorize(.guides)
+        .premiumLocked(!router.premiumAccess.canAccessGuide(guide)) {
+            _ = router.premiumAccess.authorizeGuide(guide)
         }
         .task {
-            _ = router.premiumAccess.authorize(.guides)
+            _ = router.premiumAccess.authorizeGuide(guide)
         }
     }
 

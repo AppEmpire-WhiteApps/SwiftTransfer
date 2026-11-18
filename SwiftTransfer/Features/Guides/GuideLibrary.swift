@@ -392,7 +392,8 @@ private extension GuideLibrary {
             faq: [
                 GuideFAQItem(
                     question: "Is data deleted from the old phone?",
-                    answer: "No. The app only reads your data and makes copies. Nothing is deleted or changed on the old phone."
+                    answer: "No. The app only reads your data and makes copies. Nothing is deleted or changed on the old phone.",
+                    requiresPremium: false
                 ),
                 GuideFAQItem(
                     question: "Do I need to keep the app open?",
