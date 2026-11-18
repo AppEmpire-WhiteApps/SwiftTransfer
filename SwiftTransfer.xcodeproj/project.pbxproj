@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C10000000000000000000001 /* PremiumKit in Frameworks */ = {isa = PBXBuildFile; productRef = C10000000000000000000003 /* PremiumKit */; };
+		D30000000000000000000003 /* LLMSecret.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30000000000000000000002 /* LLMSecret.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +18,7 @@
 		B10000000000000000000020 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
 		B10000000000000000000021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B10000000000000000000022 /* Secrets.example.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.example.xcconfig; sourceTree = "<group>"; };
+		D30000000000000000000002 /* LLMSecret.generated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLMSecret.generated.swift; sourceTree = DERIVED_FILE_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -78,6 +80,7 @@
 				B10000000000000000000020 /* Base.xcconfig */,
 				B10000000000000000000022 /* Secrets.example.xcconfig */,
 				B10000000000000000000021 /* Info.plist */,
+				D30000000000000000000002 /* LLMSecret.generated.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30000000000000000000003 /* LLMSecret.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

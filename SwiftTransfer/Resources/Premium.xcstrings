@@ -1918,6 +1918,7 @@
       }
     },
     "Illustrative reviews · not customer ratings" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
