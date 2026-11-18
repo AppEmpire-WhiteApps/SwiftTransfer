@@ -1,0 +1,131 @@
+{
+  "title": "Privacy Policy",
+  "effectiveDate": "2026-11-18",
+  "sections": [
+    {
+      "title": "Application and Service Provider",
+      "paragraphs": [
+        "This privacy policy applies to the SwiftTransfer app for mobile devices, together with any related services operated by Caroline (collectively, the \"Application\"). Caroline is hereby referred to as the \"Service Provider\".",
+        "SwiftTransfer provides transfers of selected content between compatible iPhone and Android devices over a local network or using an external drive, supported file imports, transfer guides and an AI assistant. This policy explains both data stored locally and data sent to services used for optional AI features and purchases."
+      ]
+    },
+    {
+      "title": "Information Collection and Use",
+      "paragraphs": [
+        "The Application reads and processes the content you select for a transfer or import, which may include photos, videos, contacts, calendar events, reminders and files. Access depends on the relevant operating-system permission or the files you select. The selected content is processed to prepare, send, receive or save the requested transfer; a local transfer does not require you to upload the selected library to the Service Provider or to the AI assistant.",
+        "The Application requests relevant permissions when needed, including Photos, Contacts, Calendar, Reminders and local-network access. The camera may be used to scan a pairing QR code, and local notifications may be used for transfer status. Permissions can be managed in iOS Settings. Reading a pairing QR code does not submit a camera image to the AI assistant.",
+        "Transfers over a local network communicate with the devices participating in that transfer. The Application may use local addresses, session identifiers, pairing codes, connection state, item counts, sizes and error information to establish and manage a session. External-drive and Files operations use the locations you choose; those locations may themselves be managed by Apple or another storage provider. Content you export, import or save to another application or device is governed by that destination's controls as well.",
+        "The Application stores settings, transfer-history records, assistant conversations and related operational information on your device. Transfer-history records can include the method, date, status, item counts, sizes and issues. Assistant history includes the messages and replies associated with your conversations.",
+        "When you use online services, those services receive connection and technical information needed to handle the request, which can include your public Internet Protocol address, app and device identifiers, operating-system or app version, language, request timing, usage and error information. Apple, Apphud and the AI providers may process information needed for their respective services. This does not mean every local transfer sends every category of information to each provider."
+      ]
+    },
+    {
+      "title": "AI Assistant and Your Choice",
+      "paragraphs": [
+        "To provide AI answers, SwiftTransfer sends your message and relevant conversation history to LLMApps and the AI services used through it. The Application asks for your approval of this sharing before sending AI requests. If you decline, you can continue using other available features, but sending or retrying an AI request requires approval. Your approval choice is stored on your device.",
+        "Send technical context is enabled by default and can be turned off in Settings. When enabled, the request can also include app and iOS version, device model, interface language, current screen, transfer method, item counts and size, the last error, connection-check results and permission states. You can turn this option off without deleting the text you chose to submit. Technical context is designed not to include names, phone numbers, emails, event titles, file names, locations or IP addresses; anything you type yourself may nevertheless contain personal data.",
+        "AI requests are not limited to aggregated or anonymized data. Do not send sensitive information or another person's personal data without the necessary permission or legal basis. SwiftTransfer's current AI chat sends text; selecting content for a transfer does not by itself submit that content to the AI service. AI-generated answers may be inaccurate and are not a substitute for checking the safety and result of a transfer.",
+        "You can stop sending further AI requests at any time by not using the assistant. Clearing chat history removes local conversations, not copies already processed or retained by an AI provider. Contact the Service Provider to withdraw consent or request deletion of information held by the Service Provider; independent providers may also need to be contacted about information they control."
+      ]
+    },
+    {
+      "title": "Purchases and Third Party Access",
+      "paragraphs": [
+        "Apple and Apphud process information needed to offer, validate, restore and manage purchases and subscriptions. This can include purchase or transaction information, subscription status, and app, device or customer identifiers. Payment card details are handled by Apple's payment system rather than entered directly into SwiftTransfer.",
+        "Apphud may process purchase history for service functionality and analytics, together with persistent internal customer or device identifiers, locale, time zone, device and app information. PremiumKit also attempts to send Apple Ads attribution information to Apphud. This is distinct from public advertising in the Application; this policy does not assert that SwiftTransfer automatically collects an advertising identifier or that every SDK request is anonymous.",
+        "LLMApps and its underlying AI service providers receive the request content and technical information needed to provide AI responses. Local transfer recipients and any storage destination you select receive the content needed for the selected transfer or save operation.",
+        "The Service Provider may share aggregated or anonymized information to improve the Application, but external processing is not limited to anonymized information. Third-party services may process and retain information under their own terms, privacy policies and legal obligations. This policy does not promise that the Service Provider controls all independent providers' systems, locations or retention periods.",
+        "Information you provide when contacting support is used to handle your request and send related service notices. A support email composed by the Application can include app version, iOS version and device model to help diagnose an issue; review it before sending. SwiftTransfer does not currently provide a public posting feature or a marketing-signup feature."
+      ]
+    },
+    {
+      "title": "Cookies, SDK Identifiers and Tracking Technologies",
+      "paragraphs": [
+        "The native Application uses local storage and third-party service SDKs to provide functionality and purchase services. Service providers may use identifiers and similar technologies for service delivery, security, diagnostics or attribution under their own privacy practices. SwiftTransfer does not currently display advertising.",
+        "Where applicable law requires consent before non-essential tracking, that consent must be obtained before such tracking is used. Operating-system privacy controls and any permissions presented by Apple or a selected third-party service also apply. Approval to send an AI request is not a blanket consent to unrelated advertising or tracking."
+      ]
+    },
+    {
+      "title": "Your Rights",
+      "paragraphs": [
+        "You may request access to, correction of or deletion of personal data held by the Service Provider. To exercise these rights, or withdraw consent where processing is based on consent, contact order@carolinedorsey84.lat.",
+        "Depending on applicable law, you may also have rights to restrict or object to processing, receive a portable copy of your information, or complain to a competent data-protection authority. Requests may require reasonable verification of identity and are subject to applicable legal exceptions. Rights procedures of independent providers may apply to information they control."
+      ]
+    },
+    {
+      "title": "Your California Privacy Rights (CCPA/CPRA)",
+      "paragraphs": [
+        "If you are a California resident, applicable law may give you the right to know what personal information is collected, delete or correct it, opt out of its sale or sharing, limit certain uses of sensitive personal information, and receive non-discriminatory treatment for exercising your rights. To exercise applicable CCPA/CPRA rights, contact order@carolinedorsey84.lat."
+      ]
+    },
+    {
+      "title": "International Data Transfers",
+      "paragraphs": [
+        "The Service Provider or third-party services may process personal data in countries outside your country of residence, including outside the European Economic Area. Data-protection laws may differ between countries. Local device-to-device transfers are distinct from requests made to remote AI or purchase services.",
+        "Where applicable law requires safeguards, the Service Provider will use appropriate mechanisms, such as European Commission Standard Contractual Clauses, adequacy decisions or other legally recognized mechanisms, and consent where required and legally permitted. This policy does not represent that every third-party request is processed in your country or that the Application controls an independent provider's hosting location."
+      ]
+    },
+    {
+      "title": "Disclosure of Information",
+      "paragraphs": [
+        "The Service Provider may disclose information as required by law, for example to comply with a subpoena or similar legal process, or where reasonably necessary to protect rights, safety or others, investigate fraud, or respond to a lawful government request.",
+        "Information may be disclosed to trusted service providers working on the Service Provider's behalf under applicable confidentiality and data-protection obligations. Where a third party processes information independently, its own terms and legal obligations also apply."
+      ]
+    },
+    {
+      "title": "Opt-Out Rights and Local Controls",
+      "paragraphs": [
+        "You can stop further use of optional AI features, turn off Send technical context, end transfer sessions, revoke applicable permissions in iOS Settings, or uninstall the Application. Uninstalling stops the Application from collecting new information from your device, but does not automatically delete information already transmitted to another device, the Service Provider or third parties.",
+        "The Clear chat history action in Settings deletes assistant chats stored by SwiftTransfer on this device. Files and information already saved in Photos, Contacts, Calendar, Reminders, Files, an external drive, another device or a backup must be managed separately. Clearing local data or uninstalling does not send a remote deletion request and does not cancel an App Store subscription.",
+        "To request deletion of personal data held by the Service Provider, withdraw consent or exercise your rights, contact order@carolinedorsey84.lat. You may need to contact independent providers about information they control. Manage or cancel subscriptions separately through your Apple Account."
+      ]
+    },
+    {
+      "title": "Data Retention Policy",
+      "paragraphs": [
+        "For personal data held by the Service Provider, retention is based on the stated purposes: user-provided data is retained during use of the service plus 12 months thereafter; automatically collected data is retained for up to 24 months from collection; in each case, legal obligations or an applicable deletion request may require a different period. Aggregated or anonymized information may be retained indefinitely where it no longer identifies you. Information required for legal compliance is retained as long as required by law.",
+        "These periods describe the Service Provider's policy, not an automatic deletion timer implemented for every local record or an assurance about independent providers. Local conversations, settings and transfer records generally remain until removed through available controls or the device's application-storage controls. Temporary transfer files may be cleaned up by the Application, but exported copies, imported data and backups are separate.",
+        "LLMApps, its underlying AI providers, Apple, Apphud and any storage provider may retain information under their own practices and legal obligations. Local deletion does not determine their retention periods. Contact order@carolinedorsey84.lat for deletion requests concerning information held by the Service Provider; some information may be necessary to provide a selected feature or meet legal obligations."
+      ]
+    },
+    {
+      "title": "Children",
+      "paragraphs": [
+        "The Application is not intended for children under 16 years of age, or any higher minimum age required by applicable law. The Service Provider does not knowingly solicit children's personal information or market the Application to them.",
+        "Parents and legal guardians should monitor children's use and prevent submission of personal information without the permission and legal basis required by law. If you believe a child has provided personal information through the Application or its services, contact order@carolinedorsey84.lat so appropriate action can be taken. Where applicable law permits a person under 16 to use the Application with parental consent, a parent or guardian must provide that consent."
+      ]
+    },
+    {
+      "title": "Security",
+      "paragraphs": [
+        "The Service Provider uses physical, electronic and procedural safeguards appropriate to the information it processes and maintains. No storage or transmission method is completely secure, and this policy does not guarantee absolute security, confidentiality or recovery of lost data.",
+        "Protect your devices, keep an independent backup, use local transfers only on networks you trust, check the intended recipient and keep pairing codes and session links private. The currently offered browser-based local transfer uses HTTP, not HTTPS/TLS. Pairing codes, session tokens and approval checks control access but do not encrypt network traffic. Data copied to another device or external storage is outside the Application's local controls. SwiftTransfer is not an end-to-end encrypted cloud-backup service."
+      ]
+    },
+    {
+      "title": "Data Breach Notification",
+      "paragraphs": [
+        "If a breach affects personal data held by the Service Provider, notification will be provided in accordance with applicable law, including information about the nature of the breach and steps taken where required. Independent providers are responsible for their own notification obligations."
+      ]
+    },
+    {
+      "title": "Changes",
+      "paragraphs": [
+        "The Service Provider may update this Privacy Policy. Material changes will be posted in the built-in policy with an effective date and additional notice or consent will be provided where required by law. Review the current document periodically.",
+        "Previous versions will be made available upon request at order@carolinedorsey84.lat. This Privacy Policy is effective as of 2026-11-18."
+      ]
+    },
+    {
+      "title": "Your Consent",
+      "paragraphs": [
+        "Where processing is based on consent, you provide it by affirmatively approving the relevant feature or action, such as the AI data-processing prompt or an applicable system permission. You may withdraw consent at any time without affecting the lawfulness of earlier processing. Other processing is carried out on the lawful bases applicable to the service, contract, security or legal obligation described in this policy."
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "paragraphs": [
+        "For privacy questions, requests or concerns about SwiftTransfer, contact Caroline at order@carolinedorsey84.lat."
+      ]
+    }
+  ]
+}

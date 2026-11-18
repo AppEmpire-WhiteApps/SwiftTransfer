@@ -1,0 +1,126 @@
+{
+  "title": "Terms & Conditions",
+  "effectiveDate": "2026-11-18",
+  "sections": [
+    {
+      "title": "Application and Service Provider",
+      "paragraphs": [
+        "These terms and conditions apply to the SwiftTransfer app for mobile devices, together with any related services operated by Caroline (collectively, the \"Application\"). Caroline is hereby referred to as the \"Service Provider\".",
+        "By downloading or using the Application, you agree to these Terms and Conditions. You should read them carefully before using the Application.",
+        "SwiftTransfer helps you transfer selected content between compatible iPhone and Android devices over a local network or using an external drive, import supported files, follow transfer guides and ask an AI assistant for help. Feature availability depends on the device, permissions, connection, file format and subscription status. The Application does not currently provide a public content feed, public profiles or user-to-user social messaging."
+      ]
+    },
+    {
+      "title": "License to Use the Application",
+      "paragraphs": [
+        "Subject to your compliance with these Terms, the Service Provider grants you a limited, non-exclusive, non-transferable, revocable license to install and use the Application on a mobile device for personal or internal business purposes. You may not reproduce, distribute, modify, create derivative works from, reverse engineer, decompile or disassemble the Application, except as and only to the extent expressly permitted by applicable law.",
+        "You represent that you are legally permitted to use the Application in your jurisdiction. You must be at least 16 years of age, or any higher age required by applicable law. If you are below 16, a parent or legal guardian must review and accept these Terms and provide consent on your behalf only where applicable law permits your use."
+      ]
+    },
+    {
+      "title": "Intellectual Property",
+      "paragraphs": [
+        "The Service Provider retains all intellectual property rights in the Application, including its code, design, trademarks, service marks, trade names, logos and branding. Nothing in these Terms grants you any license or right to use the Service Provider's trademarks, logos or branding for another purpose. You agree not to remove, alter or obscure proprietary notices displayed in or on the Application.",
+        "Unauthorized copying or modification of the Application or its trademarks, attempts to extract its source code, and creation of derivative versions are prohibited except as permitted by applicable law. All related intellectual property rights remain with their respective owners. You retain your rights in the files and other content you transfer or submit."
+      ]
+    },
+    {
+      "title": "Transfers, Permissions and Your Content",
+      "paragraphs": [
+        "Transfer or import only content you own or are authorized to access and share. You are responsible for choosing the correct devices, recipient, files and transfer method, granting only the permissions you intend to grant, and checking the imported result. Keep an independent backup of important data. SwiftTransfer is not a backup service and does not guarantee that every device, file, metadata field or third-party app format will be supported or preserved.",
+        "Use local transfers on networks you trust. A pairing code, local address or session link may give another device access to a transfer session; share it only with the intended recipient and approve connections carefully. Do not expose a transfer session to an untrusted network. External-drive transfers depend on access to the drive and the operating system's file permissions. The browser-based local transfer uses HTTP rather than encrypted HTTPS/TLS; pairing and approval do not replace transport encryption.",
+        "Some operations read or create photos, contacts, calendar events or reminders after you give the relevant permission. Importing or saving data may create copies. Removing the Application does not necessarily remove content already saved in Photos, Contacts, Calendar, Reminders, Files, on another device or on an external drive."
+      ]
+    },
+    {
+      "title": "AI Assistant and Transfer Guides",
+      "paragraphs": [
+        "The AI assistant and transfer guides provide general assistance, not a guarantee of a successful transfer or professional advice. AI-generated answers may be inaccurate, incomplete or outdated. Verify suggested steps, especially before deleting data, changing permissions or modifying another device.",
+        "Using the AI assistant sends your message and relevant conversation history to the AI service used by the Application. If Send technical context is enabled, technical details described in Settings and the Privacy Policy are also included. AI requests require an internet connection. Do not submit sensitive information or another person's data without the necessary permission or legal basis.",
+        "The assistant may suggest actions available in the Application. You remain responsible for reviewing and confirming actions and for maintaining your own backups."
+      ]
+    },
+    {
+      "title": "Purchases, Subscriptions and Charges",
+      "paragraphs": [
+        "Some features, including photo transfer, transfer guides and the AI assistant, require Premium access. The Application may present different offers for these features. The product, price, billing period, trial eligibility and other purchase conditions shown by the App Store at checkout apply. Do not assume that every offer includes a free trial or that every product is a recurring subscription.",
+        "Payment is charged through your Apple Account upon confirmation. An auto-renewable subscription renews automatically unless canceled at least 24 hours before the end of its current period; your account may be charged for renewal within the 24 hours before that period ends. You can manage or cancel subscriptions in your Apple Account settings. Unused trial time may be forfeited when you buy a subscription where Apple's terms provide for this.",
+        "Restore purchases using the Apple Account used for an eligible purchase. Refund requests are handled by Apple under its policies and applicable law and are not guaranteed. Deleting the Application or clearing its local data does not cancel a subscription. If the Application is discontinued, manage cancellation and any refund request through Apple; applicable consumer rights remain unaffected.",
+        "The Service Provider may modify the Application or charge for services, subject to applicable law and the purchase terms accepted by you. Charges and material purchase conditions will be communicated before purchase."
+      ]
+    },
+    {
+      "title": "Acceptable Use and Submitted Content",
+      "paragraphs": [
+        "You must not use the Application to transfer or submit illegal content, infringe intellectual property or privacy rights, harass or threaten others, distribute malware, commit fraud, send spam or otherwise cause harm. You must have the necessary rights and permissions for content you transfer or send to the AI assistant.",
+        "SwiftTransfer does not currently publish your content to a public feed or offer social accounts, public posts, user blocking or an in-app moderation-report system. Content is shared with the devices or services needed for the feature you choose, as described in the Privacy Policy. You can report unlawful use or a rights concern to order@carolinedorsey84.lat, with enough information to identify and evaluate the issue.",
+        "Submitting content grants the Service Provider only the limited, non-exclusive, worldwide, royalty-free permission needed to process, transmit and display that content to provide the feature you request, including through necessary service providers. This permission does not authorize independent sale or sublicensing of your content for unrelated purposes. Processing of personal data is governed by the Privacy Policy."
+      ]
+    },
+    {
+      "title": "Termination",
+      "paragraphs": [
+        "The Service Provider may suspend access to online services if you materially breach these Terms. Written notice will be provided and, where the breach is capable of cure, you will have 14 days from receipt to remedy it. If you fail to do so, the Service Provider may terminate your access.",
+        "Access may be suspended or terminated immediately without notice if you violate applicable law, infringe intellectual property rights or engage in activity that could harm other users or the Service Provider. Upon termination of your license, your right to use the Application ends and you must delete your copies, subject to rights that cannot lawfully be excluded."
+      ]
+    },
+    {
+      "title": "Device Security, Connectivity and Availability",
+      "paragraphs": [
+        "You are responsible for maintaining the security of your device and access to the Application. The Service Provider strongly advises against jailbreaking or rooting your device, which may compromise security and prevent the Application from working correctly.",
+        "Local-network transfers require a working compatible local connection; AI requests and purchase services require internet access. The Service Provider cannot guarantee full functionality without the necessary network access, permissions, supported devices or available services. Your mobile provider's data and roaming charges may apply to internet use. If you are not the bill payer, obtain the bill payer's permission.",
+        "Keep your devices charged and maintain sufficient free storage during a transfer. An interrupted connection, low battery, insufficient storage, unsupported data or a third-party service failure may prevent completion. Verify the result before removing original data."
+      ]
+    },
+    {
+      "title": "Limitation of Liability",
+      "paragraphs": [
+        "Nothing in these Terms limits rights under applicable consumer protection laws that cannot lawfully be excluded. To the fullest extent permitted by law, the Service Provider shall not be liable for indirect, incidental, special, consequential or punitive damages, including lost profits, data loss or business interruption, even if advised of their possibility.",
+        "The Service Provider retains full liability for death or personal injury caused by negligence, fraud or fraudulent misrepresentation, and any other liability that cannot be excluded or limited by applicable law.",
+        "To the fullest extent permitted by law, total liability for a claim shall not exceed the amount you paid the Service Provider for the Application in the 12 months preceding the claim, or the minimum amount required by applicable law, whichever is greater. For free use, liability is limited to the minimum amount permitted by law.",
+        "The Service Provider accepts no liability, to the extent permitted by law, for losses resulting from relying entirely on third-party information or inaccuracies in content provided by third parties, including AI-generated assistance."
+      ]
+    },
+    {
+      "title": "Indemnification",
+      "paragraphs": [
+        "To the fullest extent permitted by law, you agree to indemnify and hold harmless the Service Provider, its affiliates, officers, directors, employees and agents from claims, liabilities, damages, losses and reasonable legal expenses arising directly from your breach of these Terms or intentional misuse of the Application, including content submitted in violation of these Terms.",
+        "This does not apply to claims arising from the Service Provider's own negligence, breach of these Terms or violation of law. Where consumer indemnification is restricted, this clause is limited to the maximum extent permitted."
+      ]
+    },
+    {
+      "title": "Updates and Discontinuation",
+      "paragraphs": [
+        "The Service Provider may update the Application and its operating-system or device requirements. Compatibility with every operating-system version is not guaranteed. You should accept offered updates; earlier versions may cease to be supported or function properly. Services may be discontinued, subject to applicable law and any rights attached to purchases already made.",
+        "Unless otherwise stated or required by law, when your right to use the Application terminates, the licenses granted under these Terms end and you must stop using the Application and delete it where required. This does not itself cancel an App Store subscription or remove exported copies of your files."
+      ]
+    },
+    {
+      "title": "Governing Law, Jurisdiction and Mandatory Rights",
+      "paragraphs": [
+        "These Terms are governed by the laws of the jurisdiction in which the Service Provider is established, excluding conflict-of-law rules, except to the extent mandatory consumer protection law provides otherwise. Disputes will be brought before courts competent under applicable law; this does not limit your rights to bring a claim in another court competent under mandatory law.",
+        "Nothing in these Terms replaces or limits any applicable consumer protection, data protection or Digital Services Act rights or obligations. SwiftTransfer's current local transfer and private AI-assistance features do not include a public content-hosting platform. Legal notices and concerns about content or services may be sent to order@carolinedorsey84.lat. The applicability of any intermediary-service obligations is determined by applicable law; this description does not waive any mandatory right."
+      ]
+    },
+    {
+      "title": "Severability and Entire Agreement",
+      "paragraphs": [
+        "If a provision is held invalid, illegal or unenforceable, it shall be modified only to the minimum extent necessary to make it valid and enforceable, and the remaining provisions remain in force.",
+        "These Terms and Conditions, together with the Privacy Policy, constitute the entire agreement concerning your use of the Application and supersede prior agreements or understandings on that subject. Apple's terms also apply to App Store transactions."
+      ]
+    },
+    {
+      "title": "Changes to These Terms and Conditions",
+      "paragraphs": [
+        "The Service Provider may update these Terms periodically. Review the built-in document for changes. Updates will be posted with an effective date, and additional notice or consent will be provided where required by law.",
+        "Previous versions will be made available upon request by contacting order@carolinedorsey84.lat. These Terms and Conditions are effective as of 2026-11-18."
+      ]
+    },
+    {
+      "title": "Contact Us",
+      "paragraphs": [
+        "If you have questions or suggestions about these Terms and Conditions, contact Caroline at order@carolinedorsey84.lat."
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Shared sheet identity for the paywalls' custom legal destinations.
+/// Shared sheet identity for Settings and the PremiumKit custom legal destinations.
 enum PremiumLegalDocument: String, Identifiable {
     case terms
     case privacy
@@ -11,45 +11,54 @@ enum PremiumLegalDocument: String, Identifiable {
         "legal_\(rawValue)_title"
     }
 
-    fileprivate var sectionKeys: [String] {
-        switch self {
-        case .terms:
-            [
-                "legal_terms_use",
-                "legal_terms_purchase",
-                "legal_terms_renewal",
-                "legal_terms_restore",
-                "legal_terms_ai",
-                "legal_terms_rights",
-            ]
-        case .privacy:
-            [
-                "legal_privacy_transfer",
-                "legal_privacy_permissions",
-                "legal_privacy_ai",
-                "legal_privacy_purchase",
-                "legal_privacy_history",
-                "legal_privacy_providers",
-            ]
+    // The operator supplied these legal documents in English; all entry points use the same copy.
+    func loadContent(bundle: Bundle = .main) throws -> PremiumLegalContent {
+        let resource = "swifttransfer-\(rawValue)-en"
+        guard
+            let url = bundle.url(
+                forResource: resource, withExtension: "json", subdirectory: "Legal")
+                ?? bundle.url(forResource: resource, withExtension: "json")
+        else {
+            throw CocoaError(.fileNoSuchFile)
         }
+        return try JSONDecoder().decode(PremiumLegalContent.self, from: Data(contentsOf: url))
     }
 }
 
-/// Self-contained destination for a sheet or a PremiumKit custom legal view.
-/// All copy is intentionally kept in the dedicated PremiumLegal string table.
+struct PremiumLegalContent: Decodable {
+    struct Section: Decodable {
+        let title: String
+        let paragraphs: [String]
+    }
+
+    let title: String
+    let effectiveDate: String
+    let sections: [Section]
+}
+
 struct PremiumLegalScreen: View {
     let document: PremiumLegalDocument
 
     @Environment(\.dismiss) private var dismiss
+    @State private var content: PremiumLegalContent?
+    @State private var loadingFailed = false
 
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: Spacing.xxl) {
-                    draftNotice
-
-                    ForEach(document.sectionKeys, id: \.self) { key in
-                        legalSection(key)
+                LazyVStack(alignment: .leading, spacing: Spacing.xxl) {
+                    if let content {
+                        legalContent(content)
+                    } else if loadingFailed {
+                        Text("Couldn't open the file")
+                            .font(AppFont.headline)
+                        if let url = URL(string: "mailto:\(AppConfig.supportEmail)") {
+                            Link(AppConfig.supportEmail, destination: url)
+                        }
+                    } else {
+                        ProgressView()
+                            .tint(AppColor.primary)
+                            .frame(maxWidth: .infinity)
                     }
                 }
                 .padding(Spacing.xl)
@@ -72,54 +81,50 @@ struct PremiumLegalScreen: View {
                     .accessibilityIdentifier("premium.legal.close")
                 }
             }
+            .task(id: document) {
+                content = nil
+                loadingFailed = false
+                do {
+                    content = try document.loadContent()
+                } catch {
+                    loadingFailed = true
+                }
+            }
         }
         .tint(AppColor.primary)
         .preferredColorScheme(.light)
         .accessibilityIdentifier("premium.legal.\(document.rawValue)")
     }
 
-    private var draftNotice: some View {
-        VStack(alignment: .leading, spacing: Spacing.s) {
-            HStack(alignment: .top, spacing: Spacing.s) {
-                Image(systemName: "doc.text.magnifyingglass")
-                    .foregroundStyle(AppColor.primary)
-                    .accessibilityHidden(true)
-
-                localizedText("legal_draft_title")
-                    .font(AppFont.headline)
+    private func legalContent(_ content: PremiumLegalContent) -> some View {
+        Group {
+            VStack(alignment: .leading, spacing: Spacing.s) {
+                Text(verbatim: content.title)
+                    .font(AppFont.title2)
                     .foregroundStyle(AppColor.textPrimary)
                     .accessibilityAddTraits(.isHeader)
+                Text(verbatim: "Effective date: \(content.effectiveDate)")
+                    .font(AppFont.footnote)
+                    .foregroundStyle(AppColor.textSecondary)
             }
-
-            localizedText("legal_draft_body")
-                .font(AppFont.callout)
-                .foregroundStyle(AppColor.textSecondary)
-                .textSelection(.enabled)
+            ForEach(Array(content.sections.enumerated()), id: \.offset) { _, section in
+                VStack(alignment: .leading, spacing: Spacing.m) {
+                    Text(verbatim: section.title)
+                        .font(AppFont.headline)
+                        .foregroundStyle(AppColor.textPrimary)
+                        .accessibilityAddTraits(.isHeader)
+                    ForEach(Array(section.paragraphs.enumerated()), id: \.offset) { _, paragraph in
+                        Text(verbatim: paragraph)
+                            .font(AppFont.body)
+                            .foregroundStyle(AppColor.textSecondary)
+                            .lineSpacing(4)
+                            .fixedSize(horizontal: false, vertical: true)
+                    }
+                }
+                .frame(maxWidth: .infinity, alignment: .leading)
+            }
         }
-        .fixedSize(horizontal: false, vertical: true)
-        .padding(Spacing.l)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(
-            AppColor.skyLight,
-            in: RoundedRectangle(cornerRadius: Radius.small, style: .continuous)
-        )
-    }
-
-    private func legalSection(_ key: String) -> some View {
-        VStack(alignment: .leading, spacing: Spacing.s) {
-            localizedText("\(key)_title")
-                .font(AppFont.title2)
-                .foregroundStyle(AppColor.textPrimary)
-                .accessibilityAddTraits(.isHeader)
-
-            localizedText("\(key)_body")
-                .font(AppFont.body)
-                .foregroundStyle(AppColor.textSecondary)
-                .lineSpacing(4)
-                .textSelection(.enabled)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .fixedSize(horizontal: false, vertical: true)
+        .textSelection(.enabled)
     }
 
     private func localizedText(_ key: String) -> Text {
