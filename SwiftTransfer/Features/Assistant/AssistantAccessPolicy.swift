@@ -1,7 +1,6 @@
 import Foundation
 
-/// The paid assistant needs an ordinary subscription AND an active aiChat product.
-/// This policy is intentionally independent of the common photo/guide entitlement.
+/// Uses the shared Premium status before checking the aiChat subscription.
 enum AssistantAccessPolicy {
     enum Gate {
         case main
@@ -9,21 +8,10 @@ enum AssistantAccessPolicy {
     }
 
     static func requiredGate(
-        sdkIsPremium: Bool,
-        activeProductIDs: Set<String>,
-        standardProductIDs: Set<String>,
-        assistantProductIDs: Set<String>
+        isPremium: Bool,
+        hasAssistantSubscription: Bool
     ) -> Gate? {
-        // The SDK Boolean is also set by AI-only purchases. It is a compatibility
-        // fallback for an ordinary entitlement ONLY when no active IDs are supplied.
-        // Nonempty unknown IDs fail closed until their placements are loaded.
-        let hasStandard =
-            !activeProductIDs.isDisjoint(with: standardProductIDs)
-            || (activeProductIDs.isEmpty && sdkIsPremium)
-        guard hasStandard else { return .main }
-        guard !activeProductIDs.isDisjoint(with: assistantProductIDs) else {
-            return .assistant
-        }
-        return nil
+        guard isPremium else { return .main }
+        return hasAssistantSubscription ? nil : .assistant
     }
 }

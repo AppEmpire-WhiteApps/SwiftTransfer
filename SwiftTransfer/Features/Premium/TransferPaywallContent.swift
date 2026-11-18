@@ -51,7 +51,7 @@ struct TransferAssistantPaywall: View {
                 images: PremiumDesign.assistantResources,
                 style: PremiumDesign.assistant(scale: PremiumLayout(size: proxy.size).scale),
                 linksConfig: PremiumDesign.links,
-                showCloseButton: true,
+                showCloseButton: false,
                 termsView: { PremiumLegalScreen(document: .terms) },
                 privacyView: { PremiumLegalScreen(document: .privacy) },
                 backgroundView: AnyView(
