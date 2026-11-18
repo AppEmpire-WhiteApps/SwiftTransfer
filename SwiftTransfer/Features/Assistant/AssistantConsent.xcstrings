@@ -1,0 +1,160 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "AI Data Processing" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zpracování dat pomocí AI"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Datenverarbeitung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI Data Processing"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Procesamiento de datos con IA"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traitement des données par l’IA"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trattamento dei dati con l’IA"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI 데이터 처리"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przetwarzanie danych przez AI"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processamento de dados por IA"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обработка данных ИИ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapay Zekâ ile Veri İşleme"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обробка даних ШІ"
+          }
+        }
+      }
+    },
+    "SwiftTransfer sends your messages, relevant chat history, and optional technical context to LLMApps to provide AI replies. By tapping Continue, you consent to sharing this data with LLMApps." : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer odesílá vaše zprávy, relevantní historii chatu a volitelný technický kontext službě LLMApps, aby vám poskytoval odpovědi AI. Klepnutím na Pokračovat souhlasíte se sdílením těchto dat se službou LLMApps."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer sendet Ihre Nachrichten, den relevanten Chatverlauf und optionalen technischen Kontext an LLMApps, um KI-Antworten bereitzustellen. Durch Tippen auf „Fortfahren“ stimmen Sie der Weitergabe dieser Daten an LLMApps zu."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer sends your messages, relevant chat history, and optional technical context to LLMApps to provide AI replies. By tapping Continue, you consent to sharing this data with LLMApps."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer envía tus mensajes, el historial de chat relevante y el contexto técnico opcional a LLMApps para proporcionar respuestas de IA. Al tocar Continuar, aceptas compartir estos datos con LLMApps."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer envoie vos messages, l’historique de discussion pertinent et le contexte technique facultatif à LLMApps pour fournir des réponses générées par l’IA. En touchant Continuer, vous consentez au partage de ces données avec LLMApps."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer invia i tuoi messaggi, la cronologia pertinente della chat e il contesto tecnico facoltativo a LLMApps per fornire risposte basate sull’IA. Toccando Continua, acconsenti alla condivisione di questi dati con LLMApps."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer는 AI 답변을 제공하기 위해 메시지, 관련 채팅 기록 및 선택적 기술 컨텍스트를 LLMApps에 전송합니다. 계속을 탭하면 이 데이터를 LLMApps와 공유하는 데 동의하게 됩니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer wysyła Twoje wiadomości, odpowiednią historię czatu i opcjonalny kontekst techniczny do LLMApps, aby udzielać odpowiedzi AI. Stukając Dalej, wyrażasz zgodę na udostępnianie tych danych LLMApps."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O SwiftTransfer envia suas mensagens, o histórico relevante da conversa e o contexto técnico opcional à LLMApps para fornecer respostas de IA. Ao tocar em Continuar, você concorda em compartilhar esses dados com a LLMApps."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer отправляет ваши сообщения, соответствующую историю чата и необязательный технический контекст в LLMApps для предоставления ответов ИИ. Нажимая «Продолжить», вы соглашаетесь на передачу этих данных в LLMApps."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer, yapay zekâ yanıtları sunmak için mesajlarınızı, ilgili sohbet geçmişini ve isteğe bağlı teknik bağlamı LLMApps’e gönderir. Devam’a dokunarak bu verilerin LLMApps ile paylaşılmasına onay verirsiniz."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer надсилає ваші повідомлення, відповідну історію чату та необов’язковий технічний контекст до LLMApps для надання відповідей ШІ. Натискаючи «Продовжити», ви погоджуєтеся на передавання цих даних до LLMApps."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
