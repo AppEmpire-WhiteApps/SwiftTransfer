@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "onb_guidebook.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

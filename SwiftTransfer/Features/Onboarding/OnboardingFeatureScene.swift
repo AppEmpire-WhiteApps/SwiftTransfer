@@ -10,7 +10,7 @@ struct OnboardingFeatureScene: View {
             switch self {
             case .transfer: .onbTransfer
             case .selection: .onbDataTypes
-            case .guidance: .guideWifiGalaxy
+            case .guidance: .onbGuidebook
             }
         }
 

@@ -7,37 +7,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jasnější cesta dál"
+            "value" : "Jasnější Cesta Dál"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Klarer zum nächsten Schritt"
+            "value" : "Klarer zum Nächsten Schritt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A clearer way forward"
+            "value" : "A Clearer Way Forward"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un camino más claro"
+            "value" : "Un Camino Más Claro"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La suite en toute clarté"
+            "value" : "La Suite en Toute Clarté"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un percorso più chiaro"
+            "value" : "Un Percorso Più Chiaro"
           }
         },
         "ko" : {
@@ -49,31 +49,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jaśniejsza droga naprzód"
+            "value" : "Jaśniejsza Droga Naprzód"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Um caminho mais claro"
+            "value" : "Um Caminho Mais Claro"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Дальше — понятнее"
+            "value" : "Дальше — Понятнее"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Daha net bir yol"
+            "value" : "Daha Net bir Yol"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Далі — зрозуміліше"
+            "value" : "Далі — Зрозуміліше"
           }
         }
       }
@@ -84,37 +84,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Návod na každý krok"
+            "value" : "Návod na Každý Krok"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schritt für Schritt erklärt"
+            "value" : "Schritt für Schritt Erklärt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A guide for each step"
+            "value" : "A Guide for Each Step"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una guía para cada paso"
+            "value" : "Una Guía para Cada Paso"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un guide à chaque étape"
+            "value" : "Un Guide à Chaque Étape"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una guida per ogni passo"
+            "value" : "Una Guida per Ogni Passo"
           }
         },
         "ko" : {
@@ -126,31 +126,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Instrukcje krok po kroku"
+            "value" : "Instrukcje Krok po Kroku"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Um guia para cada etapa"
+            "value" : "Um Guia para Cada Etapa"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Инструкции на каждом шаге"
+            "value" : "Инструкции на Каждом Шаге"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Her adım için bir rehber"
+            "value" : "Her Adım için bir Rehber"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Інструкції на кожному кроці"
+            "value" : "Інструкції на Кожному Кроці"
           }
         }
       }
@@ -160,37 +160,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Návod na každý krok"
+            "value" : "Návod na Každý Krok"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schritt für Schritt erklärt"
+            "value" : "Schritt für Schritt Erklärt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A guide for every step"
+            "value" : "A Guide for Every Step"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una guía para cada paso"
+            "value" : "Una Guía para Cada Paso"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un guide à chaque étape"
+            "value" : "Un Guide à Chaque Étape"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Una guida per ogni passo"
+            "value" : "Una Guida per Ogni Passo"
           }
         },
         "ko" : {
@@ -202,31 +202,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Instrukcje krok po kroku"
+            "value" : "Instrukcje Krok po Kroku"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Um guia para cada etapa"
+            "value" : "Um Guia para Cada Etapa"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Инструкции на каждом шаге"
+            "value" : "Инструкции на Каждом Шаге"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Her adım için bir rehber"
+            "value" : "Her Adım için bir Rehber"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Інструкції на кожному кроці"
+            "value" : "Інструкції на Кожному Кроці"
           }
         }
       }
@@ -237,37 +237,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomoc s dalším krokem"
+            "value" : "Pomoc s Dalším Krokem"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hilfe beim nächsten Schritt"
+            "value" : "Hilfe beim Nächsten Schritt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A helpful next step"
+            "value" : "A Helpful Next Step"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ayuda para el próximo paso"
+            "value" : "Ayuda para el Próximo Paso"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un coup de pouce pour la suite"
+            "value" : "Un Coup de Pouce pour la Suite"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Un aiuto per il prossimo passo"
+            "value" : "Un Aiuto per il Prossimo Passo"
           }
         },
         "ko" : {
@@ -279,31 +279,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomoc w kolejnym kroku"
+            "value" : "Pomoc w Kolejnym Kroku"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuda para o próximo passo"
+            "value" : "Ajuda para o Próximo Passo"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Подсказка для следующего шага"
+            "value" : "Подсказка для Следующего Шага"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sonraki adım için yardım"
+            "value" : "Sonraki Adım için Yardım"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Підказка для наступного кроку"
+            "value" : "Підказка для Наступного Кроку"
           }
         }
       }
@@ -620,7 +620,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "V centru pozornosti"
+            "value" : "V Centru Pozornosti"
           }
         },
         "de" : {
@@ -662,7 +662,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "W centrum uwagi"
+            "value" : "W Centrum Uwagi"
           }
         },
         "pt-BR" : {
@@ -674,19 +674,19 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "В центре внимания"
+            "value" : "В Центре Внимания"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Odak noktamız"
+            "value" : "Odak Noktamız"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "У центрі уваги"
+            "value" : "У Центрі Уваги"
           }
         }
       }
@@ -993,6 +993,83 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Кожен досвід перенесення важливий"
+          }
+        }
+      }
+    },
+    "Example" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukázka"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beispiel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Example"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ejemplo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exemple"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esempio"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예시"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykład"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exemplo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пример"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örnek"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приклад"
           }
         }
       }
@@ -1462,7 +1539,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomoc během přenosu"
+            "value" : "Pomoc během Přenosu"
           }
         },
         "de" : {
@@ -1474,25 +1551,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Help along the way"
+            "value" : "Help along the Way"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ayuda durante el proceso"
+            "value" : "Ayuda durante el Proceso"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "De l’aide en chemin"
+            "value" : "De l’Aide en Chemin"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aiuto lungo il percorso"
+            "value" : "Aiuto lungo il Percorso"
           }
         },
         "ko" : {
@@ -1504,31 +1581,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomoc na każdym etapie"
+            "value" : "Pomoc na Każdym Etapie"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuda durante a transferência"
+            "value" : "Ajuda durante a Transferência"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Помощь в процессе"
+            "value" : "Помощь в Процессе"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aktarım boyunca destek"
+            "value" : "Aktarım boyunca Destek"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Допомога в процесі"
+            "value" : "Допомога в Процесі"
           }
         }
       }
@@ -1538,37 +1615,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomoc, když ji potřebujete"
+            "value" : "Pomoc, když Ji Potřebujete"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hilfe, wenn du sie brauchst"
+            "value" : "Hilfe, wenn Du Sie Brauchst"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Help when you need it"
+            "value" : "Help when You Need It"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ayuda cuando la necesitas"
+            "value" : "Ayuda cuando La Necesitas"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "De l’aide au bon moment"
+            "value" : "De l’Aide au Bon Moment"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aiuto quando serve"
+            "value" : "Aiuto quando Serve"
           }
         },
         "ko" : {
@@ -1580,31 +1657,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pomoc, gdy jej potrzebujesz"
+            "value" : "Pomoc, gdy Jej Potrzebujesz"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuda quando precisar"
+            "value" : "Ajuda quando Precisar"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Помощь, когда она нужна"
+            "value" : "Помощь, когда Она Нужна"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "İhtiyacınız olduğunda yardım"
+            "value" : "İhtiyacınız Olduğunda Yardım"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Допомога, коли потрібна"
+            "value" : "Допомога, коли Потрібна"
           }
         }
       }
@@ -1921,37 +1998,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Stačí pár kroků"
+            "value" : "Stačí Pár Kroků"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In nur wenigen Schritten"
+            "value" : "In Nur Wenigen Schritten"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In just a few steps"
+            "value" : "In Just a Few Steps"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "En unos pocos pasos"
+            "value" : "En unos Pocos Pasos"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "En quelques étapes"
+            "value" : "En Quelques Étapes"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "In pochi passaggi"
+            "value" : "In Pochi Passaggi"
           }
         },
         "ko" : {
@@ -1963,31 +2040,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "W kilku prostych krokach"
+            "value" : "W Kilku Prostych Krokach"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Em poucos passos"
+            "value" : "Em Poucos Passos"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Всего за несколько шагов"
+            "value" : "Всего за Несколько Шагов"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Birkaç adımda"
+            "value" : "Birkaç Adımda"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Лише за кілька кроків"
+            "value" : "Лише за Кілька Кроків"
           }
         }
       }
@@ -2151,37 +2228,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Přejděte na nový telefon"
+            "value" : "Přejděte na Nový Telefon"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Auf ein neues Handy wechseln"
+            "value" : "Auf ein Neues Handy Wechseln"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Move to a new phone"
+            "value" : "Move to a New Phone"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cámbiate a un móvil nuevo"
+            "value" : "Cámbiate a un Móvil Nuevo"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Passez à un nouveau téléphone"
+            "value" : "Passez à un Nouveau Téléphone"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Passa a un nuovo telefono"
+            "value" : "Passa a un Nuovo Telefono"
           }
         },
         "ko" : {
@@ -2193,31 +2270,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Przenieś dane na nowy telefon"
+            "value" : "Przenieś Dane na Nowy Telefon"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mude para um celular novo"
+            "value" : "Mude para um Celular Novo"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Перейдите на новый телефон"
+            "value" : "Перейдите на Новый Телефон"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yeni telefonunuza geçin"
+            "value" : "Yeni Telefonunuza Geçin"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Перейдіть на новий телефон"
+            "value" : "Перейдіть на Новий Телефон"
           }
         }
       }
@@ -2305,37 +2382,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Jen to, co vyberete"
+            "value" : "Jen To, Co Vyberete"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nur, was du auswählst"
+            "value" : "Nur, Was Du Auswählst"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Only what you choose"
+            "value" : "Only What You Choose"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solo lo que elijas"
+            "value" : "Solo lo Que Elijas"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Uniquement votre sélection"
+            "value" : "Uniquement Votre Sélection"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Solo ciò che scegli"
+            "value" : "Solo Ciò Che Scegli"
           }
         },
         "ko" : {
@@ -2347,31 +2424,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tylko to, co wybierzesz"
+            "value" : "Tylko To, Co Wybierzesz"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Só o que você escolher"
+            "value" : "Só O Que Você Escolher"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Только то, что вы выбрали"
+            "value" : "Только То, Что Вы Выбрали"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yalnızca seçtikleriniz"
+            "value" : "Yalnızca Seçtikleriniz"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Лише те, що ви обрали"
+            "value" : "Лише Те, Що Ви Обрали"
           }
         }
       }
@@ -2613,37 +2690,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fotky připravené k přenosu"
+            "value" : "Fotky Připravené k Přenosu"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fotos bereit zum Wechsel"
+            "value" : "Fotos Bereit zum Wechsel"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Photos, ready to move"
+            "value" : "Photos, Ready to Move"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fotos listas para el cambio"
+            "value" : "Fotos Listas para el Cambio"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Des photos prêtes à partir"
+            "value" : "Des Photos Prêtes à Partir"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Foto pronte a partire"
+            "value" : "Foto Pronte a Partire"
           }
         },
         "ko" : {
@@ -2655,31 +2732,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zdjęcia gotowe do przeniesienia"
+            "value" : "Zdjęcia Gotowe do Przeniesienia"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fotos prontas para transferir"
+            "value" : "Fotos Prontas para Transferir"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Фото готовы к переносу"
+            "value" : "Фото Готовы к Переносу"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fotoğraflar taşınmaya hazır"
+            "value" : "Fotoğraflar Taşınmaya Hazır"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Фото готові до перенесення"
+            "value" : "Фото Готові до Перенесення"
           }
         }
       }
@@ -3841,19 +3918,19 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vážíme si"
+            "value" : "Vážíme Si"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wir schätzen"
+            "value" : "Wir Schätzen"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "We value"
+            "value" : "We Value"
           }
         },
         "es" : {
@@ -3865,7 +3942,7 @@
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nous apprécions"
+            "value" : "Nous Apprécions"
           }
         },
         "it" : {
@@ -3895,19 +3972,19 @@
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Мы ценим"
+            "value" : "Мы Ценим"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Değer verdiğimiz"
+            "value" : "Değer Verdiğimiz"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ми цінуємо"
+            "value" : "Ми Цінуємо"
           }
         }
       }
@@ -3918,37 +3995,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vy určujete, co přenést"
+            "value" : "Vy Určujete, Co Přenést"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Du entscheidest, was mitkommt"
+            "value" : "Du Entscheidest, Was Mitkommt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You decide what moves"
+            "value" : "You Decide What Moves"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tú decides qué transferir"
+            "value" : "Tú Decides Qué Transferir"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vous décidez quoi transférer"
+            "value" : "Vous Décidez Quoi Transférer"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Decidi tu cosa trasferire"
+            "value" : "Decidi Tu Cosa Trasferire"
           }
         },
         "ko" : {
@@ -3960,31 +4037,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ty decydujesz, co przenosisz"
+            "value" : "Ty Decydujesz, Co Przenosisz"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Você decide o que transferir"
+            "value" : "Você Decide O Que Transferir"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вы решаете, что переносить"
+            "value" : "Вы Решаете, Что Переносить"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ne aktarılacağına siz karar verin"
+            "value" : "Ne Aktarılacağına Siz Karar Verin"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ви вирішуєте, що переносити"
+            "value" : "Ви Вирішуєте, Що Переносити"
           }
         }
       }
@@ -4071,37 +4148,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vyberte, co chcete přenést"
+            "value" : "Vyberte, Co Chcete Přenést"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Du entscheidest, was mitkommt"
+            "value" : "Du Entscheidest, Was Mitkommt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your choice of what moves"
+            "value" : "Your Choice of What Moves"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tú eliges qué transferir"
+            "value" : "Tú Eliges Qué Transferir"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "À vous de choisir quoi transférer"
+            "value" : "À Vous de Choisir Quoi Transférer"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Scegli tu cosa trasferire"
+            "value" : "Scegli Tu Cosa Trasferire"
           }
         },
         "ko" : {
@@ -4113,31 +4190,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ty wybierasz, co przenieść"
+            "value" : "Ty Wybierasz, Co Przenieść"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Você escolhe o que transferir"
+            "value" : "Você Escolhe O Que Transferir"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вы решаете, что переносить"
+            "value" : "Вы Решаете, Что Переносить"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ne taşınacağına siz karar verin"
+            "value" : "Ne Taşınacağına Siz Karar Verin"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ви вирішуєте, що переносити"
+            "value" : "Ви Вирішуєте, Що Переносити"
           }
         }
       }
@@ -4147,7 +4224,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaší zpětné vazby"
+            "value" : "Vaší Zpětné Vazby"
           }
         },
         "de" : {
@@ -4159,25 +4236,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your feedback"
+            "value" : "Your Feedback"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tu opinión"
+            "value" : "Tu Opinión"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Votre avis"
+            "value" : "Votre Avis"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "La tua opinione"
+            "value" : "La Tua Opinione"
           }
         },
         "ko" : {
@@ -4189,19 +4266,19 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twoją opinię"
+            "value" : "Twoją Opinię"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sua opinião"
+            "value" : "Sua Opinião"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваше мнение"
+            "value" : "Ваше Мнение"
           }
         },
         "tr" : {
@@ -4213,7 +4290,7 @@
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Вашу думку"
+            "value" : "Вашу Думку"
           }
         }
       }
@@ -4224,37 +4301,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaše vzpomínky pohromadě"
+            "value" : "Vaše Vzpomínky Pohromadě"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deine Erinnerungen vereint"
+            "value" : "Deine Erinnerungen Vereint"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your memories, together"
+            "value" : "Your Memories, Together"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tus recuerdos, juntos"
+            "value" : "Tus Recuerdos, Juntos"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vos souvenirs réunis"
+            "value" : "Vos Souvenirs Réunis"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "I tuoi ricordi, insieme"
+            "value" : "I Tuoi Ricordi, Insieme"
           }
         },
         "ko" : {
@@ -4266,31 +4343,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twoje wspomnienia razem"
+            "value" : "Twoje Wspomnienia Razem"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suas memórias, juntas"
+            "value" : "Suas Memórias, Juntas"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваши воспоминания вместе"
+            "value" : "Ваши Воспоминания Вместе"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anılarınız bir arada"
+            "value" : "Anılarınız bir Arada"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваші спогади разом"
+            "value" : "Ваші Спогади Разом"
           }
         }
       }
@@ -4301,37 +4378,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaše nová kapitola"
+            "value" : "Vaše Nová Kapitola"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dein neues Kapitel"
+            "value" : "Dein Neues Kapitel"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your next chapter"
+            "value" : "Your Next Chapter"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tu nuevo capítulo"
+            "value" : "Tu Nuevo Capítulo"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Votre nouveau chapitre"
+            "value" : "Votre Nouveau Chapitre"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il tuo nuovo capitolo"
+            "value" : "Il Tuo Nuovo Capitolo"
           }
         },
         "ko" : {
@@ -4343,31 +4420,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twój nowy rozdział"
+            "value" : "Twój Nowy Rozdział"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seu novo capítulo"
+            "value" : "Seu Novo Capítulo"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваша новая глава"
+            "value" : "Ваша Новая Глава"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Yeni bir sayfa"
+            "value" : "Yeni bir Sayfa"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваш новий розділ"
+            "value" : "Ваш Новий Розділ"
           }
         }
       }
@@ -4377,37 +4454,37 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Váš další krok"
+            "value" : "Váš Další Krok"
           }
         },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dein nächster Schritt"
+            "value" : "Dein Nächster Schritt"
           }
         },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your next move"
+            "value" : "Your Next Move"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tu próximo paso"
+            "value" : "Tu Próximo Paso"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Votre prochaine étape"
+            "value" : "Votre Prochaine Étape"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Il tuo prossimo passo"
+            "value" : "Il Tuo Prossimo Passo"
           }
         },
         "ko" : {
@@ -4419,31 +4496,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twój kolejny krok"
+            "value" : "Twój Kolejny Krok"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seu próximo passo"
+            "value" : "Seu Próximo Passo"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваш следующий шаг"
+            "value" : "Ваш Следующий Шаг"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bir sonraki adımınız"
+            "value" : "Bir Sonraki Adımınız"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваш наступний крок"
+            "value" : "Ваш Наступний Крок"
           }
         }
       }
@@ -4529,7 +4606,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vaše fotky a kontakty"
+            "value" : "Vaše Fotky a Kontakty"
           }
         },
         "de" : {
@@ -4541,25 +4618,25 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your photos and contacts"
+            "value" : "Your Photos and Contacts"
           }
         },
         "es" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tus fotos y contactos"
+            "value" : "Tus Fotos y Contactos"
           }
         },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Vos photos et vos contacts"
+            "value" : "Vos Photos et Vos Contacts"
           }
         },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Le tue foto e i tuoi contatti"
+            "value" : "Le Tue Foto e i Tuoi Contatti"
           }
         },
         "ko" : {
@@ -4571,31 +4648,31 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twoje zdjęcia i kontakty"
+            "value" : "Twoje Zdjęcia i Kontakty"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suas fotos e seus contatos"
+            "value" : "Suas Fotos e Seus Contatos"
           }
         },
         "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваши фото и контакты"
+            "value" : "Ваши Фото и Контакты"
           }
         },
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fotoğraflarınız ve kişileriniz"
+            "value" : "Fotoğraflarınız ve Kişileriniz"
           }
         },
         "uk" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ваші фото й контакти"
+            "value" : "Ваші Фото й Контакти"
           }
         }
       }

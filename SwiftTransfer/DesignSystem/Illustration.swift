@@ -5,6 +5,7 @@ enum Illustration: String, CaseIterable {
     case appLogo = "app_logo"
     case onbTransfer = "onb_transfer"
     case onbDataTypes = "onb_data_types"
+    case onbGuidebook = "onb_guidebook"
     case onbSecure = "onb_secure"
     case heroPhones = "hero_phones"
     case contacts = "ic3d_contacts"

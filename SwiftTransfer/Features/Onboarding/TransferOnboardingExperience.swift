@@ -94,7 +94,7 @@ struct TransferOnboardingExperience: View {
                     table: "Premium"),
                 message: String(localized: "Guides and AI are part of Premium", table: "Premium"),
                 buttonTitle: String(localized: "Continue"),
-                images: AdaptiveResources(iphone: Illustration.guideWifiGalaxy.image),
+                images: AdaptiveResources(iphone: Illustration.onbGuidebook.image),
                 backgroundView: AnyView(
                     PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
                         OnboardingFeatureScene(story: .guidance)

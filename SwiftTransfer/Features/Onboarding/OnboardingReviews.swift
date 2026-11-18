@@ -36,29 +36,22 @@ struct OnboardingReviews: View {
     }
 
     private func endorsement(compact: Bool) -> some View {
-        VStack(spacing: compact ? 4 : 7) {
-            HStack(spacing: compact ? 18 : 24) {
-                Image(systemName: "laurel.leading")
-                VStack(spacing: compact ? 3 : 5) {
-                    stars(size: compact ? 9 : 12)
-                    VStack(spacing: 0) {
-                        Text("Built around", tableName: "Premium")
-                        Text("Your next move", tableName: "Premium")
-                    }
-                    .font(.system(size: compact ? 15 : 20, weight: .bold, design: .rounded))
-                    .foregroundStyle(AppColor.textPrimary)
-                    .multilineTextAlignment(.center)
+        HStack(spacing: compact ? 18 : 24) {
+            Image(systemName: "laurel.leading")
+            VStack(spacing: compact ? 3 : 5) {
+                stars(size: compact ? 9 : 12)
+                VStack(spacing: 0) {
+                    Text("Built around", tableName: "Premium")
+                    Text("Your next move", tableName: "Premium")
                 }
-                Image(systemName: "laurel.trailing")
-            }
-            .font(.system(size: compact ? 27 : 38, weight: .medium))
-            .foregroundStyle(AppColor.primary)
-            Text("Illustrative reviews · not customer ratings", tableName: "Premium")
-                .font(.system(size: compact ? 10 : 11))
-                .foregroundStyle(AppColor.textSecondary)
+                .font(.system(size: compact ? 15 : 20, weight: .bold, design: .rounded))
+                .foregroundStyle(AppColor.textPrimary)
                 .multilineTextAlignment(.center)
-                .fixedSize(horizontal: false, vertical: true)
+            }
+            Image(systemName: "laurel.trailing")
         }
+        .font(.system(size: compact ? 27 : 38, weight: .medium))
+        .foregroundStyle(AppColor.primary)
     }
 
     private func review(
@@ -79,6 +72,9 @@ struct OnboardingReviews: View {
                         Text(verbatim: name)
                             .font(.system(size: compact ? 12 : 14, weight: .semibold))
                             .foregroundStyle(AppColor.textPrimary)
+                        Text("Example", tableName: "Premium")
+                            .font(.system(size: compact ? 10 : 11))
+                            .foregroundStyle(AppColor.textSecondary)
                         Spacer(minLength: 4)
                         stars(size: compact ? 8 : 10)
                     }
