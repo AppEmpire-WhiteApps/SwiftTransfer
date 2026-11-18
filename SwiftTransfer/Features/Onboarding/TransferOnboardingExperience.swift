@@ -12,7 +12,7 @@ struct TransferOnboardingExperience: View {
                 style: PremiumDesign.onboarding(scale: PremiumLayout(size: proxy.size).scale),
                 linksConfig: PremiumDesign.links,
                 isTrialEnabled: false,
-                showReviewRequestOnComplete: false,
+                showReviewRequestOnComplete: true,
                 termsView: { PremiumLegalScreen(document: .terms) },
                 privacyView: { PremiumLegalScreen(document: .privacy) },
                 paywallBackgroundView: AnyView(
@@ -27,9 +27,6 @@ struct TransferOnboardingExperience: View {
                         PremiumArtwork(route: .assistant)
                     }
                 ),
-                onScreenShown: { index, _ in page = index },
-                onPaywallShown: { page = 4 },
-                onSecondaryPaywallShown: { page = 5 },
                 onComplete: onFinish
             )
         }
@@ -107,29 +104,4 @@ struct TransferOnboardingExperience: View {
         ]
     }
 
-}
-
-#Preview("SE") {
-    TransferOnboardingExperience {}
-        .frame(width: 375, height: 667)
-}
-
-#Preview("Large iPhone") {
-    TransferOnboardingExperience {}
-        .frame(width: 440, height: 956)
-}
-
-#Preview("iPad portrait") {
-    TransferOnboardingExperience {}
-        .frame(width: 834, height: 1194)
-}
-
-#Preview("iPad landscape") {
-    TransferOnboardingExperience {}
-        .frame(width: 1194, height: 834)
-}
-
-#Preview("Unfolded window") {
-    TransferOnboardingExperience {}
-        .frame(width: 800, height: 600)
 }

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic3d_contacts.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

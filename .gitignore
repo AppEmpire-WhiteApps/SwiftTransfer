@@ -1,0 +1,34 @@
+.DS_Store
+xcuserdata/
+DerivedData/
+build/
+*.xcuserstate
+.aigenerator/
+Config/Secrets.xcconfig
+
+# macOS metadata
+.AppleDouble/
+._*
+
+# Local Swift Package Manager state
+.build/
+.swiftpm/
+
+# Xcode local metadata and build artifacts
+*.xccheckout
+*.xcscmblueprint
+*.xcresult/
+*.xcarchive/
+*.dSYM/
+*.dSYM.zip
+*.ipa
+
+# Build-generated credentials
+LLMSecret.generated.swift
+
+# Local logs and editor temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~

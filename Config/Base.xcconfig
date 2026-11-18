@@ -1,0 +1,7 @@
+// Shared build settings for the SwiftTransfer app target.
+// The LLMApps TOTP key lives in Config/Secrets.xcconfig (git-ignored).
+// Copy Config/Secrets.example.xcconfig to Config/Secrets.xcconfig and set LLM_TOTP_KEY.
+
+LLM_TOTP_KEY =
+
+#include? "Secrets.xcconfig"

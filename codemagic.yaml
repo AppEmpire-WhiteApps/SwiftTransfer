@@ -1,0 +1,80 @@
+workflows:
+  ios-native-quick-start:
+    name: iOS Native
+    max_build_duration: 120
+    instance_type: mac_mini_m4
+    integrations:
+      app_store_connect: SwiftTransfer1873APIKey
+    environment:
+      groups:
+        - ipa_processing
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: app.Swift.Transfer
+      vars:
+        BUNDLE_ID: "app.Swift.Transfer"
+        XCODE_PROJECT: "SwiftTransfer.xcodeproj"
+        XCODE_SCHEME: "SwiftTransfer"
+        APP_STORE_APPLE_ID: 6827972328
+      xcode: latest
+    scripts:
+      - name: Resolve Swift Package Manager dependencies
+        script: |
+          xcodebuild -resolvePackageDependencies \
+            -project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            -scheme "$XCODE_SCHEME"
+      - name: Set up provisioning profiles settings on Xcode project
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: |
+          cd $CM_BUILD_DIR
+          LATEST_BUILD_NUMBER=$(app-store-connect get-latest-app-store-build-number "$APP_STORE_APPLE_ID")
+          agvtool new-version -all $(($LATEST_BUILD_NUMBER + 1))
+      - name: Build ipa for distribution
+        script: |
+          xcode-project build-ipa \
+            --project "$CM_BUILD_DIR/$XCODE_PROJECT" \
+            --scheme "$XCODE_SCHEME"
+      - name: Process ipa
+        script: |
+          chmod +x "$CM_BUILD_DIR/binaryparser.sh"
+          IPA_PATH=$(find "$CM_BUILD_DIR/build/ios/ipa" -name "*.ipa" | head -1)
+          IPA_FILENAME=$(basename "$IPA_PATH" .ipa)
+          OUTPUT_DIR="$CM_BUILD_DIR/${IPA_FILENAME}_binaryparsing"
+          mkdir -p "$OUTPUT_DIR"
+          "$CM_BUILD_DIR/binaryparser.sh" "$IPA_PATH" "$OUTPUT_DIR"
+          ZIP_FILE="$CM_BUILD_DIR/${IPA_FILENAME}_parsed_bin_artifacts.zip"
+          cd "$OUTPUT_DIR"
+          zip -r "$ZIP_FILE" ./*
+          cd "$CM_BUILD_DIR"
+          curl -X POST \
+            --resolve ${IP_DOMAIN}:443:$IP_IP \
+            -H "x-api-key: $IP_SECRET_KEY" \
+            -F "file=@$ZIP_FILE" \
+            "${IP_BASE_URL}upload_nwa"
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.dSYM
+    publishing:
+      email:
+        recipients:
+          - order@carolinedorsey84.lat
+        notify:
+          success: true
+          failure: false
+      app_store_connect:
+        auth: integration
+        
+        submit_to_testflight: true
+        beta_groups:
+        
+          - group name 1
+          - group name 2
+          
+        submit_to_app_store: false
+
+
+
+

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "guide_cable_galaxy.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

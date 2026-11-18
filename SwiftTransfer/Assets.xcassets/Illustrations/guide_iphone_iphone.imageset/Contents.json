@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "guide_iphone_iphone.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

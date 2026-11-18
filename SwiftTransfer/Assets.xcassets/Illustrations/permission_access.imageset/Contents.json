@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "permission_access.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

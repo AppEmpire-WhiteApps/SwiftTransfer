@@ -1,0 +1,857 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftTransfer"
+          }
+        }
+      }
+    },
+    "NSCalendarsFullAccessUsageDescription" : {
+      "comment" : "Privacy - Calendars Full Access Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace kopíruje události z vašeho kalendáře do nového zařízení a může importovat přijaté události."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App kopiert deine Kalenderereignisse auf das neue Gerät und kann empfangene Ereignisse importieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app copies your calendar events to the new device and can import received events."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app copia los eventos de tu calendario al dispositivo nuevo y puede importar los eventos recibidos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copie les événements de votre calendrier sur le nouvel appareil et peut importer les événements reçus."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copia gli eventi del calendario sul nuovo dispositivo e può importare gli eventi ricevuti."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 캘린더 이벤트를 새 기기로 복사하고 받은 이벤트를 가져올 수 있습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja kopiuje wydarzenia z kalendarza na nowe urządzenie i może importować odebrane wydarzenia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app copia seus eventos de calendário para o novo dispositivo e pode importar eventos recebidos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение копирует события календаря на новое устройство и может импортировать полученные события."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama takvim etkinliklerinizi yeni aygıta kopyalar ve alınan etkinlikleri içe aktarabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма копіює події вашого календаря на новий пристрій і може імпортувати отримані події."
+          }
+        }
+      }
+    },
+    "NSCalendarsUsageDescription" : {
+      "comment" : "Privacy - Calendars Usage Description",
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace kopíruje události z vašeho kalendáře do nového zařízení a může importovat přijaté události."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App kopiert deine Kalenderereignisse auf das neue Gerät und kann empfangene Ereignisse importieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app copies your calendar events to the new device and can import received events."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app copia los eventos de tu calendario al dispositivo nuevo y puede importar los eventos recibidos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copie les événements de votre calendrier sur le nouvel appareil et peut importer les événements reçus."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copia gli eventi del calendario sul nuovo dispositivo e può importare gli eventi ricevuti."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 캘린더 이벤트를 새 기기로 복사하고 받은 이벤트를 가져올 수 있습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja kopiuje wydarzenia z kalendarza na nowe urządzenie i może importować odebrane wydarzenia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app copia seus eventos de calendário para o novo dispositivo e pode importar eventos recebidos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение копирует события календаря на новое устройство и может импортировать полученные события."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama takvim etkinliklerinizi yeni aygıta kopyalar ve alınan etkinlikleri içe aktarabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма копіює події вашого календаря на новий пристрій і може імпортувати отримані події."
+          }
+        }
+      }
+    },
+    "NSCameraUsageDescription" : {
+      "comment" : "Privacy - Camera Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace používá fotoaparát ke skenování QR kódu zobrazeného na druhém zařízení."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App verwendet die Kamera, um den QR-Code auf dem anderen Gerät zu scannen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app uses the camera to scan the QR code shown on the other device."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app usa la cámara para escanear el código QR que aparece en el otro dispositivo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app utilise l’appareil photo pour scanner le code QR affiché sur l’autre appareil."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app usa la fotocamera per scansionare il codice QR mostrato sull’altro dispositivo."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 카메라를 사용하여 다른 기기에 표시된 QR 코드를 스캔합니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja używa aparatu do skanowania kodu QR wyświetlanego na drugim urządzeniu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app usa a câmera para escanear o código QR mostrado no outro dispositivo."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение использует камеру для сканирования QR-кода на другом устройстве."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama, diğer aygıtta gösterilen QR kodu taramak için kamerayı kullanır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма використовує камеру для сканування QR-коду, показаного на іншому пристрої."
+          }
+        }
+      }
+    },
+    "NSContactsUsageDescription" : {
+      "comment" : "Privacy - Contacts Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace kopíruje vaše kontakty do nového zařízení. Kontakty v tomto zařízení se nikdy nemění."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App kopiert deine Kontakte auf das neue Gerät. Die Kontakte auf diesem Gerät werden nie geändert."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app copies your contacts to the new device. Contacts on this device are never changed."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app copia tus contactos al dispositivo nuevo. Los contactos de este dispositivo nunca se modifican."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copie vos contacts sur le nouvel appareil. Les contacts de cet appareil ne sont jamais modifiés."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copia i tuoi contatti sul nuovo dispositivo. I contatti su questo dispositivo non vengono mai modificati."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 연락처를 새 기기로 복사합니다. 이 기기의 연락처는 절대 변경되지 않습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja kopiuje kontakty na nowe urządzenie. Kontakty na tym urządzeniu nigdy nie są zmieniane."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app copia seus contatos para o novo dispositivo. Os contatos neste dispositivo nunca são alterados."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение копирует контакты на новое устройство. Контакты на этом устройстве никогда не изменяются."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama kişilerinizi yeni aygıta kopyalar. Bu aygıttaki kişiler asla değiştirilmez."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма копіює ваші контакти на новий пристрій. Контакти на цьому пристрої ніколи не змінюються."
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription" : {
+      "comment" : "Privacy - Local Network Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace vyhledá vaše další zařízení v síti Wi-Fi a posílá do něj data přímo."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App findet dein anderes Gerät im Wi-Fi-Netzwerk und sendet Daten direkt dorthin."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app finds your other device on the Wi-Fi network and sends data to it directly."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app encuentra tu otro dispositivo en la red Wi-Fi y le envía los datos directamente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app détecte votre autre appareil sur le réseau Wi-Fi et lui envoie directement les données."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app trova l'altro dispositivo sulla rete Wi-Fi e gli invia i dati direttamente."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 Wi-Fi 네트워크에서 다른 기기를 찾아 데이터를 직접 보냅니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja znajduje Twoje drugie urządzenie w sieci Wi-Fi i wysyła do niego dane bezpośrednio."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app encontra seu outro dispositivo na rede Wi-Fi e envia dados diretamente para ele."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение находит ваше другое устройство в сети Wi-Fi и отправляет данные напрямую на него."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama Wi-Fi ağındaki diğer aygıtınızı bulur ve verileri doğrudan ona gönderir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма знаходить ваш інший пристрій у мережі Wi-Fi і надсилає на нього дані напряму."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryAddUsageDescription" : {
+      "comment" : "Privacy - Photo Library Additions Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace ukládá přijaté fotky a videa do vaší knihovny."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App sichert empfangene Fotos und Videos in deiner Mediathek."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app saves received photos and videos to your library."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app guarda en tu fototeca las fotos y los vídeos recibidos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app enregistre les photos et vidéos reçues dans votre photothèque."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app salva le foto e i video ricevuti nella tua libreria."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 받은 사진과 비디오를 보관함에 저장합니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja zapisuje odebrane zdjęcia i wideo w bibliotece."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app salva as fotos e vídeos recebidos na sua fototeca."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение сохраняет полученные фото и видео в вашу медиатеку."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama alınan fotoğrafları ve videoları arşivinize kaydeder."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма зберігає отримані фото й відео у вашу медіатеку."
+          }
+        }
+      }
+    },
+    "NSPhotoLibraryUsageDescription" : {
+      "comment" : "Privacy - Photo Library Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace kopíruje vaše fotky a videa do nového zařízení. Originály zůstanou na svém místě."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App kopiert deine Fotos und Videos auf das neue Gerät. Die Originale bleiben, wo sie sind."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app copies your photos and videos to the new device. Originals stay where they are."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app copia tus fotos y vídeos al dispositivo nuevo. Los originales se quedan donde están."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copie vos photos et vidéos sur le nouvel appareil. Les originaux restent à leur place."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copia le tue foto e i tuoi video sul nuovo dispositivo. Gli originali restano dove sono."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 사진과 비디오를 새 기기로 복사합니다. 원본은 그대로 유지됩니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja kopiuje zdjęcia i wideo na nowe urządzenie. Oryginały pozostają na miejscu."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app copia suas fotos e vídeos para o novo dispositivo. Os originais permanecem onde estão."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение копирует фото и видео на новое устройство. Оригиналы остаются на месте."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama fotoğraflarınızı ve videolarınızı yeni aygıta kopyalar. Orijinaller olduğu yerde kalır."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма копіює ваші фото й відео на новий пристрій. Оригінали залишаються на місці."
+          }
+        }
+      }
+    },
+    "NSRemindersFullAccessUsageDescription" : {
+      "comment" : "Privacy - Reminders Full Access Usage Description",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace kopíruje vaše připomínky do nového zařízení a může importovat přijaté připomínky."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App kopiert deine Erinnerungen auf das neue Gerät und kann empfangene Erinnerungen importieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app copies your reminders to the new device and can import received reminders."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app copia tus recordatorios al dispositivo nuevo y puede importar los recordatorios recibidos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copie vos rappels sur le nouvel appareil et peut importer les rappels reçus."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copia i tuoi promemoria sul nuovo dispositivo e può importare i promemoria ricevuti."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 미리 알림을 새 기기로 복사하고 받은 미리 알림을 가져올 수 있습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja kopiuje przypomnienia na nowe urządzenie i może importować odebrane przypomnienia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app copia seus lembretes para o novo dispositivo e pode importar lembretes recebidos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение копирует напоминания на новое устройство и может импортировать полученные напоминания."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama anımsatıcılarınızı yeni aygıta kopyalar ve alınan anımsatıcıları içe aktarabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма копіює ваші нагадування на новий пристрій і може імпортувати отримані нагадування."
+          }
+        }
+      }
+    },
+    "NSRemindersUsageDescription" : {
+      "comment" : "Privacy - Reminders Usage Description",
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikace kopíruje vaše připomínky do nového zařízení a může importovat přijaté připomínky."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die App kopiert deine Erinnerungen auf das neue Gerät und kann empfangene Erinnerungen importieren."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app copies your reminders to the new device and can import received reminders."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La app copia tus recordatorios al dispositivo nuevo y puede importar los recordatorios recibidos."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copie vos rappels sur le nouvel appareil et peut importer les rappels reçus."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’app copia i tuoi promemoria sul nuovo dispositivo e può importare i promemoria ricevuti."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앱은 미리 알림을 새 기기로 복사하고 받은 미리 알림을 가져올 수 있습니다."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aplikacja kopiuje przypomnienia na nowe urządzenie i może importować odebrane przypomnienia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O app copia seus lembretes para o novo dispositivo e pode importar lembretes recebidos."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение копирует напоминания на новое устройство и может импортировать полученные напоминания."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama anımsatıcılarınızı yeni aygıta kopyalar ve alınan anımsatıcıları içe aktarabilir."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Програма копіює ваші нагадування на новий пристрій і може імпортувати отримані нагадування."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

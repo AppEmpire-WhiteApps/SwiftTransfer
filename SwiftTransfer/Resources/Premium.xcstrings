@@ -1,2896 +1,4605 @@
 {
-  "sourceLanguage": "en",
-  "strings": {
-    "A guide for each step": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Návod na každý krok"
+  "sourceLanguage" : "en",
+  "strings" : {
+    "A clearer way forward" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jasnější cesta dál"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Schritt für Schritt erklärt"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klarer zum nächsten Schritt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A guide for each step"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A clearer way forward"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Una guía para cada paso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un camino más claro"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un guide à chaque étape"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La suite en toute clarté"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Una guida per ogni passo"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un percorso più chiaro"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "단계마다 따라가는 가이드"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 명확한 다음 단계"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Instrukcje krok po kroku"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jaśniejsza droga naprzód"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Um guia para cada etapa"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um caminho mais claro"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Инструкции на каждом шаге"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дальше — понятнее"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Her adım için bir rehber"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha net bir yol"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Інструкції на кожному кроці"
-          }
-        }
-      }
-    },
-    "A look at everyday transfer stories\nIllustrative reviews for this preview": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Příběhy z běžného přenosu dat\nFiktivní recenze pro tuto ukázku"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "So kann ein Handywechsel aussehen\nFiktive Bewertungen zur Vorschau"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A look at everyday transfer stories\nIllustrative reviews for this preview"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ejemplos de transferencias\nReseñas ficticias de muestra"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Des transferts au quotidien\nAvis fictifs pour cet aperçu"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trasferimenti di ogni giorno\nRecensioni fittizie di esempio"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "일상 속 데이터 이동 이야기\n미리보기용 가상 리뷰"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Codzienne historie przenoszenia\nFikcyjne opinie do tej prezentacji"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histórias de troca de celular\nAvaliações fictícias de exemplo"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Повседневные истории переноса\nВымышленные отзывы для примера"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Günlük aktarım hikâyeleri\nÖn izleme için kurgusal yorumlar"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Повсякденні історії перенесення\nВигадані відгуки для прикладу"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далі — зрозуміліше"
           }
         }
       }
     },
-    "A smoother move": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Snazší přechod na nový telefon"
+    "A guide for each step" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Návod na každý krok"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entspannter aufs neue Handy"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schritt für Schritt erklärt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "A smoother move"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A guide for each step"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un cambio más sencillo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una guía para cada paso"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un changement plus simple"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un guide à chaque étape"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Un passaggio più semplice"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una guida per ogni passo"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "더 편리한 데이터 이동"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "단계마다 따라가는 가이드"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Łatwiejsza zmiana telefonu"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrukcje krok po kroku"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Uma troca mais tranquila"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um guia para cada etapa"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перенос без лишних хлопот"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инструкции на каждом шаге"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Daha kolay bir geçiş"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her adım için bir rehber"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перенесення без зайвих турбот"
-          }
-        }
-      }
-    },
-    "AI assistant": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "AI asistent"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "KI-Assistent"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "AI assistant"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asistente de IA"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Assistant IA"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Assistente IA"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "AI 도우미"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asystent AI"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Assistente de IA"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ИИ-помощник"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yapay zekâ asistanı"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "ШІ-помічник"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інструкції на кожному кроці"
           }
         }
       }
     },
-    "Between iPhone and Android\nOver Wi-Fi or with an external drive": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mezi iPhonem a Androidem\nPřes Wi-Fi nebo externí disk"
+    "A guide for every step" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Návod na každý krok"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zwischen iPhone und Android\nPer WLAN oder externem Laufwerk"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schritt für Schritt erklärt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Between iPhone and Android\nOver Wi-Fi or with an external drive"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A guide for every step"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entre iPhone y Android\nPor Wi-Fi o con una unidad externa"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una guía para cada paso"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entre iPhone et Android\nPar Wi-Fi ou via un disque externe"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un guide à chaque étape"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tra iPhone e Android\nVia Wi-Fi o con un’unità esterna"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una guida per ogni passo"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "iPhone과 Android 사이에서\nWi-Fi 또는 외장 드라이브로"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "단계별 가이드"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Między iPhonem a Androidem\nPrzez Wi-Fi lub dysk zewnętrzny"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrukcje krok po kroku"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Entre iPhone e Android\nVia Wi-Fi ou unidade externa"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Um guia para cada etapa"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Между iPhone и Android\nПо Wi-Fi или с внешним диском"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инструкции на каждом шаге"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "iPhone ve Android arasında\nWi-Fi veya harici sürücüyle"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her adım için bir rehber"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Між iPhone та Android\nЧерез Wi-Fi або зовнішній диск"
-          }
-        }
-      }
-    },
-    "Choose photos, videos and more\nBring files from the Files app too": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vyberte fotky, videa a další data\nI soubory z aplikace Soubory"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wähle Fotos, Videos und mehr\nAuch aus der Dateien-App"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose photos, videos and more\nBring files from the Files app too"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elige fotos, vídeos y más\nAñade también archivos de Archivos"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Photos, vidéos et plus\nAussi depuis l’app Fichiers"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Scegli foto, video e altro\nAggiungi anche file dall’app File"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진, 동영상 등을 선택하고\n파일 앱의 파일도 가져오세요"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wybierz zdjęcia, filmy i nie tylko\nDodaj też pliki z aplikacji Pliki"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escolha fotos, vídeos e mais\nInclua arquivos do app Arquivos"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Выбирайте фото, видео и другое\nИ файлы из приложения «Файлы»"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoğraf, video ve fazlasını seçin\nDosyalar’dan dosya da ekleyin"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вибирайте фото, відео та інше\nІ файли з програми «Файли»"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інструкції на кожному кроці"
           }
         }
       }
     },
-    "Clear next steps": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jasné další kroky"
+    "A helpful next step" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc s dalším krokem"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Klare nächste Schritte"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfe beim nächsten Schritt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Clear next steps"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A helpful next step"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Próximos pasos claros"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda para el próximo paso"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Des étapes claires"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un coup de pouce pour la suite"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I prossimi passi, chiari"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un aiuto per il prossimo passo"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "알기 쉬운 다음 단계"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음 단계를 위한 도움"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jasne kolejne kroki"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc w kolejnym kroku"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Próximos passos claros"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuda para o próximo passo"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Что делать дальше"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подсказка для следующего шага"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sıradaki adımlar net"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonraki adım için yardım"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Що робити далі"
-          }
-        }
-      }
-    },
-    "Continue with limited access": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pokračovat s omezením"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eingeschränkt fortfahren"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continue with limited access"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seguir con acceso limitado"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continuer avec un accès limité"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Continua con accesso limitato"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "제한된 기능으로 계속"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kontynuuj z ograniczeniami"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seguir com acesso limitado"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Продолжить с ограничениями"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Sınırlı erişimle devam et"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Далі з обмеженнями"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підказка для наступного кроку"
           }
         }
       }
     },
-    "Example rating: five stars": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ukázkové hodnocení: pět hvězdiček"
+    "A look at everyday transfer stories\nIllustrative reviews for this preview" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příběhy z běžného přenosu dat\nFiktivní recenze pro tuto ukázku"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beispielbewertung: fünf Sterne"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So kann ein Handywechsel aussehen\nFiktive Bewertungen zur Vorschau"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Example rating: five stars"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A look at everyday transfer stories\nIllustrative reviews for this preview"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valoración de ejemplo: cinco estrellas"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ejemplos de transferencias\nReseñas ficticias de muestra"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exemple de note : cinq étoiles"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Des transferts au quotidien\nAvis fictifs pour cet aperçu"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Valutazione di esempio: cinque stelle"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trasferimenti di ogni giorno\nRecensioni fittizie di esempio"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "별점 예시: 별 5개"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "일상 속 데이터 이동 이야기\n미리보기용 가상 리뷰"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przykładowa ocena: pięć gwiazdek"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codzienne historie przenoszenia\nFikcyjne opinie do tej prezentacji"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exemplo de nota: cinco estrelas"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórias de troca de celular\nAvaliações fictícias de exemplo"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Пример оценки: пять звёзд"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повседневные истории переноса\nВымышленные отзывы для примера"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Örnek puan: beş yıldız"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günlük aktarım hikâyeleri\nÖn izleme için kurgusal yorumlar"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Приклад оцінки: п’ять зірок"
-          }
-        }
-      }
-    },
-    "Explore AI assistant": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Objevte AI asistenta"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "KI-Assistent entdecken"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Explore AI assistant"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descubrir el asistente de IA"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Découvrir l’assistant IA"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Scopri l’assistente IA"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "AI 도우미 살펴보기"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Poznaj asystenta AI"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conheça o assistente de IA"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Узнать об ИИ-помощнике"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yapay zekâ asistanını keşfedin"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Дізнатися про ШІ-помічника"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Повсякденні історії перенесення\nВигадані відгуки для прикладу"
           }
         }
       }
     },
-    "Explore Premium": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Objevte Premium"
+    "A smoother move" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Snazší přechod na nový telefon"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium entdecken"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entspannter aufs neue Handy"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Explore Premium"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A smoother move"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Descubrir Premium"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un cambio más sencillo"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Découvrir Premium"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un changement plus simple"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Scopri Premium"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un passaggio più semplice"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "프리미엄 살펴보기"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 편리한 데이터 이동"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Poznaj Premium"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łatwiejsza zmiana telefonu"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conheça o Premium"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uma troca mais tranquila"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Узнать о Premium"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перенос без лишних хлопот"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium’u keşfedin"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha kolay bir geçiş"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Дізнатися про Premium"
-          }
-        }
-      }
-    },
-    "Get answers and guidance while you transfer.": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Získejte odpovědi a rady během přenosu."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Erhalte Antworten und Hilfestellung beim Übertragen."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Get answers and guidance while you transfer."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recibe respuestas y orientación mientras transfieres."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Obtenez des réponses et des conseils pendant le transfert."
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ricevi risposte e indicazioni durante il trasferimento."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터를 옮기는 동안 답변과 안내를 받아보세요."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Otrzymuj odpowiedzi i wskazówki podczas przenoszenia danych."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Receba respostas e orientações enquanto transfere seus dados."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Получайте ответы и советы во время переноса."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aktarım sırasında yanıt ve rehberlik alın."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Отримуйте відповіді й поради під час перенесення."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перенесення без зайвих турбот"
           }
         }
       }
     },
-    "Help along the way": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pomoc během přenosu"
+    "AI assistant" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI asistent"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hilfe beim Übertragen"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Assistent"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Help along the way"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI assistant"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ayuda durante el proceso"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistente de IA"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "De l’aide en chemin"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistant IA"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aiuto lungo il percorso"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistente IA"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "옮기는 중에도 도움을"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI 도우미"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pomoc na każdym etapie"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asystent AI"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ajuda durante a transferência"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistente de IA"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Помощь в процессе"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ИИ-помощник"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aktarım boyunca destek"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapay zekâ asistanı"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Допомога в процесі"
-          }
-        }
-      }
-    },
-    "I asked the assistant about my connection and got clear steps to try.": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zeptal jsem se asistenta na připojení a dostal srozumitelné pokyny, co můžu vyzkoušet."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ich habe den Assistenten zu meiner Verbindung gefragt und klare Schritte zum Ausprobieren erhalten."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I asked the assistant about my connection and got clear steps to try."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pregunté al asistente por mi conexión y recibí pasos claros para probar."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "J’ai interrogé l’assistant sur ma connexion et reçu des étapes claires à essayer."
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ho chiesto all’assistente informazioni sulla connessione e ho ricevuto indicazioni chiare da provare."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "연결에 대해 도우미에게 물어보니 시도해 볼 방법을 알기 쉽게 알려줬어요."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zapytałem asystenta o połączenie i otrzymałem jasne wskazówki, co mogę wypróbować."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Perguntei ao assistente sobre a conexão e recebi orientações claras para testar."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Я задал помощнику вопрос о подключении, и он понятно объяснил, что можно попробовать."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Asistana bağlantımı sordum, deneyebileceğim adımları net bir şekilde anlattı."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Я запитав помічника про підключення, і він зрозуміло пояснив, що можна спробувати."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ШІ-помічник"
           }
         }
       }
     },
-    "I picked the photos I wanted and moved them to my new phone over Wi-Fi.": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vybral jsem fotky, které jsem chtěl, a přenesl je do nového telefonu přes Wi-Fi."
+    "Between iPhone and Android\nOver Wi-Fi or with an external drive" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mezi iPhonem a Androidem\nPřes Wi-Fi nebo externí disk"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ich habe die gewünschten Fotos ausgewählt und per WLAN auf mein neues Handy übertragen."
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zwischen iPhone und Android\nPer WLAN oder externem Laufwerk"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "I picked the photos I wanted and moved them to my new phone over Wi-Fi."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Between iPhone and Android\nOver Wi-Fi or with an external drive"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Elegí las fotos que quería y las transferí a mi nuevo móvil por Wi-Fi."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entre iPhone y Android\nPor Wi-Fi o con una unidad externa"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "J’ai choisi les photos que je voulais et je les ai transférées sur mon nouveau téléphone par Wi-Fi."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entre iPhone et Android\nPar Wi-Fi ou via un disque externe"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ho scelto le foto che volevo e le ho trasferite sul nuovo telefono tramite Wi-Fi."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tra iPhone e Android\nVia Wi-Fi o con un’unità esterna"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "원하는 사진을 골라 Wi-Fi로 새 휴대폰에 옮겼어요."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone과 Android 사이에서\nWi-Fi 또는 외장 드라이브로"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wybrałem zdjęcia, które chciałem przenieść, i przesłałem je na nowy telefon przez Wi-Fi."
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Między iPhonem a Androidem\nPrzez Wi-Fi lub dysk zewnętrzny"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Escolhi as fotos que queria e transferi para o celular novo por Wi-Fi."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entre iPhone e Android\nVia Wi-Fi ou unidade externa"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Я выбрал нужные фото и перенёс их на новый телефон по Wi-Fi."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Между iPhone и Android\nПо Wi-Fi или с внешним диском"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "İstediğim fotoğrafları seçip Wi-Fi üzerinden yeni telefonuma aktardım."
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhone ve Android arasında\nWi-Fi veya harici sürücüyle"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Я вибрав потрібні фото й переніс їх на новий телефон через Wi-Fi."
-          }
-        }
-      }
-    },
-    "Illustrative review": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fiktivní recenze"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fiktive Bewertung"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Illustrative review"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Reseña ficticia"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avis fictif"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Recensione fittizia"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "가상 리뷰 예시"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fikcyjna opinia"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Avaliação fictícia"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вымышленный отзыв"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Kurgusal örnek yorum"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вигаданий відгук"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Між iPhone та Android\nЧерез Wi-Fi або зовнішній диск"
           }
         }
       }
     },
-    "In just a few steps": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Stačí pár kroků"
+    "Built around" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V centru pozornosti"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "In nur wenigen Schritten"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Im Mittelpunkt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "In just a few steps"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Built around"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En unos pocos pasos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensado para"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "En quelques étapes"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensé pour"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "In pochi passaggi"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensato per"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "몇 단계면 간편하게"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "당신을 위한 설계"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "W kilku prostych krokach"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W centrum uwagi"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Em poucos passos"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feito para"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Всего за несколько шагов"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В центре внимания"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Birkaç adımda"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odak noktamız"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лише за кілька кроків"
-          }
-        }
-      }
-    },
-    "In their words": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ukázkové příběhy"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Beispielgeschichten"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "In their words"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Historias de ejemplo"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Exemples de parcours"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Storie di esempio"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "예시로 보는 이야기"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przykładowe historie"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Histórias de exemplo"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Истории для примера"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Örnek aktarım hikâyeleri"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Історії для прикладу"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "У центрі уваги"
           }
         }
       }
     },
-    "Move to a new phone": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Přejděte na nový telefon"
+    "Choose photos, videos and more\nBring files from the Files app too" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte fotky, videa a další data\nI soubory z aplikace Soubory"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Auf ein neues Handy wechseln"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle Fotos, Videos und mehr\nAuch aus der Dateien-App"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Move to a new phone"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose photos, videos and more\nBring files from the Files app too"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Cámbiate a un móvil nuevo"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige fotos, vídeos y más\nAñade también archivos de Archivos"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passez à un nouveau téléphone"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, vidéos et plus\nAussi depuis l’app Fichiers"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Passa a un nuovo telefono"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli foto, video e altro\nAggiungi anche file dall’app File"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "새 휴대폰으로 옮기기"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진, 동영상 등을 선택하고\n파일 앱의 파일도 가져오세요"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przenieś dane na nowy telefon"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz zdjęcia, filmy i nie tylko\nDodaj też pliki z aplikacji Pliki"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mude para um celular novo"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolha fotos, vídeos e mais\nInclua arquivos do app Arquivos"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перейдите на новый телефон"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбирайте фото, видео и другое\nИ файлы из приложения «Файлы»"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yeni telefonunuza geçin"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraf, video ve fazlasını seçin\nDosyalar’dan dosya da ekleyin"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перейдіть на новий телефон"
-          }
-        }
-      }
-    },
-    "Photo transfer": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Přenos fotek"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoübertragung"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Photo transfer"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transferencia de fotos"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfert de photos"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trasferimento foto"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진 전송"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przenoszenie zdjęć"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transferência de fotos"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перенос фото"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoğraf aktarımı"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Перенесення фото"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вибирайте фото, відео та інше\nІ файли з програми «Файли»"
           }
         }
       }
     },
-    "Photos, guidance and a helping hand": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotky, návody a pomoc"
+    "Clear next steps" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jasné další kroky"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotos, Anleitungen und Hilfe"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klare nächste Schritte"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Photos, guidance and a helping hand"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear next steps"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotos, guías y una mano amiga"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próximos pasos claros"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Photos, guides et coup de main"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Des étapes claires"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Foto, guide e una mano in più"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I prossimi passi, chiari"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진 이동부터 가이드와 도움까지"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알기 쉬운 다음 단계"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zdjęcia, instrukcje i pomoc"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jasne kolejne kroki"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotos, guias e uma ajuda extra"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Próximos passos claros"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фото, инструкции и помощь"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что делать дальше"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoğraflar, rehberler ve destek"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sıradaki adımlar net"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фото, інструкції та допомога"
-          }
-        }
-      }
-    },
-    "Photos, ready to move": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotky připravené k přenosu"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotos bereit zum Wechsel"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Photos, ready to move"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotos listas para el cambio"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Des photos prêtes à partir"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Foto pronte a partire"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "옮길 사진만 쏙"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Zdjęcia gotowe do przeniesienia"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotos prontas para transferir"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фото готовы к переносу"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoğraflar taşınmaya hazır"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Фото готові до перенесення"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Що робити далі"
           }
         }
       }
     },
-    "Premium access": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Přístup k Premium"
+    "Continue with limited access" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat s omezením"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium-Zugang"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eingeschränkt fortfahren"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium access"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue with limited access"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Acceso Premium"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguir con acceso limitado"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Accès Premium"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuer avec un accès limité"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Accesso Premium"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua con accesso limitato"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "프리미엄 이용"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제한된 기능으로 계속"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dostęp do Premium"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontynuuj z ograniczeniami"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Acesso Premium"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seguir com acesso limitado"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Доступ к Premium"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить с ограничениями"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Premium erişimi"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sınırlı erişimle devam et"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Доступ до Premium"
-          }
-        }
-      }
-    },
-    "Privacy Policy": {
-      "extractionState": "manual",
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Soukromí"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Datenschutz"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacy Policy"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacidad"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Confidentialité"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacy"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "개인정보 보호"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Prywatność"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Privacidade"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Приватность"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gizlilik"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Приватність"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далі з обмеженнями"
           }
         }
       }
     },
-    "Restore": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Obnovení nákupů"
+    "Every transfer story matters" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Každá zkušenost s přenosem se počítá"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Käufe wiederherstellen"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jede Transfer-Erfahrung zählt"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restore"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every transfer story matters"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar compras"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada transferencia cuenta"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurer les achats"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaque expérience compte"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ripristina acquisti"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ogni esperienza conta"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구매 복원"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모든 이동 경험은 소중해요"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przywracanie zakupów"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Każda historia przenoszenia się liczy"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Restaurar compras"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cada experiência de transferência conta"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Восстановление покупок"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждый опыт переноса важен"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Satın alımları geri yükle"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her aktarım deneyimi önemli"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Відновлення покупок"
-          }
-        }
-      }
-    },
-    "Select only what matters to you": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Jen to, na čem vám záleží"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wähle nur, was dir wichtig ist"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Select only what matters to you"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selecciona solo lo que te importa"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choisissez ce qui compte pour vous"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seleziona solo ciò che conta per te"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "필요한 항목만 선택"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Wybierz to, co dla ciebie ważne"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Selecione só o que importa"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Только то, что важно для вас"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yalnızca önemli olanları seçin"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Лише те, що важливо для вас"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кожен досвід перенесення важливий"
           }
         }
       }
     },
-    "Subscriptions are currently unavailable. Please try again later.": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Předplatné je momentálně nedostupné. Zkuste to prosím později."
+    "Example rating: five stars" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukázkové hodnocení: pět hvězdiček"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abos sind derzeit nicht verfügbar. Bitte versuche es später erneut."
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beispielbewertung: fünf Sterne"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Subscriptions are currently unavailable. Please try again later."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Example rating: five stars"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Las suscripciones no están disponibles. Inténtalo más tarde."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valoración de ejemplo: cinco estrellas"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Les abonnements sont indisponibles pour le moment. Veuillez réessayer plus tard."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exemple de note : cinq étoiles"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Gli abbonamenti non sono al momento disponibili. Riprova più tardi."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valutazione di esempio: cinque stelle"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "현재 구독을 이용할 수 없습니다. 나중에 다시 시도해 주세요."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "별점 예시: 별 5개"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Subskrypcje są niedostępne. Spróbuj ponownie później."
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykładowa ocena: pięć gwiazdek"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "As assinaturas estão indisponíveis no momento. Tente novamente mais tarde."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exemplo de nota: cinco estrelas"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Сейчас подписки недоступны. Попробуйте позже."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пример оценки: пять звёзд"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abonelikler şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örnek puan: beş yıldız"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Зараз підписки недоступні. Спробуйте пізніше."
-          }
-        }
-      }
-    },
-    "Subscriptions unavailable": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Předplatné není dostupné"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abos nicht verfügbar"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Subscriptions unavailable"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suscripciones no disponibles"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abonnements indisponibles"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abbonamenti non disponibili"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "구독 이용 불가"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Subskrypcje niedostępne"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Assinaturas indisponíveis"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Подписки недоступны"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Abonelikler kullanılamıyor"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Підписки недоступні"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приклад оцінки: п’ять зірок"
           }
         }
       }
     },
-    "Terms of Use": {
-      "extractionState": "manual",
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Podmínky"
+    "Explore AI assistant" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objevte AI asistenta"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Bedingungen"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "KI-Assistent entdecken"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Terms of Use"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore AI assistant"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Condiciones"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descubrir el asistente de IA"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Conditions"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrir l’assistant IA"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Condizioni"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scopri l’assistente IA"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이용 약관"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AI 도우미 살펴보기"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Warunki"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznaj asystenta AI"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Termos de Uso"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conheça o assistente de IA"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Условия"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узнать об ИИ-помощнике"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Koşullar"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapay zekâ asistanını keşfedin"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Умови"
-          }
-        }
-      }
-    },
-    "The guide helped me connect my devices and choose what to transfer.": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Návod mi pomohl propojit zařízení a vybrat data k přenosu."
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Die Anleitung hat mir geholfen, meine Geräte zu verbinden und auszuwählen, was ich übertragen möchte."
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "The guide helped me connect my devices and choose what to transfer."
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La guía me ayudó a conectar mis dispositivos y elegir qué transferir."
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Le guide m’a aidé à connecter mes appareils et à choisir les données à transférer."
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "La guida mi ha aiutato a collegare i dispositivi e a scegliere cosa trasferire."
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "가이드 덕분에 기기를 연결하고 옮길 데이터를 고를 수 있었어요."
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Instrukcja pomogła mi połączyć urządzenia i wybrać dane do przeniesienia."
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "O guia me ajudou a conectar os aparelhos e escolher o que transferir."
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Инструкция помогла мне подключить устройства и выбрать данные для переноса."
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rehber, cihazlarımı bağlamama ve aktaracaklarımı seçmeme yardımcı oldu."
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Інструкція допомогла мені з’єднати пристрої та вибрати дані для перенесення."
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дізнатися про ШІ-помічника"
           }
         }
       }
     },
-    "Transfer guides": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Návody k přenosu"
+    "Explore Premium" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Objevte Premium"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfer-Anleitungen"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium entdecken"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfer guides"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore Premium"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guías de transferencia"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descubrir Premium"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guides de transfert"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Découvrir Premium"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guide al trasferimento"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scopri Premium"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터 이동 가이드"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "프리미엄 살펴보기"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Poradniki transferu"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznaj Premium"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Guias de transferência"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conheça o Premium"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Инструкции по переносу"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Узнать о Premium"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aktarım rehberleri"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium’u keşfedin"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Інструкції з перенесення"
-          }
-        }
-      }
-    },
-    "Transfer help": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pomoc s přenosem"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Hilfe beim Übertragen"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfer help"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ayuda para transferir"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aide au transfert"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aiuto per il trasferimento"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터 이동 도움말"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Pomoc w transferze"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ajuda na transferência"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Помощь с переносом"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Aktarım desteği"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Допомога з перенесенням"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дізнатися про Premium"
           }
         }
       }
     },
-    "Transfer photos and follow step-by-step guides.": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Přenášejte fotky a postupujte podle návodů krok za krokem."
+    "Follow a clear transfer guide\nAsk the AI assistant for help" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Postupujte podle jasného návodu\nPožádejte AI asistenta o pomoc"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Übertrage Fotos und nutze Schritt-für-Schritt-Anleitungen."
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folge der klaren Transfer-Anleitung\nBitte den KI-Assistenten um Hilfe"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfer photos and follow step-by-step guides."
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow a clear transfer guide\nAsk the AI assistant for help"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfiere fotos y sigue guías paso a paso."
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sigue una guía de transferencia clara\nPide ayuda al asistente de IA"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transférez vos photos et suivez des guides pas à pas."
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivez un guide de transfert clair\nDemandez de l’aide à l’assistant IA"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Trasferisci foto e segui guide passo dopo passo."
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Segui una guida chiara al trasferimento\nChiedi aiuto all’assistente IA"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진을 옮기고 단계별 가이드를 따라 해 보세요."
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "알기 쉬운 전송 가이드를 따라보세요\nAI 도우미에게 도움을 요청하세요"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Przenoś zdjęcia i korzystaj z instrukcji krok po kroku."
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skorzystaj z jasnych instrukcji\nPoproś asystenta AI o pomoc"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Transfira fotos e siga guias passo a passo."
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siga um guia de transferência claro\nPeça ajuda ao assistente de IA"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Переносите фото и следуйте пошаговым инструкциям."
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Следуйте понятной инструкции\nОбращайтесь к ИИ-помощнику"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoğrafları aktarın, adım adım rehberleri izleyin."
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anlaşılır aktarım rehberini izleyin\nYapay zekâ asistanından yardım alın"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Переносьте фото й дотримуйтеся покрокових інструкцій."
-          }
-        }
-      }
-    },
-    "Unlock your next move": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Odemkněte další možnosti"
-          }
-        },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mehr für deinen Handywechsel"
-          }
-        },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Unlock your next move"
-          }
-        },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Más opciones para tu cambio"
-          }
-        },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Plus de possibilités pour votre transfert"
-          }
-        },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Nuove possibilità di trasferimento"
-          }
-        },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "다음 데이터 이동을 더 자유롭게"
-          }
-        },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Odkryj nowe możliwości"
-          }
-        },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Mais opções para sua próxima troca"
-          }
-        },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Откройте новые возможности"
-          }
-        },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yeni geçişinize daha fazla olanak"
-          }
-        },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Відкрийте нові можливості"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дотримуйтеся зрозумілої інструкції\nЗвертайтеся до ШІ-помічника"
           }
         }
       }
     },
-    "Your AI transfer assistant": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Váš AI asistent pro přenos dat"
+    "Get answers and guidance while you transfer." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Získejte odpovědi a rady během přenosu."
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dein KI-Transferassistent"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erhalte Antworten und Hilfestellung beim Übertragen."
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your AI transfer assistant"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get answers and guidance while you transfer."
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tu asistente de IA para transferir"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recibe respuestas y orientación mientras transfieres."
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Votre assistant IA de transfert"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtenez des réponses et des conseils pendant le transfert."
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Il tuo assistente IA per trasferire"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricevi risposte e indicazioni durante il trasferimento."
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "데이터 이동 AI 도우미"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터를 옮기는 동안 답변과 안내를 받아보세요."
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Twój asystent AI do transferu"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otrzymuj odpowiedzi i wskazówki podczas przenoszenia danych."
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seu assistente de IA para transferir"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Receba respostas e orientações enquanto transfere seus dados."
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ваш ИИ-помощник по переносу"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Получайте ответы и советы во время переноса."
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Yapay zekâ aktarım asistanınız"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım sırasında yanıt ve rehberlik alın."
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ваш ШІ-помічник із перенесення"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отримуйте відповіді й поради під час перенесення."
           }
         }
       }
     },
-    "Your choice of what moves": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vyberte, co chcete přenést"
+    "Guides and AI are part of Premium" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Návody a AI jsou součástí Premium"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Du entscheidest, was mitkommt"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anleitungen und KI mit Premium"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your choice of what moves"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guides and AI are part of Premium"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tú eliges qué transferir"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guías e IA incluidas en Premium"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "À vous de choisir quoi transférer"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guides et IA inclus dans Premium"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Scegli tu cosa trasferire"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide e IA incluse in Premium"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "옮길 데이터는 직접 선택"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가이드와 AI는 Premium에 포함"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ty wybierasz, co przenieść"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrukcje i AI w Premium"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Você escolhe o que transferir"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guias e IA incluídos no Premium"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Вы решаете, что переносить"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инструкции и ИИ входят в Premium"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ne taşınacağına siz karar verin"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rehberler ve yapay zekâ Premium’da"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ви вирішуєте, що переносити"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інструкції та ШІ входять до Premium"
           }
         }
       }
     },
-    "Your old phone keeps its data": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Data ve starém telefonu zůstanou"
+    "Help along the way" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc během přenosu"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Daten bleiben auf dem alten Handy"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfe beim Übertragen"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your old phone keeps its data"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help along the way"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tu móvil anterior conserva sus datos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda durante el proceso"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vos données restent sur l’ancien"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De l’aide en chemin"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Il vecchio telefono conserva i dati"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiuto lungo il percorso"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "이전 휴대폰의 데이터는 그대로"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "옮기는 중에도 도움을"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Dane zostają na starym telefonie"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc na każdym etapie"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Seus dados ficam no celular antigo"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuda durante a transferência"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Данные останутся на старом телефоне"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помощь в процессе"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Eski telefonunuzdaki veriler kalır"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım boyunca destek"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Дані залишаться на старому телефоні"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Допомога в процесі"
           }
         }
       }
     },
-    "Your photos and contacts": {
-      "localizations": {
-        "cs": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vaše fotky a kontakty"
+    "Help when you need it" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc, když ji potřebujete"
           }
         },
-        "de": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Deine Fotos und Kontakte"
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfe, wenn du sie brauchst"
           }
         },
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your photos and contacts"
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Help when you need it"
           }
         },
-        "es": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Tus fotos y contactos"
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda cuando la necesitas"
           }
         },
-        "fr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Vos photos et vos contacts"
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De l’aide au bon moment"
           }
         },
-        "it": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Le tue foto e i tuoi contatti"
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiuto quando serve"
           }
         },
-        "ko": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "사진과 연락처"
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "필요할 때 받는 도움"
           }
         },
-        "pl": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Twoje zdjęcia i kontakty"
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc, gdy jej potrzebujesz"
           }
         },
-        "pt-BR": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Suas fotos e seus contatos"
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuda quando precisar"
           }
         },
-        "ru": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ваши фото и контакты"
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помощь, когда она нужна"
           }
         },
-        "tr": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Fotoğraflarınız ve kişileriniz"
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İhtiyacınız olduğunda yardım"
           }
         },
-        "uk": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Ваші фото й контакти"
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Допомога, коли потрібна"
+          }
+        }
+      }
+    },
+    "I asked the assistant about my connection and got clear steps to try." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeptal jsem se asistenta na připojení a dostal srozumitelné pokyny, co můžu vyzkoušet."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich habe den Assistenten zu meiner Verbindung gefragt und klare Schritte zum Ausprobieren erhalten."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I asked the assistant about my connection and got clear steps to try."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pregunté al asistente por mi conexión y recibí pasos claros para probar."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’ai interrogé l’assistant sur ma connexion et reçu des étapes claires à essayer."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ho chiesto all’assistente informazioni sulla connessione e ho ricevuto indicazioni chiare da provare."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "연결에 대해 도우미에게 물어보니 시도해 볼 방법을 알기 쉽게 알려줬어요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapytałem asystenta o połączenie i otrzymałem jasne wskazówki, co mogę wypróbować."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perguntei ao assistente sobre a conexão e recebi orientações claras para testar."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я задал помощнику вопрос о подключении, и он понятно объяснил, что можно попробовать."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistana bağlantımı sordum, deneyebileceğim adımları net bir şekilde anlattı."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я запитав помічника про підключення, і він зрозуміло пояснив, що можна спробувати."
+          }
+        }
+      }
+    },
+    "I picked the photos I wanted and moved them to my new phone over Wi-Fi." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybral jsem fotky, které jsem chtěl, a přenesl je do nového telefonu přes Wi-Fi."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ich habe die gewünschten Fotos ausgewählt und per WLAN auf mein neues Handy übertragen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I picked the photos I wanted and moved them to my new phone over Wi-Fi."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegí las fotos que quería y las transferí a mi nuevo móvil por Wi-Fi."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’ai choisi les photos que je voulais et je les ai transférées sur mon nouveau téléphone par Wi-Fi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ho scelto le foto che volevo e le ho trasferite sul nuovo telefono tramite Wi-Fi."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원하는 사진을 골라 Wi-Fi로 새 휴대폰에 옮겼어요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybrałem zdjęcia, które chciałem przenieść, i przesłałem je na nowy telefon przez Wi-Fi."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolhi as fotos que queria e transferi para o celular novo por Wi-Fi."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я выбрал нужные фото и перенёс их на новый телефон по Wi-Fi."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstediğim fotoğrafları seçip Wi-Fi üzerinden yeni telefonuma aktardım."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Я вибрав потрібні фото й переніс їх на новий телефон через Wi-Fi."
+          }
+        }
+      }
+    },
+    "Illustrative review" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiktivní recenze"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiktive Bewertung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Illustrative review"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reseña ficticia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avis fictif"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recensione fittizia"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가상 리뷰 예시"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fikcyjna opinia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaliação fictícia"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вымышленный отзыв"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurgusal örnek yorum"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вигаданий відгук"
+          }
+        }
+      }
+    },
+    "Illustrative reviews · not customer ratings" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiktivní recenze · ne hodnocení zákazníků"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiktive Rezensionen · keine Kundenbewertungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fictitious reviews · not customer ratings"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reseñas ficticias · no son valoraciones de clientes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avis fictifs · pas des notes clients"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recensioni fittizie · non valutazioni di clienti"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가상 리뷰 · 실제 고객 평점 아님"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fikcyjne opinie · nie oceny klientów"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depoimentos fictícios · não são notas de clientes"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вымышленные отзывы · не оценки клиентов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurgusal yorumlar · müşteri puanları değil"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вигадані відгуки · не оцінки клієнтів"
+          }
+        }
+      }
+    },
+    "In just a few steps" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stačí pár kroků"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In nur wenigen Schritten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In just a few steps"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En unos pocos pasos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En quelques étapes"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In pochi passaggi"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "몇 단계면 간편하게"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "W kilku prostych krokach"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Em poucos passos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всего за несколько шагов"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Birkaç adımda"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лише за кілька кроків"
+          }
+        }
+      }
+    },
+    "In their words" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukázkové příběhy"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beispielgeschichten"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In their words"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historias de ejemplo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exemples de parcours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Storie di esempio"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예시로 보는 이야기"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przykładowe historie"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Histórias de exemplo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Истории для примера"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örnek aktarım hikâyeleri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Історії для прикладу"
+          }
+        }
+      }
+    },
+    "Keep the rest on your old phone" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zbytek nechte ve starém telefonu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Rest bleibt auf dem alten Handy"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep the rest on your old phone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deja el resto en tu móvil anterior"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le reste sur votre ancien téléphone"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il resto sul vecchio telefono"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "나머지는 이전 휴대폰에 그대로"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resztę zostaw na starym telefonie"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deixe o resto no celular antigo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Остальное — на старом телефоне"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kalanlar eski telefonunuzda kalsın"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Решта — на старому телефоні"
+          }
+        }
+      }
+    },
+    "Move to a new phone" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejděte na nový telefon"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auf ein neues Handy wechseln"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move to a new phone"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cámbiate a un móvil nuevo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passez à un nouveau téléphone"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passa a un nuovo telefono"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새 휴대폰으로 옮기기"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przenieś dane na nowy telefon"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mude para um celular novo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдите на новый телефон"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni telefonunuza geçin"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перейдіть на новий телефон"
+          }
+        }
+      }
+    },
+    "My photos arrived on my new phone over Wi-Fi." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje fotky se přes Wi-Fi přenesly do nového telefonu."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meine Fotos kamen per WLAN auf mein neues Handy."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My photos arrived on my new phone over Wi-Fi."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mis fotos llegaron a mi nuevo móvil por Wi-Fi."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mes photos sont arrivées sur mon nouveau téléphone par Wi-Fi."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le mie foto sono arrivate sul nuovo telefono via Wi-Fi."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wi-Fi로 새 휴대폰에 사진을 옮겼어요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moje zdjęcia trafiły na nowy telefon przez Wi-Fi."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minhas fotos chegaram ao celular novo por Wi-Fi."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мои фото перенеслись на новый телефон по Wi-Fi."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflarım Wi-Fi üzerinden yeni telefonuma aktarıldı."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мої фото перенеслися на новий телефон через Wi-Fi."
+          }
+        }
+      }
+    },
+    "Only what you choose" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jen to, co vyberete"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nur, was du auswählst"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only what you choose"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo lo que elijas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uniquement votre sélection"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo ciò che scegli"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택한 것만"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tylko to, co wybierzesz"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Só o que você escolher"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только то, что вы выбрали"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca seçtikleriniz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лише те, що ви обрали"
+          }
+        }
+      }
+    },
+    "Photo transfer" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přenos fotek"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoübertragung"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photo transfer"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferencia de fotos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfert de photos"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trasferimento foto"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 전송"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przenoszenie zdjęć"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferência de fotos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перенос фото"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraf aktarımı"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перенесення фото"
+          }
+        }
+      }
+    },
+    "Photos, contacts and more" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotky, kontakty a další"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, Kontakte und mehr"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, contacts and more"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, contactos y más"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, contacts et plus"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto, contatti e altro"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진, 연락처 등"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdjęcia, kontakty i więcej"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, contatos e mais"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото, контакты и не только"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar, kişiler ve dahası"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото, контакти й не лише"
+          }
+        }
+      }
+    },
+    "Photos, guidance and a helping hand" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotky, návody a pomoc"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, Anleitungen und Hilfe"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, guidance and a helping hand"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, guías y una mano amiga"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, guides et coup de main"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto, guide e una mano in più"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진 이동부터 가이드와 도움까지"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdjęcia, instrukcje i pomoc"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos, guias e uma ajuda extra"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото, инструкции и помощь"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar, rehberler ve destek"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото, інструкції та допомога"
+          }
+        }
+      }
+    },
+    "Photos, ready to move" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotky připravené k přenosu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos bereit zum Wechsel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photos, ready to move"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos listas para el cambio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Des photos prêtes à partir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto pronte a partire"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "옮길 사진만 쏙"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdjęcia gotowe do przeniesienia"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotos prontas para transferir"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото готовы к переносу"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar taşınmaya hazır"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Фото готові до перенесення"
+          }
+        }
+      }
+    },
+    "Premium access" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přístup k Premium"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium-Zugang"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium access"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acceso Premium"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accès Premium"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accesso Premium"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "프리미엄 이용"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostęp do Premium"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Acesso Premium"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ к Premium"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Premium erişimi"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ до Premium"
+          }
+        }
+      }
+    },
+    "Privacy Policy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soukromí"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datenschutz"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confidentialité"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개인정보 보호"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prywatność"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacidade"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приватность"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gizlilik"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приватність"
+          }
+        }
+      }
+    },
+    "Restore" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obnovení nákupů"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käufe wiederherstellen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar compras"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurer les achats"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina acquisti"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구매 복원"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przywracanie zakupów"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurar compras"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Восстановление покупок"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satın alımları geri yükle"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відновлення покупок"
+          }
+        }
+      }
+    },
+    "Select only what matters to you" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jen to, na čem vám záleží"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wähle nur, was dir wichtig ist"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select only what matters to you"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecciona solo lo que te importa"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choisissez ce qui compte pour vous"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seleziona solo ciò che conta per te"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "필요한 항목만 선택"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz to, co dla ciebie ważne"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecione só o que importa"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Только то, что важно для вас"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yalnızca önemli olanları seçin"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лише те, що важливо для вас"
+          }
+        }
+      }
+    },
+    "Subscriptions are currently unavailable. Please try again later." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Předplatné je momentálně nedostupné. Zkuste to prosím později."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abos sind derzeit nicht verfügbar. Bitte versuche es später erneut."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscriptions are currently unavailable. Please try again later."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Las suscripciones no están disponibles. Inténtalo más tarde."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les abonnements sont indisponibles pour le moment. Veuillez réessayer plus tard."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli abbonamenti non sono al momento disponibili. Riprova più tardi."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "현재 구독을 이용할 수 없습니다. 나중에 다시 시도해 주세요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subskrypcje są niedostępne. Spróbuj ponownie później."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "As assinaturas estão indisponíveis no momento. Tente novamente mais tarde."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сейчас подписки недоступны. Попробуйте позже."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonelikler şu anda kullanılamıyor. Lütfen daha sonra tekrar deneyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Зараз підписки недоступні. Спробуйте пізніше."
+          }
+        }
+      }
+    },
+    "Subscriptions unavailable" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Předplatné není dostupné"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abos nicht verfügbar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subscriptions unavailable"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suscripciones no disponibles"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonnements indisponibles"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abbonamenti non disponibili"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구독 이용 불가"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subskrypcje niedostępne"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assinaturas indisponíveis"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Подписки недоступны"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abonelikler kullanılamıyor"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Підписки недоступні"
+          }
+        }
+      }
+    },
+    "Tell us about your transfer\nYour feedback helps us improve" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Řekněte nám o svém přenosu\nVaše názory nám pomáhají se zlepšovat"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erzähl uns von deinem Transfer\nDein Feedback hilft uns weiter"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tell us about your transfer\nYour feedback helps us improve"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cuéntanos cómo fue tu transferencia\nTu opinión nos ayuda a mejorar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parlez-nous de votre transfert\nVotre avis nous aide à progresser"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raccontaci del tuo trasferimento\nLa tua opinione ci aiuta a migliorare"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터 이동 경험을 알려주세요\n의견을 바탕으로 더 나아질게요"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opowiedz nam o przenoszeniu\nTwoja opinia pomaga nam się rozwijać"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conte como foi sua transferência\nSua opinião nos ajuda a melhorar"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Расскажите о переносе\nВаш отзыв помогает нам стать лучше"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım deneyiminizi anlatın\nGörüşlerinizle gelişiyoruz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Розкажіть про перенесення\nВаш відгук допомагає нам стати кращими"
+          }
+        }
+      }
+    },
+    "Terms of Use" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podmínky"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedingungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms of Use"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condiciones"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conditions"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condizioni"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이용 약관"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warunki"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Termos de Uso"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Условия"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koşullar"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Умови"
+          }
+        }
+      }
+    },
+    "The assistant helped me work out what to try next." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistent mi pomohl zjistit, co zkusit dál."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Assistent half mir, den nächsten Schritt zu finden."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The assistant helped me work out what to try next."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "El asistente me ayudó a saber qué probar después."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’assistant m’a aidé à savoir quoi essayer ensuite."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’assistente mi ha aiutato a capire cosa provare dopo."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "도우미 덕분에 다음에 무엇을 해볼지 알게 됐어요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asystent pomógł mi ustalić, czego spróbować dalej."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O assistente me ajudou a entender o que tentar depois."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помощник помог понять, что попробовать дальше."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asistan, sırada neyi deneyebileceğimi bulmama yardım etti."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помічник допоміг зрозуміти, що спробувати далі."
+          }
+        }
+      }
+    },
+    "The guide helped me connect my devices and choose what to transfer." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Návod mi pomohl propojit zařízení a vybrat data k přenosu."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Anleitung hat mir geholfen, meine Geräte zu verbinden und auszuwählen, was ich übertragen möchte."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The guide helped me connect my devices and choose what to transfer."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La guía me ayudó a conectar mis dispositivos y elegir qué transferir."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le guide m’a aidé à connecter mes appareils et à choisir les données à transférer."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La guida mi ha aiutato a collegare i dispositivi e a scegliere cosa trasferire."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가이드 덕분에 기기를 연결하고 옮길 데이터를 고를 수 있었어요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrukcja pomogła mi połączyć urządzenia i wybrać dane do przeniesienia."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O guia me ajudou a conectar os aparelhos e escolher o que transferir."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инструкция помогла мне подключить устройства и выбрать данные для переноса."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rehber, cihazlarımı bağlamama ve aktaracaklarımı seçmeme yardımcı oldu."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інструкція допомогла мені з’єднати пристрої та вибрати дані для перенесення."
+          }
+        }
+      }
+    },
+    "The guide made connecting my phones much clearer." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Díky návodu bylo mnohem jasnější, jak propojit telefony."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mit der Anleitung war viel klarer, wie ich meine Handys verbinde."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The guide made connecting my phones much clearer."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La guía me aclaró mucho cómo conectar mis móviles."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le guide m’a aidé à comprendre comment connecter mes téléphones."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La guida ha reso molto più chiaro come collegare i miei telefoni."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "가이드 덕분에 휴대폰 연결 방법을 훨씬 쉽게 이해했어요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instrukcja pomogła mi zrozumieć, jak połączyć telefony."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O guia deixou muito mais claro como conectar meus celulares."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "С инструкцией стало гораздо понятнее, как соединить телефоны."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rehber sayesinde telefonlarımı nasıl bağlayacağım çok daha netti."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "З інструкцією стало значно зрозуміліше, як з’єднати телефони."
+          }
+        }
+      }
+    },
+    "Transfer guides" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Návody k přenosu"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfer-Anleitungen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfer guides"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guías de transferencia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guides de transfert"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide al trasferimento"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터 이동 가이드"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poradniki transferu"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guias de transferência"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Инструкции по переносу"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım rehberleri"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Інструкції з перенесення"
+          }
+        }
+      }
+    },
+    "Transfer help" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc s přenosem"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hilfe beim Übertragen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfer help"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayuda para transferir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aide au transfert"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aiuto per il trasferimento"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터 이동 도움말"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc w transferze"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajuda na transferência"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Помощь с переносом"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aktarım desteği"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Допомога з перенесенням"
+          }
+        }
+      }
+    },
+    "Transfer photos and follow step-by-step guides." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přenášejte fotky a postupujte podle návodů krok za krokem."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Übertrage Fotos und nutze Schritt-für-Schritt-Anleitungen."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfer photos and follow step-by-step guides."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfiere fotos y sigue guías paso a paso."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transférez vos photos et suivez des guides pas à pas."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trasferisci foto e segui guide passo dopo passo."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진을 옮기고 단계별 가이드를 따라 해 보세요."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przenoś zdjęcia i korzystaj z instrukcji krok po kroku."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transfira fotos e siga guias passo a passo."
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переносите фото и следуйте пошаговым инструкциям."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğrafları aktarın, adım adım rehberleri izleyin."
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Переносьте фото й дотримуйтеся покрокових інструкцій."
+          }
+        }
+      }
+    },
+    "Unlock your next move" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odemkněte další možnosti"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mehr für deinen Handywechsel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unlock your next move"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más opciones para tu cambio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus de possibilités pour votre transfert"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuove possibilità di trasferimento"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음 데이터 이동을 더 자유롭게"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odkryj nowe możliwości"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mais opções para sua próxima troca"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откройте новые возможности"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni geçişinize daha fazla olanak"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Відкрийте нові можливості"
+          }
+        }
+      }
+    },
+    "We value" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vážíme si"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wir schätzen"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We value"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valoramos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nous apprécions"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apprezziamo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소중한"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cenimy"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valorizamos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Мы ценим"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Değer verdiğimiz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ми цінуємо"
+          }
+        }
+      }
+    },
+    "You decide what moves" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vy určujete, co přenést"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du entscheidest, was mitkommt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You decide what moves"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tú decides qué transferir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous décidez quoi transférer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Decidi tu cosa trasferire"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "옮길 데이터는 직접 선택"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ty decydujesz, co przenosisz"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você decide o que transferir"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы решаете, что переносить"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne aktarılacağına siz karar verin"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви вирішуєте, що переносити"
+          }
+        }
+      }
+    },
+    "Your AI transfer assistant" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Váš AI asistent pro přenos dat"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein KI-Transferassistent"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your AI transfer assistant"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu asistente de IA para transferir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre assistant IA de transfert"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tuo assistente IA per trasferire"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "데이터 이동 AI 도우미"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twój asystent AI do transferu"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seu assistente de IA para transferir"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш ИИ-помощник по переносу"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yapay zekâ aktarım asistanınız"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш ШІ-помічник із перенесення"
+          }
+        }
+      }
+    },
+    "Your choice of what moves" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte, co chcete přenést"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du entscheidest, was mitkommt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your choice of what moves"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tú eliges qué transferir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À vous de choisir quoi transférer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli tu cosa trasferire"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "옮길 데이터는 직접 선택"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ty wybierasz, co przenieść"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você escolhe o que transferir"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вы решаете, что переносить"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne taşınacağına siz karar verin"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ви вирішуєте, що переносити"
+          }
+        }
+      }
+    },
+    "Your feedback" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaší zpětné vazby"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein Feedback"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your feedback"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu opinión"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre avis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La tua opinione"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여러분의 의견"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoją opinię"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sua opinião"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваше мнение"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görüşleriniz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вашу думку"
+          }
+        }
+      }
+    },
+    "Your memories, together" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaše vzpomínky pohromadě"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Erinnerungen vereint"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your memories, together"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus recuerdos, juntos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos souvenirs réunis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I tuoi ricordi, insieme"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추억을 한곳에"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoje wspomnienia razem"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas memórias, juntas"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваши воспоминания вместе"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anılarınız bir arada"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваші спогади разом"
+          }
+        }
+      }
+    },
+    "Your next chapter" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaše nová kapitola"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein neues Kapitel"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your next chapter"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu nuevo capítulo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre nouveau chapitre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tuo nuovo capitolo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새로운 시작"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twój nowy rozdział"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seu novo capítulo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваша новая глава"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni bir sayfa"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш новий розділ"
+          }
+        }
+      }
+    },
+    "Your next move" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Váš další krok"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dein nächster Schritt"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your next move"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu próximo paso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre prochaine étape"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il tuo prossimo passo"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "새로운 시작"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twój kolejny krok"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seu próximo passo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш следующий шаг"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir sonraki adımınız"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваш наступний крок"
+          }
+        }
+      }
+    },
+    "Your old phone keeps its data" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data ve starém telefonu zůstanou"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daten bleiben auf dem alten Handy"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your old phone keeps its data"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu móvil anterior conserva sus datos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos données restent sur l’ancien"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il vecchio telefono conserva i dati"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이전 휴대폰의 데이터는 그대로"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dane zostają na starym telefonie"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seus dados ficam no celular antigo"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Данные останутся на старом телефоне"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eski telefonunuzdaki veriler kalır"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Дані залишаться на старому телефоні"
+          }
+        }
+      }
+    },
+    "Your photos and contacts" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaše fotky a kontakty"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deine Fotos und Kontakte"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your photos and contacts"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tus fotos y contactos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vos photos et vos contacts"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le tue foto e i tuoi contatti"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진과 연락처"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twoje zdjęcia i kontakty"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suas fotos e seus contatos"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваши фото и контакты"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflarınız ve kişileriniz"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ваші фото й контакти"
           }
         }
       }
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

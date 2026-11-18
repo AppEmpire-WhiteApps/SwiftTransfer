@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#1E6BFF">
+  <meta name="color-scheme" content="light">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <title data-i18n="page_title">Data transfer</title>
+  <link rel="icon" type="image/png" href="/assets/logo.png">
+  <link rel="stylesheet" href="/assets/webreceiver_style.css">
+  <script>window.ST_I18N = {{I18N_JSON}}; window.ST_CONFIG = {{CONFIG_JSON}};</script>
+  <script src="/assets/webreceiver_app.js" defer></script>
+</head>
+<body>
+  <header class="st-header">
+    <div class="st-header__inner">
+      <img class="st-header__logo" src="/assets/logo.png" alt="" width="40" height="40" onerror="this.hidden=true">
+      <span class="st-header__brand" data-i18n="brand_name">Data transfer</span>
+    </div>
+  </header>
+
+  <main id="app" class="st-main" tabindex="-1">
+    <section class="card card--center">
+      <div class="spinner" aria-hidden="true"></div>
+      <p class="subtitle" data-i18n="loading">Loading…</p>
+    </section>
+    <noscript>
+      <section class="card card--center">
+        <p class="subtitle">Please enable JavaScript in your browser to use this page.</p>
+      </section>
+    </noscript>
+  </main>
+
+  <div id="st-live" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>
