@@ -184,7 +184,7 @@ enum PremiumSetup {
                 defaultLanguage: .en,
                 forceFallback: PremiumRuntimeConfiguration.forceFallback,
                 fallbackFileName: fallbackFileName,
-                isLoggingEnabled: false
+                isLoggingEnabled: true
             )
         )
     }
