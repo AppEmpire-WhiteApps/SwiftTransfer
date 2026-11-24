@@ -3,7 +3,6 @@ import SwiftUI
 
 struct RootView: View {
     @AppStorage(SettingsKey.onboardingCompleted) private var onboardingCompleted = false
-    @ObservedObject private var premium = Premium.shared
     @State private var startup = PremiumStartup()
 
     var body: some View {
@@ -20,23 +19,43 @@ struct RootView: View {
                         onboardingCompleted = true
                     }
                 }
-                .taskOnce {
-                    await startup.prepareOnboarding()
-                }
-            }
-        }
-        .allowsHitTesting(!premium.isShowingSplash)
-        .accessibilityHidden(premium.isShowingSplash)
-        .overlay {
-            if premium.isShowingSplash {
-                SplashView()
+                .modifier(OnboardingStartupSplash(startup: startup))
             }
         }
         .taskOnce {
-            await startup.prepareAlways()
+            await startup.prepareAssistant()
         }
     }
+}
 
+private struct OnboardingStartupSplash: ViewModifier {
+    let startup: PremiumStartup
+    @State private var isShowingSplash = true
+
+    func body(content: Content) -> some View {
+        content
+            .allowsHitTesting(!isShowingSplash)
+            .accessibilityHidden(isShowingSplash)
+            .overlay {
+                if isShowingSplash {
+                    SplashView()
+                }
+            }
+            .taskOnce {
+                await startup.prepareOnboarding()
+                await MainActor.run { isShowingSplash = false }
+            }
+            .task(id: isShowingSplash) {
+                guard isShowingSplash else { return }
+                // A stalled SDK request must not block entry into onboarding.
+                do {
+                    try await Task.sleep(for: .seconds(5))
+                    isShowingSplash = false
+                } catch {
+                    return
+                }
+            }
+    }
 }
 
 struct MainTabView: View {

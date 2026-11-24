@@ -11,7 +11,7 @@ final class PremiumStartup {
     }
 
     private let load: @MainActor (PremiumPaywallID) async -> Void
-    private var alwaysTask: Task<Void, Never>?
+    private var assistantTask: Task<Void, Never>?
     private var activeFlow: Flow?
     private var flowTask: Task<Void, Never>?
 
@@ -19,17 +19,16 @@ final class PremiumStartup {
         self.load = load
     }
 
-    /// Required on every launch, including launches into unfinished onboarding.
-    func prepareAlways() async {
-        if let alwaysTask {
-            await alwaysTask.value
+    /// Preloads the assistant independently of the active onboarding/main placement.
+    func prepareAssistant() async {
+        if let assistantTask {
+            await assistantTask.value
             return
         }
         let task = Task { @MainActor in
             await load(PremiumRoute.assistant.paywallID)
-            await load(.main)
         }
-        alwaysTask = task
+        assistantTask = task
         await task.value
     }
 
@@ -49,22 +48,16 @@ final class PremiumStartup {
         }
 
         let previousTask = flowTask
-        let needsMainActivation = activeFlow != nil
         activeFlow = flow
 
         let task = Task { @MainActor in
             // Serialize even rapid/repeated Settings → onboarding → main transitions.
             await previousTask?.value
-            await prepareAlways()
             switch flow {
             case .onboarding:
                 await load(.onboarding)
             case .main:
-                if needsMainActivation {
-                    // The SDK has no public select-cached-paywall API. Activate main
-                    // once per branch transition, never per paywall appearance.
-                    await load(.main)
-                }
+                await load(.main)
             }
         }
         flowTask = task
