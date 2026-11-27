@@ -1,23 +1,31 @@
 import SwiftUI
 
 /// Artwork occupies only the space above the builder's native payment controls.
+///
+/// Builders lay the background out under the safe area, so the caller passes the real insets.
+/// The top inset keeps the artwork below the status bar; the side insets center it over the
+/// builder's content (iPhone Duo in landscape, where the status bar takes one side). The bottom
+/// inset is already part of `reservedBottom`.
 struct PremiumScreenBackground<Content: View>: View {
     let kind: PremiumBackgroundKind
-    var safeAreaTop: CGFloat = 0
+    var safeArea = EdgeInsets()
     @ViewBuilder let content: () -> Content
 
     var body: some View {
         GeometryReader { proxy in
             let layout = PremiumBackgroundLayout(size: proxy.size, kind: kind)
-            let topPadding = max(layout.topPadding, safeAreaTop + 8)
+            let topPadding = max(layout.topPadding, safeArea.top + 8)
             let sceneHeight = max(
                 0, min(600, proxy.size.height - layout.reservedBottom - topPadding - 20))
+            let sceneWidth = max(0, proxy.size.width - safeArea.leading - safeArea.trailing)
             VStack(spacing: 0) {
                 content()
-                    .frame(width: proxy.size.width, height: sceneHeight)
+                    .frame(width: sceneWidth, height: sceneHeight)
                 Spacer(minLength: 0)
             }
             .padding(.top, topPadding)
+            .padding(.leading, safeArea.leading)
+            .padding(.trailing, safeArea.trailing)
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         }
         .background {
@@ -84,6 +92,13 @@ enum PremiumBackgroundKind {
     case onboarding
     case main
     case assistant
+}
+
+extension EdgeInsets {
+    /// Only the side insets: paywall artwork keeps its place under the status bar.
+    var sidesOnly: EdgeInsets {
+        EdgeInsets(top: 0, leading: leading, bottom: 0, trailing: trailing)
+    }
 }
 
 struct PremiumBackgroundLayout {

@@ -27,7 +27,7 @@ struct TransferPaywallContent: View {
                 termsView: { PremiumLegalScreen(document: .terms) },
                 privacyView: { PremiumLegalScreen(document: .privacy) },
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .main) {
+                    PremiumScreenBackground(kind: .main, safeArea: proxy.safeAreaInsets.sidesOnly) {
                         PremiumArtwork(route: .main)
                     }
                 ),
@@ -55,7 +55,7 @@ struct TransferAssistantPaywall: View {
                 termsView: { PremiumLegalScreen(document: .terms) },
                 privacyView: { PremiumLegalScreen(document: .privacy) },
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .assistant) {
+                    PremiumScreenBackground(kind: .assistant, safeArea: proxy.safeAreaInsets.sidesOnly) {
                         PremiumArtwork(route: .assistant)
                     }
                 ),

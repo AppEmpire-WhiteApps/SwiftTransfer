@@ -7,7 +7,7 @@ struct TransferOnboardingExperience: View {
     var body: some View {
         GeometryReader { proxy in
             OnboardingBuilder(
-                screens: screens(safeAreaTop: proxy.safeAreaInsets.top),
+                screens: screens(safeArea: proxy.safeAreaInsets),
                 paywallImages: PremiumDesign.resources,
                 style: PremiumDesign.onboarding(scale: PremiumLayout(size: proxy.size).scale),
                 linksConfig: PremiumDesign.links,
@@ -16,14 +16,14 @@ struct TransferOnboardingExperience: View {
                 termsView: { PremiumLegalScreen(document: .terms) },
                 privacyView: { PremiumLegalScreen(document: .privacy) },
                 paywallBackgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding) {
+                    PremiumScreenBackground(kind: .onboarding, safeArea: proxy.safeAreaInsets.sidesOnly) {
                         PremiumArtwork(route: .main)
                     }
                 ),
                 secondaryPaywallID: PremiumRoute.assistant.paywallID,
                 secondaryPaywallImages: PremiumDesign.assistantResources,
                 secondaryPaywallBackgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding) {
+                    PremiumScreenBackground(kind: .onboarding, safeArea: proxy.safeAreaInsets.sidesOnly) {
                         PremiumArtwork(route: .assistant)
                     }
                 ),
@@ -34,7 +34,7 @@ struct TransferOnboardingExperience: View {
         .accessibilityIdentifier("onboarding.page.\(page)")
     }
 
-    private func screens(safeAreaTop: CGFloat) -> [OnboardingScreen] {
+    private func screens(safeArea: EdgeInsets) -> [OnboardingScreen] {
         [
             OnboardingScreen(
                 id: 0,
@@ -47,7 +47,7 @@ struct TransferOnboardingExperience: View {
                 buttonTitle: String(localized: "Continue"),
                 images: AdaptiveResources(iphone: Image("onb_transfer")),
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                    PremiumScreenBackground(kind: .onboarding, safeArea: safeArea) {
                         OnboardingFeatureScene(story: .transfer)
                     }
                 )
@@ -63,7 +63,7 @@ struct TransferOnboardingExperience: View {
                 buttonTitle: String(localized: "Continue"),
                 images: AdaptiveResources(iphone: Image("onb_data_types")),
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                    PremiumScreenBackground(kind: .onboarding, safeArea: safeArea) {
                         OnboardingFeatureScene(story: .selection)
                     }
                 )
@@ -80,7 +80,7 @@ struct TransferOnboardingExperience: View {
                 buttonTitle: String(localized: "Continue"),
                 images: PremiumDesign.resources,
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                    PremiumScreenBackground(kind: .onboarding, safeArea: safeArea) {
                         OnboardingReviews()
                     }
                 )
@@ -96,7 +96,7 @@ struct TransferOnboardingExperience: View {
                 buttonTitle: String(localized: "Continue"),
                 images: AdaptiveResources(iphone: Illustration.onbGuidebook.image),
                 backgroundView: AnyView(
-                    PremiumScreenBackground(kind: .onboarding, safeAreaTop: safeAreaTop) {
+                    PremiumScreenBackground(kind: .onboarding, safeArea: safeArea) {
                         OnboardingFeatureScene(story: .guidance)
                     }
                 )
