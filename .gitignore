@@ -4,7 +4,6 @@ DerivedData/
 build/
 *.xcuserstate
 .aigenerator/
-Config/Secrets.xcconfig
 
 # macOS metadata
 .AppleDouble/
